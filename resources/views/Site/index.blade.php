@@ -63,7 +63,7 @@
                 <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
                     <div class="single-features-card tx-center"  style="background-color:#AAD7D9" >
                         <h3>
-                            <a href="{{url('register')}}" class="btn btn-default" style="padding: 5px 0;font-family: 'IRANSansWeb Medium';font-size: 23px;">حوزه علمیه برادران</a>
+                            <a href="{{url('brothers')}}" class="btn btn-default" style="padding: 5px 0;font-family: 'IRANSansWeb Medium';font-size: 23px;">حوزه علمیه برادران</a>
                         </h3>
                     </div>
                 </div>
@@ -71,7 +71,7 @@
                 <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
                     <div class="single-features-card tx-center" style="background-color:#E6A4B4">
                         <h3>
-                            <a href="{{url('register')}}" class="btn btn-default" style="padding: 5px 0;font-family: 'IRANSansWeb Medium';font-size: 23px;">حوزه علمیه خواهران</a>
+                            <a href="{{url('sisters')}}" class="btn btn-default" style="padding: 5px 0;font-family: 'IRANSansWeb Medium';font-size: 23px;">حوزه علمیه خواهران</a>
                         </h3>
                     </div>
                 </div>
