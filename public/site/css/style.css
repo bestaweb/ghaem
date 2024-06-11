@@ -1231,19 +1231,19 @@ Main Banner Area CSS
 }
 
 .banner-image.bg-1 {
-  background-image: url(../../Site/img/banner-img1.jpg);
+  background-image: url(../../site/img/banner-img1.jpg);
 }
 
 .banner-image.bg-2 {
-  background-image: url(../../Site/img/banner-img2.jpg);
+  background-image: url(../../site/img/banner-img2.jpg);
 }
 
 .banner-image.bg-3 {
-  background-image: url(../../Site/img/banner-img3.jpg);
+  background-image: url(../../site/img/banner-img3.jpg);
 }
 
 .banner-image.mbanner-bg-one {
-  background-image: url(../../Site/img/banner-img2.jpg);
+  background-image: url(../../site/img/banner-img2.jpg);
 }
 
 .banner-image.mbanner-bg-one .animate-banner-image {
@@ -1252,27 +1252,27 @@ Main Banner Area CSS
 }
 
 .banner-image.banner-slider-bg1 {
-  background-image: url(../../Site/img/banner-slider/banner-img1.jpg) !important;
+  background-image: url(../../site/img/banner-slider/banner-img1.jpg) !important;
 }
 
 .banner-image.banner-slider-bg2 {
-  background-image: url(../../Site/img/banner-slider/banner-img2.jpg) !important;
+  background-image: url(../../site/img/banner-slider/banner-img2.jpg) !important;
 }
 
 .banner-image.banner-slider-bg3 {
-  background-image: url(../../Site/img/banner-slider/banner-img3.jpg) !important;
+  background-image: url(../../site/img/banner-slider/banner-img3.jpg) !important;
 }
 
 .banner-image.slider-bg1 {
-  background-image: url(../../Site/img/banner-slider/banner-img1.jpg);
+  background-image: url(../../site/img/banner-slider/banner-img1.jpg);
 }
 
 .banner-image.slider-bg2 {
-  background-image: url(../../Site/img/banner-slider/banner-img2.jpg);
+  background-image: url(../../site/img/banner-slider/banner-img2.jpg);
 }
 
 .banner-image.slider-bg3 {
-  background-image: url(../../Site/img/banner-slider/banner-img3.jpg);
+  background-image: url(../../site/img/banner-slider/banner-img3.jpg);
 }
 
 .banner-img {
@@ -1290,15 +1290,15 @@ Main Banner Area CSS
 }
 
 .banner-img.bg-1 {
-  background-image: url(../../Site/img/banner-img1.jpg);
+  background-image: url(../../site/img/banner-img1.jpg);
 }
 
 .banner-img.bg-2 {
-  background-image: url(../../Site/img/banner-img2.jpg);
+  background-image: url(../../site/img/banner-img2.jpg);
 }
 
 .banner-img.bg-3 {
-  background-image: url(../../Site/img/banner-img3.jpg);
+  background-image: url(../../site/img/banner-img3.jpg);
 }
 
 .banner-content-slides {
@@ -1694,7 +1694,7 @@ Main Banner Area CSS
 }
 
 .banner-img.banner-video {
-  background-image: url(../../Site/img/banner-video-bg.jpg) !important;
+  background-image: url(../../site/img/banner-video-bg.jpg) !important;
   height: 100vh;
   position: relative;
 }
@@ -1820,7 +1820,7 @@ About Area CSS
 
 .about-inner-image {
   height: 100%;
-  background-image: url(../../Site/img/marketing-agency/about-image.jpg);
+  background-image: url(../../site/img/marketing-agency/about-image.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -4031,7 +4031,7 @@ App Download Area CSS
 =================================================*/
 .app-download-area {
   background-color: #f4f5fe;
-  background-image: url(../../Site/img/white-bg.jpg);
+  background-image: url(../../site/img/white-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -5140,7 +5140,7 @@ Page Title Area CSS
   z-index: -1;
   -webkit-animation: animatedBackground 15s linear infinite;
           animation: animatedBackground 15s linear infinite;
-  background-image: url(../../Site/img/bg_lines.svg);
+  background-image: url(../../site/img/bg_lines.svg);
   background-repeat: repeat;
   background-position: center center;
   background-size: cover;
@@ -5366,15 +5366,15 @@ Sidebar Widget Area CSS
 }
 
 .widget-area .widget_spacle_posts_thumb .item .thumb .fullimage.bg1 {
-  background-image: url(../../Site/img/blog-image/7.jpg);
+  background-image: url(../../site/img/blog-image/7.jpg);
 }
 
 .widget-area .widget_spacle_posts_thumb .item .thumb .fullimage.bg2 {
-  background-image: url(../../Site/img/blog-image/8.jpg);
+  background-image: url(../../site/img/blog-image/8.jpg);
 }
 
 .widget-area .widget_spacle_posts_thumb .item .thumb .fullimage.bg3 {
-  background-image: url(../../Site/img/blog-image/9.jpg);
+  background-image: url(../../site/img/blog-image/9.jpg);
 }
 
 .widget-area .widget_spacle_posts_thumb .item .info {
@@ -5632,7 +5632,7 @@ Login Area CSS
 .login-image {
   height: 100%;
   width: 100%;
-  background-image: url(../../Site/img/login-bg.jpg);
+  background-image: url(../../site/img/login-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -5813,7 +5813,7 @@ Signup Area CSS
 .signup-image {
   height: 100%;
   width: 100%;
-  background-image: url(../../Site/img/signup-bg.jpg);
+  background-image: url(../../site/img/signup-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -6514,7 +6514,7 @@ Footer Area CSS
   z-index: -1;
   -webkit-animation: imageChange 1s linear 1s infinite;
           animation: imageChange 1s linear 1s infinite;
-  background-image: url(../../Site/img/footer-shape1.png);
+  background-image: url(../../site/img/footer-shape1.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -6530,7 +6530,7 @@ Footer Area CSS
   z-index: -1;
   -webkit-animation: imageChangeTwo 1s linear 1s infinite;
           animation: imageChangeTwo 1s linear 1s infinite;
-  background-image: url(../../Site/img/footer-shape2.png);
+  background-image: url(../../site/img/footer-shape2.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -7398,7 +7398,7 @@ Digital Agency Banner Area CSS
 .digital-agency-banner {
   padding-top: 235px;
   padding-bottom: 235px;
-  background-image: url(../../Site/img/marketing-agency/banner-bg.jpg);
+  background-image: url(../../site/img/marketing-agency/banner-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -7565,19 +7565,19 @@ Services Area CSS
 }
 
 .single-services-box .image.bg-1 {
-  background-image: url(../../Site/img/marketing-agency/services-img1.jpg);
+  background-image: url(../../site/img/marketing-agency/services-img1.jpg);
 }
 
 .single-services-box .image.bg-2 {
-  background-image: url(../../Site/img/marketing-agency/services-img2.jpg);
+  background-image: url(../../site/img/marketing-agency/services-img2.jpg);
 }
 
 .single-services-box .image.bg-3 {
-  background-image: url(../../Site/img/marketing-agency/services-img3.jpg);
+  background-image: url(../../site/img/marketing-agency/services-img3.jpg);
 }
 
 .single-services-box .image.bg-4 {
-  background-image: url(../../Site/img/marketing-agency/services-img4.jpg);
+  background-image: url(../../site/img/marketing-agency/services-img4.jpg);
 }
 
 .single-services-box .image img {
@@ -7720,7 +7720,7 @@ Company Preview Area CSS
 .company-preview-area {
   position: relative;
   z-index: 1;
-  background-image: url(../../SiteSite/img/marketing-agency/company-preview.jpg);
+  background-image: url(../../sitesite/img/marketing-agency/company-preview.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
