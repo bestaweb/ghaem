@@ -178,7 +178,7 @@ p:last-child {
 
 .section-title h2 {
   margin-bottom: 0;
-  font-size: 40px;
+  font-size: 30px;
 
 }
 
@@ -2019,7 +2019,7 @@ Services Area CSS
 }
 
 .services-content .content h2 {
-  font-size: 40px;
+  font-size: 30px;
 
 }
 
@@ -4361,7 +4361,7 @@ Blog Area CSS
 .single-blog-post-item {
   margin-bottom: 30px;
   position: relative;
-  background-color: #fffaf3;
+  background-color: #efefef;
 }
 
 .single-blog-post-item .post-image {
@@ -7652,8 +7652,8 @@ Case Studies Area CSS
 .single-case-studies-item .content h3 {
   margin-bottom: 0;
   line-height: 1.4;
-
-  font-size: 22px;
+  font-size: 15px;
+  text-align: center;
 }
 
 .single-case-studies-item .content .link-btn {

@@ -15,22 +15,22 @@
             white-space: nowrap;
             box-sizing: border-box;
             font-size: large;
+            margin: 0 auto;
         }
 
         .marquee span {
-            margin-bottom: 12px;
-            margin-top: 12px;
-            display: inline-block;
-            padding-left: 100%;
-            animation: marquee 16s linear infinite;
+
         }
 
         @keyframes marquee {
             0% {
-                transform: translateX(-15%);
+                transform: translateX(-100%);
+            }
+            50% {
+                transform: translateX(0%);
             }
             100% {
-                transform: translateX(-60%);
+                transform: translateX(100%);
             }
         }
     </style>
@@ -39,96 +39,102 @@
     <section class="digital-agency-banner">
         <div class="container">
             <div class="digital-agency-banner-content">
-                <h1 class="wow fadeInUp" style="font-family: 'Mehr Nastaliq Web';font-size: 50px !important;">حوزه علمیه
-                    و مدرسه حضرت قائم (عج) چیذر</h1>
+                <h1 class="wow fadeInUp" style="font-family: 'Mehr Nastaliq Web';font-size: 50px !important;">حوزه علمیه حضرت قائم (عج) </h1>
                 <p class="wow fadeInUp">لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40
                     سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به
                     مدت 40 سال استاندارد صنعت بوده است.</p>
             </div>
         </div>
     </section>
-
-    <div class="marquee">
-        <span>يَرْفَعِ اللَّهُ الَّذِينَ آمَنُوا مِنْكُمْ وَالَّذِينَ أُوتُوا الْعِلْمَ دَرَجَاتٍ</span>
+    <div class="matn" style="background-color: #efefef;width: 100%;display: flex;">
+        <div style="width: 55%;margin: 0 auto;display: flex;">
+            <div><img src="{{asset('site/img/marketing-agency/rightline.png')}}"></div>
+            <div class="marquee"><span style="margin-bottom: 12px;margin-top: 12px;display: inline-block;animation: marquee 20s linear infinite;">يَرْفَعِ اللَّهُ الَّذِينَ آمَنُوا مِنْكُمْ وَالَّذِينَ أُوتُوا الْعِلْمَ دَرَجَاتٍ | شهادت رئیس جمهور سیزدهم حضرت آیت الله رئیسی را تسلیت عرض می کنیم | ملت ما باید به عنوان یک تکلیف و یک حق در این انتخابات شرکت کنند </span></div>
+            <div><img src="{{asset('site/img/marketing-agency/leftline.png')}}"></div>
+        </div>
     </div>
+
     <!-- End Digital Agency Banner -->
 
-    <!-- بخش خواهران و برادران -->
-    <div class="row mt-5 justify-content-center">
-        <!-- بخش خواهران -->
-        <div class="col-md-2 mb-4">
-            <div class="card">
-                <div class="card-body text-center">
-                    <h5 class="card-title pb-8">حوزه علمیه خواهران</h5>
-                    <a href="{{ url('/sisters') }}" class="sisters-btn mt-4">ورود</a>
+    <div class="features-card-section pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
+                    <div class="single-features-card tx-center"  style="background-color:#AAD7D9" >
+                        <h3>
+                            <a href="{{url('register')}}" class="btn btn-default" style="padding: 5px 0;font-family: 'IRANSansWeb Medium';font-size: 23px;">حوزه علمیه برادران</a>
+                        </h3>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <!-- بخش مردانه -->
-        <div class="col-md-2 mb-4">
-            <div class="card">
-                <div class="card-body card-body-bl text-center">
-                    <h5 class="card-title ">حوزه علمیه برادران</h5>
-                    <a href="{{ url('/brothers') }}" class="brothers-btn mt-4">ورود</a>
+
+                <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="single-features-card tx-center" style="background-color:#E6A4B4">
+                        <h3>
+                            <a href="{{url('register')}}" class="btn btn-default" style="padding: 5px 0;font-family: 'IRANSansWeb Medium';font-size: 23px;">حوزه علمیه خواهران</a>
+                        </h3>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
-
     <div class="features-card-section pt-100 pb-70 bg-f8fbfa">
         <div class="container">
             <div class="row">
-                <div class="col-lg col-sm-6 wow fadeInUp" data-wow-delay=".2s">
+                <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
                     <div class="single-features-card tx-center">
                         <i class='bx bx-conversation'></i>
                         <h3>
                             <a href="#" class="card-title">حوزه علمیه برادران</a>
                         </h3>
-                        <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد
-                            صنعت بوده است.</p>
+                        <p>حوزه علمیه ویژه طلاب بخش برادران</p>
                     </div>
                 </div>
 
-                <div class="col-lg col-sm-6 wow fadeInUp" data-wow-delay=".3s">
+                <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
                     <div class="single-features-card tx-center">
                         <i class='bx bx-laptop'></i>
                         <h3>
                             <a href="#" class="card-title">حوزه علمیه خواهران</a>
                         </h3>
-                        <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد
-                            صنعت بوده است.</p>
+                        <p>حوزه علمیه ویژه طلاب بخش خواهران</p>
                     </div>
                 </div>
 
-                <div class="col-lg col-sm-6 wow fadeInUp" data-wow-delay=".4s">
+                <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".4s">
                     <div class="single-features-card tx-center">
                         <i class='bx bxs-badge-check'></i>
                         <h3>
                             <a href="#" class="card-title">مرکز نشر</a>
                         </h3>
-                        <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد
-                            صنعت بوده است.</p>
+                        <p>مرکز نشر کتب و مقالات اساتید و طلاب برجسته حوزه</p>
                     </div>
                 </div>
-                <div class="col-lg col-sm-6 wow fadeInUp" data-wow-delay=".5s">
+                <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="single-features-card tx-center">
                         <i class='bx bxs-megaphone'></i>
                         <h3>
                             <a href="#" class="card-title">موسسه خیریه</a>
                         </h3>
-                        <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد
-                            صنعت بوده است.</p>
+                        <p>موسسه خیریه وابسته به حوزه جهت کمک به طلاب</p>
                     </div>
                 </div>
-                <div class="col-lg col-sm-6 wow fadeInUp" data-wow-delay=".5s">
+                <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="single-features-card tx-center">
                         <i class='bx bxs-megaphone'></i>
                         <h3>
                             <a href="#" class="card-title">مرکز مشاوره</a>
                         </h3>
-                        <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد
-                            صنعت بوده است.</p>
+                        <p>مرکز مشاوره با بهره گیری از متخصصین حوزه و دانشگاه</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
+                    <div class="single-features-card tx-center">
+                        <i class='bx bxs-megaphone'></i>
+                        <h3>
+                            <a href="#" class="card-title">مهد کودک</a>
+                        </h3>
+                        <p>مهدکودک در زمینه آموزش مفاهیم قرآنی برای خردسالان</p>
                     </div>
                 </div>
             </div>
@@ -136,10 +142,10 @@
     </div>
 
     <!-- Start Services Area -->
-    <section class="services-area ptb-100">
+    <section class="services-area mt-3 mb-3">
         <div class="container">
             <div class="section-title text-left">
-                <h2>نشست های دوره ای</h2>
+                <h2>سلسله نشست های دوره ای حوزه</h2>
             </div>
 
             <div class="row">
@@ -251,7 +257,7 @@
                 display: none;
             }
         </style>
-        <div class="container-fluid">
+        <div class="container">
             <div class="case-studies-slides owl-carousel">
                 <div class="single-case-studies-item">
                     <a href="#" class="image d-block">
@@ -312,8 +318,8 @@
     </section>
     <!-- End Case Studies Area -->
 
-    <section class="services-area bg-right-shape ptb-100">
-        <div class="container-fluid">
+    <section class="services-area bg-right-shape mt-4 mb-4">
+        <div class="container">
             <div class="row align-items-center">
                 <div class="services-content it-service-content">
                     <div class="content left-content">
@@ -321,7 +327,6 @@
                         <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد
                             صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40
                             سال استاندارد صنعت بوده است.</p>
-
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="feature-box">
@@ -362,12 +367,11 @@
                         </div>
                     </div>
                 </div>
-
-                {{--                <div class="services-image wow fadeInRight" data-wow-delay=".3s">--}}
-                {{--                    <div class="image">--}}
-                {{--                        <img src="assets/img/services-image/service1.png" alt="image">--}}
-                {{--                    </div>--}}
-                {{--                </div>--}}
+                <div class="services-image wow fadeInRight" data-wow-delay=".3s">
+                    <div class="image">
+                        <img src="{{asset('site/img/hozeslide2.jpg')}}" alt="image">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -418,7 +422,7 @@
 
     <!-- Start Blog Area -->
     <section class="blog-area pt-70">
-        <div class="container-fluid">
+        <div class="container">
 
             <div class="blog-slides owl-carousel">
                 <div class="single-blog-post-item">
@@ -517,7 +521,7 @@
     </section>
     <!-- End Blog Area -->
 
-    <section class="faq-area ptb-100">
+    <section class="faq-area ptb-100 bg-f8fbfa">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12 col-md-12">
@@ -605,7 +609,7 @@
     <!-- End Company Preview Area -->
 
     <!-- Start Let's Talk Area -->
-    <section class="lets-talk-area ptb-100 bg-f8fbfa">
+    <section class="lets-talk-area mt-5 mb-5">
         <div class="container">
             <div class="row align-items-center text-center">
                 <div class="col-lg-12 col-md-12">

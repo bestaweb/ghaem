@@ -20,7 +20,9 @@
 
     <title>حوزه علمیه حضرت قائم (عج)</title>
 
-    <link rel="icon" type="image/png" href="{{asset('site/img/favicon.png')}}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{asset('site/img/favicon/apple-touch-icon.png')}}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{asset('site/img/favicon/favicon-32x32.png')}}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('site/img/favicon/favicon-16x16.png')}}">
 {{--    <link rel="icon" href="{{url($companies['favicon16'])}}" sizes="16x16" type="image/png">--}}
 {{--    <link rel="icon" href="{{url($companies['favicon32'])}}" sizes="32x32" type="image/png">--}}
 
@@ -42,7 +44,7 @@
             <div class="spacle-responsive-menu">
                 <div class="logo">
                     <a href="index-digital-marketing-agency.html">
-                        <img src="{{asset('site/img/HOZE LOGO.png')}}" style="max-width:10%" alt="logo">
+                        <img src="{{asset('site/img/logo.png')}}" style="max-width:30%" alt="logo">
                     </a>
                 </div>
             </div>
@@ -53,7 +55,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-light">
                 <a class="navbar-brand headerLogo" href={{url('/')}}>
-                    <img src="{{asset('site/img/HOZE LOGO.png')}}" style="max-width:20%" alt="logo">
+                    <img src="{{asset('site/img/logo.png')}}" style="max-width:30%" alt="logo">
                 </a>
 
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
@@ -145,7 +147,7 @@
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="single-footer-widget">
                     <div class="logo">
-                        <a href="index.html"><img src="{{asset('site/img/logo.png')}}" alt="image"></a>
+                        <a href="{{url('/')}}"><img src="{{asset('site/img/logo.png')}}" style="max-width:30%" alt="image"></a>
                     </div>
                     <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است.</p>
                 </div>
