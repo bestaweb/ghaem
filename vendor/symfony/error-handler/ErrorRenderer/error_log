@@ -1,0 +1,24 @@
+[09-Jun-2024 16:51:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorRenderer\ErrorRendererInterface" not found in /home1/hozehgae/public_html/vendor/symfony/error-handler/ErrorRenderer/CliErrorRenderer.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/error-handler/ErrorRenderer/CliErrorRenderer.php on line 24
+[09-Jun-2024 16:59:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorRenderer\ErrorRendererInterface" not found in /home1/hozehgae/public_html/vendor/symfony/error-handler/ErrorRenderer/CliErrorRenderer.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/error-handler/ErrorRenderer/CliErrorRenderer.php on line 24
+[09-Jun-2024 17:43:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorRenderer\ErrorRendererInterface" not found in /home1/hozehgae/public_html/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php:25
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php on line 25
+[09-Jun-2024 21:18:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorRenderer\ErrorRendererInterface" not found in /home1/hozehgae/public_html/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php:25
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php on line 25
+[10-Jun-2024 03:11:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorRenderer\ErrorRendererInterface" not found in /home1/hozehgae/public_html/vendor/symfony/error-handler/ErrorRenderer/SerializerErrorRenderer.php:25
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/error-handler/ErrorRenderer/SerializerErrorRenderer.php on line 25
+[10-Jun-2024 04:01:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorRenderer\ErrorRendererInterface" not found in /home1/hozehgae/public_html/vendor/symfony/error-handler/ErrorRenderer/SerializerErrorRenderer.php:25
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/error-handler/ErrorRenderer/SerializerErrorRenderer.php on line 25

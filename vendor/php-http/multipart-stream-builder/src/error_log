@@ -1,0 +1,16 @@
+[09-Jun-2024 18:44:09 UTC] PHP Fatal error:  Uncaught Error: Class "Http\Message\MultipartStream\ApacheMimetypeHelper" not found in /home1/hozehgae/public_html/vendor/php-http/multipart-stream-builder/src/CustomMimetypeHelper.php:10
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/php-http/multipart-stream-builder/src/CustomMimetypeHelper.php on line 10
+[09-Jun-2024 23:27:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Http\Message\MultipartStream\MimetypeHelper" not found in /home1/hozehgae/public_html/vendor/php-http/multipart-stream-builder/src/ApacheMimetypeHelper.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/php-http/multipart-stream-builder/src/ApacheMimetypeHelper.php on line 12
+[09-Jun-2024 23:50:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Http\Message\MultipartStream\MimetypeHelper" not found in /home1/hozehgae/public_html/vendor/php-http/multipart-stream-builder/src/ApacheMimetypeHelper.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/php-http/multipart-stream-builder/src/ApacheMimetypeHelper.php on line 12
+[10-Jun-2024 05:42:10 UTC] PHP Fatal error:  Uncaught Error: Class "Http\Message\MultipartStream\ApacheMimetypeHelper" not found in /home1/hozehgae/public_html/vendor/php-http/multipart-stream-builder/src/CustomMimetypeHelper.php:10
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/php-http/multipart-stream-builder/src/CustomMimetypeHelper.php on line 10

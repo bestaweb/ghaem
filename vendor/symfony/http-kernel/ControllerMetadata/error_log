@@ -1,0 +1,8 @@
+[09-Jun-2024 14:25:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\ControllerMetadata\ArgumentMetadataFactoryInterface" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/ControllerMetadata/ArgumentMetadataFactory.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/ControllerMetadata/ArgumentMetadataFactory.php on line 19
+[09-Jun-2024 18:34:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\ControllerMetadata\ArgumentMetadataFactoryInterface" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/ControllerMetadata/ArgumentMetadataFactory.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/ControllerMetadata/ArgumentMetadataFactory.php on line 19

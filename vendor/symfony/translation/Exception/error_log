@@ -1,0 +1,80 @@
+[09-Jun-2024 15:06:24 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Translation\Exception\RuntimeException" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/ProviderException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/ProviderException.php on line 19
+[09-Jun-2024 19:23:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/NotFoundResourceException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/NotFoundResourceException.php on line 19
+[09-Jun-2024 19:53:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/NotFoundResourceException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/NotFoundResourceException.php on line 19
+[09-Jun-2024 20:02:53 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Translation\Exception\LogicException" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/UnsupportedSchemeException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/UnsupportedSchemeException.php on line 17
+[09-Jun-2024 20:06:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/LogicException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/LogicException.php on line 19
+[09-Jun-2024 22:20:04 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Translation\Exception\IncompleteDsnException" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/MissingRequiredOptionException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/MissingRequiredOptionException.php on line 17
+[09-Jun-2024 22:38:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/InvalidResourceException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/InvalidResourceException.php on line 19
+[09-Jun-2024 23:30:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/ProviderExceptionInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/ProviderExceptionInterface.php on line 17
+[10-Jun-2024 02:34:09 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Translation\Exception\LogicException" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/UnsupportedSchemeException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/UnsupportedSchemeException.php on line 17
+[10-Jun-2024 02:43:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/RuntimeException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/RuntimeException.php on line 19
+[10-Jun-2024 03:35:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/RuntimeException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/RuntimeException.php on line 19
+[10-Jun-2024 03:48:24 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Translation\Exception\InvalidArgumentException" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/IncompleteDsnException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/IncompleteDsnException.php on line 14
+[10-Jun-2024 03:53:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/ProviderExceptionInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/ProviderExceptionInterface.php on line 17
+[10-Jun-2024 05:54:05 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Translation\Exception\RuntimeException" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/ProviderException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/ProviderException.php on line 19
+[10-Jun-2024 06:36:34 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Translation\Exception\InvalidArgumentException" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/IncompleteDsnException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/IncompleteDsnException.php on line 14
+[10-Jun-2024 06:45:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/LogicException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/LogicException.php on line 19
+[10-Jun-2024 06:59:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/InvalidArgumentException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/InvalidArgumentException.php on line 19
+[10-Jun-2024 07:35:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/InvalidResourceException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/InvalidResourceException.php on line 19
+[10-Jun-2024 07:50:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/InvalidArgumentException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/InvalidArgumentException.php on line 19
+[10-Jun-2024 08:02:28 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Translation\Exception\IncompleteDsnException" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/MissingRequiredOptionException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Exception/MissingRequiredOptionException.php on line 17

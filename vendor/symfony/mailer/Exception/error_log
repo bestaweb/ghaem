@@ -1,0 +1,72 @@
+[09-Jun-2024 15:24:21 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Exception\RuntimeException" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/TransportException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/TransportException.php on line 17
+[09-Jun-2024 18:07:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/RuntimeException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/RuntimeException.php on line 17
+[09-Jun-2024 18:35:35 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Exception\TransportException" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/UnexpectedResponseException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/UnexpectedResponseException.php on line 14
+[09-Jun-2024 18:39:02 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Exception\TransportException" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/HttpTransportException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/HttpTransportException.php on line 19
+[09-Jun-2024 19:17:56 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Exception\InvalidArgumentException" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/IncompleteDsnException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/IncompleteDsnException.php on line 17
+[09-Jun-2024 20:27:34 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Exception\TransportException" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/HttpTransportException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/HttpTransportException.php on line 19
+[09-Jun-2024 20:54:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/InvalidArgumentException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/InvalidArgumentException.php on line 17
+[10-Jun-2024 00:17:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/InvalidArgumentException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/InvalidArgumentException.php on line 17
+[10-Jun-2024 00:41:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/LogicException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/LogicException.php on line 17
+[10-Jun-2024 00:45:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/TransportExceptionInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/TransportExceptionInterface.php on line 17
+[10-Jun-2024 01:06:20 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Exception\LogicException" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/UnsupportedSchemeException.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/UnsupportedSchemeException.php on line 20
+[10-Jun-2024 01:52:28 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Exception\TransportException" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/UnexpectedResponseException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/UnexpectedResponseException.php on line 14
+[10-Jun-2024 03:43:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/RuntimeException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/RuntimeException.php on line 17
+[10-Jun-2024 05:07:53 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Exception\RuntimeException" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/TransportException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/TransportException.php on line 17
+[10-Jun-2024 06:09:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/LogicException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/LogicException.php on line 17
+[10-Jun-2024 07:46:20 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Exception\LogicException" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/UnsupportedSchemeException.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/UnsupportedSchemeException.php on line 20
+[10-Jun-2024 08:20:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/TransportExceptionInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/TransportExceptionInterface.php on line 17
+[10-Jun-2024 10:16:41 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Exception\InvalidArgumentException" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/IncompleteDsnException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/Exception/IncompleteDsnException.php on line 17

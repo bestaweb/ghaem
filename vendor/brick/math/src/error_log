@@ -1,0 +1,24 @@
+[09-Jun-2024 16:28:35 UTC] PHP Fatal error:  Uncaught Error: Class "Brick\Math\BigNumber" not found in /home1/hozehgae/public_html/vendor/brick/math/src/BigDecimal.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/brick/math/src/BigDecimal.php on line 17
+[09-Jun-2024 23:43:26 UTC] PHP Fatal error:  Uncaught Error: Class "Brick\Math\BigNumber" not found in /home1/hozehgae/public_html/vendor/brick/math/src/BigRational.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/brick/math/src/BigRational.php on line 19
+[10-Jun-2024 01:53:51 UTC] PHP Fatal error:  Uncaught Error: Class "Brick\Math\BigNumber" not found in /home1/hozehgae/public_html/vendor/brick/math/src/BigDecimal.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/brick/math/src/BigDecimal.php on line 17
+[10-Jun-2024 04:07:01 UTC] PHP Fatal error:  Uncaught Error: Class "Brick\Math\BigNumber" not found in /home1/hozehgae/public_html/vendor/brick/math/src/BigInteger.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/brick/math/src/BigInteger.php on line 22
+[10-Jun-2024 04:11:31 UTC] PHP Fatal error:  Uncaught Error: Class "Brick\Math\BigNumber" not found in /home1/hozehgae/public_html/vendor/brick/math/src/BigRational.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/brick/math/src/BigRational.php on line 19
+[10-Jun-2024 08:12:59 UTC] PHP Fatal error:  Uncaught Error: Class "Brick\Math\BigNumber" not found in /home1/hozehgae/public_html/vendor/brick/math/src/BigInteger.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/brick/math/src/BigInteger.php on line 22

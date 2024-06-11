@@ -1,0 +1,32 @@
+[09-Jun-2024 14:56:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\EventDispatcher\EventSubscriberInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/EventListener/EnvelopeListener.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/EventListener/EnvelopeListener.php on line 24
+[09-Jun-2024 15:06:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\EventDispatcher\EventSubscriberInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/EventListener/MessageListener.php:28
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/EventListener/MessageListener.php on line 28
+[09-Jun-2024 15:19:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\EventDispatcher\EventSubscriberInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/EventListener/MessageLoggerListener.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/EventListener/MessageLoggerListener.php on line 24
+[09-Jun-2024 18:05:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\EventDispatcher\EventSubscriberInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/EventListener/MessengerTransportListener.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/EventListener/MessengerTransportListener.php on line 24
+[09-Jun-2024 22:26:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\EventDispatcher\EventSubscriberInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/EventListener/MessageListener.php:28
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/EventListener/MessageListener.php on line 28
+[10-Jun-2024 04:00:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\EventDispatcher\EventSubscriberInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/EventListener/EnvelopeListener.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/EventListener/EnvelopeListener.php on line 24
+[10-Jun-2024 06:12:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\EventDispatcher\EventSubscriberInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/EventListener/MessageLoggerListener.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/EventListener/MessageLoggerListener.php on line 24
+[10-Jun-2024 06:26:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\EventDispatcher\EventSubscriberInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/EventListener/MessengerTransportListener.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/EventListener/MessengerTransportListener.php on line 24

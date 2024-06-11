@@ -1,0 +1,16 @@
+[09-Jun-2024 18:32:49 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Crypto\SMime" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Crypto/SMimeEncrypter.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Crypto/SMimeEncrypter.php on line 20
+[10-Jun-2024 03:45:22 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Crypto\SMime" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Crypto/SMimeSigner.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Crypto/SMimeSigner.php on line 20
+[10-Jun-2024 05:16:57 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Crypto\SMime" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Crypto/SMimeEncrypter.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Crypto/SMimeEncrypter.php on line 20
+[10-Jun-2024 07:28:34 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Crypto\SMime" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Crypto/SMimeSigner.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Crypto/SMimeSigner.php on line 20

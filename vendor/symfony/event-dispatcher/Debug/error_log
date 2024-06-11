@@ -1,0 +1,8 @@
+[09-Jun-2024 14:43:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\EventDispatcher\EventDispatcherInterface" not found in /home1/hozehgae/public_html/vendor/symfony/event-dispatcher/Debug/TraceableEventDispatcher.php:31
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/event-dispatcher/Debug/TraceableEventDispatcher.php on line 31
+[10-Jun-2024 02:49:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\EventDispatcher\EventDispatcherInterface" not found in /home1/hozehgae/public_html/vendor/symfony/event-dispatcher/Debug/TraceableEventDispatcher.php:31
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/event-dispatcher/Debug/TraceableEventDispatcher.php on line 31

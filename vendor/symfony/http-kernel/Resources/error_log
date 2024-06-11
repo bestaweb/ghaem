@@ -1,0 +1,10 @@
+[09-Jun-2024 23:02:47 UTC] PHP Warning:  Undefined variable $docVersion in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Resources/welcome.html.php on line 72
+[09-Jun-2024 23:02:47 UTC] PHP Warning:  Undefined variable $version in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Resources/welcome.html.php on line 81
+[09-Jun-2024 23:02:47 UTC] PHP Warning:  Undefined variable $projectDir in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Resources/welcome.html.php on line 89
+[09-Jun-2024 23:02:47 UTC] PHP Warning:  Undefined variable $docVersion in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Resources/welcome.html.php on line 102
+[09-Jun-2024 23:02:47 UTC] PHP Warning:  Undefined variable $docVersion in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Resources/welcome.html.php on line 109
+[10-Jun-2024 04:33:22 UTC] PHP Warning:  Undefined variable $docVersion in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Resources/welcome.html.php on line 72
+[10-Jun-2024 04:33:22 UTC] PHP Warning:  Undefined variable $version in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Resources/welcome.html.php on line 81
+[10-Jun-2024 04:33:22 UTC] PHP Warning:  Undefined variable $projectDir in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Resources/welcome.html.php on line 89
+[10-Jun-2024 04:33:22 UTC] PHP Warning:  Undefined variable $docVersion in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Resources/welcome.html.php on line 102
+[10-Jun-2024 04:33:22 UTC] PHP Warning:  Undefined variable $docVersion in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Resources/welcome.html.php on line 109

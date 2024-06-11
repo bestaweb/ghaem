@@ -1,0 +1,8 @@
+[09-Jun-2024 17:30:11 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Request" not found in /home1/hozehgae/public_html/vendor/symfony/console/Debug/CliRequest.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/console/Debug/CliRequest.php on line 21
+[10-Jun-2024 06:37:12 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Request" not found in /home1/hozehgae/public_html/vendor/symfony/console/Debug/CliRequest.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/console/Debug/CliRequest.php on line 21

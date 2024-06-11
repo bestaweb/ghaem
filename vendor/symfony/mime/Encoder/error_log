@@ -1,0 +1,80 @@
+[09-Jun-2024 14:02:29 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Encoder\Base64Encoder" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/Base64MimeHeaderEncoder.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/Base64MimeHeaderEncoder.php on line 17
+[09-Jun-2024 17:14:47 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Encoder\Base64Encoder" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/Base64MimeHeaderEncoder.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/Base64MimeHeaderEncoder.php on line 17
+[09-Jun-2024 19:43:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\Encoder\ContentEncoderInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/EightBitContentEncoder.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/EightBitContentEncoder.php on line 17
+[09-Jun-2024 19:49:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\Encoder\AddressEncoderInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/IdnAddressEncoder.php:25
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/IdnAddressEncoder.php on line 25
+[09-Jun-2024 20:37:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\Encoder\EncoderInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/ContentEncoderInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/ContentEncoderInterface.php on line 17
+[09-Jun-2024 21:11:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\Encoder\EncoderInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/QpEncoder.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/QpEncoder.php on line 19
+[09-Jun-2024 22:08:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\Encoder\EncoderInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/QpEncoder.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/QpEncoder.php on line 19
+[09-Jun-2024 22:12:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\Encoder\AddressEncoderInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/IdnAddressEncoder.php:25
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/IdnAddressEncoder.php on line 25
+[09-Jun-2024 22:47:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\Encoder\EncoderInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/Base64Encoder.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/Base64Encoder.php on line 17
+[10-Jun-2024 00:12:05 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Encoder\QpEncoder" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/QpMimeHeaderEncoder.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/QpMimeHeaderEncoder.php on line 17
+[10-Jun-2024 01:14:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\Encoder\EncoderInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/Rfc2231Encoder.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/Rfc2231Encoder.php on line 19
+[10-Jun-2024 03:52:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\Encoder\ContentEncoderInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/QpContentEncoder.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/QpContentEncoder.php on line 17
+[10-Jun-2024 04:13:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\Encoder\EncoderInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/Rfc2231Encoder.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/Rfc2231Encoder.php on line 19
+[10-Jun-2024 05:20:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\Encoder\ContentEncoderInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/EightBitContentEncoder.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/EightBitContentEncoder.php on line 17
+[10-Jun-2024 05:41:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\Encoder\EncoderInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/Base64Encoder.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/Base64Encoder.php on line 17
+[10-Jun-2024 06:04:48 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Encoder\QpEncoder" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/QpMimeHeaderEncoder.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/QpMimeHeaderEncoder.php on line 17
+[10-Jun-2024 06:26:35 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Encoder\Base64Encoder" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/Base64ContentEncoder.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/Base64ContentEncoder.php on line 19
+[10-Jun-2024 06:36:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\Encoder\ContentEncoderInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/QpContentEncoder.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/QpContentEncoder.php on line 17
+[10-Jun-2024 07:11:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\Encoder\EncoderInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/ContentEncoderInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/ContentEncoderInterface.php on line 17
+[10-Jun-2024 07:26:25 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Encoder\Base64Encoder" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/Base64ContentEncoder.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Encoder/Base64ContentEncoder.php on line 19

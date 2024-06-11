@@ -1,0 +1,40 @@
+[09-Jun-2024 15:12:09 UTC] PHP Fatal error:  Uncaught Error: Interface "DeviceDetector\Cache\CacheInterface" not found in /home1/hozehgae/public_html/vendor/matomo/device-detector/Cache/LaravelCache.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/matomo/device-detector/Cache/LaravelCache.php on line 17
+[09-Jun-2024 17:21:40 UTC] PHP Fatal error:  Uncaught Error: Interface "DeviceDetector\Cache\CacheInterface" not found in /home1/hozehgae/public_html/vendor/matomo/device-detector/Cache/PSR16Bridge.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/matomo/device-detector/Cache/PSR16Bridge.php on line 17
+[09-Jun-2024 18:22:50 UTC] PHP Fatal error:  Uncaught Error: Interface "DeviceDetector\Cache\CacheInterface" not found in /home1/hozehgae/public_html/vendor/matomo/device-detector/Cache/LaravelCache.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/matomo/device-detector/Cache/LaravelCache.php on line 17
+[09-Jun-2024 18:28:01 UTC] PHP Fatal error:  Uncaught Error: Interface "DeviceDetector\Cache\CacheInterface" not found in /home1/hozehgae/public_html/vendor/matomo/device-detector/Cache/PSR16Bridge.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/matomo/device-detector/Cache/PSR16Bridge.php on line 17
+[09-Jun-2024 20:47:27 UTC] PHP Fatal error:  Uncaught Error: Interface "DeviceDetector\Cache\CacheInterface" not found in /home1/hozehgae/public_html/vendor/matomo/device-detector/Cache/StaticCache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/matomo/device-detector/Cache/StaticCache.php on line 21
+[09-Jun-2024 22:00:46 UTC] PHP Fatal error:  Uncaught Error: Interface "DeviceDetector\Cache\CacheInterface" not found in /home1/hozehgae/public_html/vendor/matomo/device-detector/Cache/StaticCache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/matomo/device-detector/Cache/StaticCache.php on line 21
+[10-Jun-2024 01:05:25 UTC] PHP Fatal error:  Uncaught Error: Interface "DeviceDetector\Cache\CacheInterface" not found in /home1/hozehgae/public_html/vendor/matomo/device-detector/Cache/DoctrineBridge.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/matomo/device-detector/Cache/DoctrineBridge.php on line 17
+[10-Jun-2024 02:11:30 UTC] PHP Fatal error:  Uncaught Error: Interface "DeviceDetector\Cache\CacheInterface" not found in /home1/hozehgae/public_html/vendor/matomo/device-detector/Cache/DoctrineBridge.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/matomo/device-detector/Cache/DoctrineBridge.php on line 17
+[10-Jun-2024 03:38:53 UTC] PHP Fatal error:  Uncaught Error: Interface "DeviceDetector\Cache\CacheInterface" not found in /home1/hozehgae/public_html/vendor/matomo/device-detector/Cache/PSR6Bridge.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/matomo/device-detector/Cache/PSR6Bridge.php on line 17
+[10-Jun-2024 07:51:57 UTC] PHP Fatal error:  Uncaught Error: Interface "DeviceDetector\Cache\CacheInterface" not found in /home1/hozehgae/public_html/vendor/matomo/device-detector/Cache/PSR6Bridge.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/matomo/device-detector/Cache/PSR6Bridge.php on line 17

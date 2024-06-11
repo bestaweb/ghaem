@@ -1,0 +1,40 @@
+[09-Jun-2024 13:42:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Event\ConsoleEvent" not found in /home1/hozehgae/public_html/vendor/symfony/console/Event/ConsoleErrorEvent.php:23
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/console/Event/ConsoleErrorEvent.php on line 23
+[09-Jun-2024 15:41:07 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Event\ConsoleEvent" not found in /home1/hozehgae/public_html/vendor/symfony/console/Event/ConsoleTerminateEvent.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/console/Event/ConsoleTerminateEvent.php on line 24
+[09-Jun-2024 16:07:42 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Contracts\EventDispatcher\Event" not found in /home1/hozehgae/public_html/vendor/symfony/console/Event/ConsoleEvent.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/console/Event/ConsoleEvent.php on line 24
+[09-Jun-2024 16:45:25 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Event\ConsoleEvent" not found in /home1/hozehgae/public_html/vendor/symfony/console/Event/ConsoleSignalEvent.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/console/Event/ConsoleSignalEvent.php on line 21
+[09-Jun-2024 18:43:37 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Event\ConsoleEvent" not found in /home1/hozehgae/public_html/vendor/symfony/console/Event/ConsoleCommandEvent.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/console/Event/ConsoleCommandEvent.php on line 22
+[09-Jun-2024 22:46:40 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Event\ConsoleEvent" not found in /home1/hozehgae/public_html/vendor/symfony/console/Event/ConsoleTerminateEvent.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/console/Event/ConsoleTerminateEvent.php on line 24
+[10-Jun-2024 02:00:25 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Contracts\EventDispatcher\Event" not found in /home1/hozehgae/public_html/vendor/symfony/console/Event/ConsoleEvent.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/console/Event/ConsoleEvent.php on line 24
+[10-Jun-2024 02:05:19 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Event\ConsoleEvent" not found in /home1/hozehgae/public_html/vendor/symfony/console/Event/ConsoleCommandEvent.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/console/Event/ConsoleCommandEvent.php on line 22
+[10-Jun-2024 02:58:13 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Event\ConsoleEvent" not found in /home1/hozehgae/public_html/vendor/symfony/console/Event/ConsoleErrorEvent.php:23
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/console/Event/ConsoleErrorEvent.php on line 23
+[10-Jun-2024 04:32:38 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Event\ConsoleEvent" not found in /home1/hozehgae/public_html/vendor/symfony/console/Event/ConsoleSignalEvent.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/console/Event/ConsoleSignalEvent.php on line 21

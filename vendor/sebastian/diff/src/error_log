@@ -1,0 +1,16 @@
+[09-Jun-2024 16:38:07 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\Diff\LongestCommonSubsequenceCalculator" not found in /home1/hozehgae/public_html/vendor/sebastian/diff/src/MemoryEfficientLongestCommonSubsequenceCalculator.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/sebastian/diff/src/MemoryEfficientLongestCommonSubsequenceCalculator.php on line 20
+[09-Jun-2024 17:12:52 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\Diff\LongestCommonSubsequenceCalculator" not found in /home1/hozehgae/public_html/vendor/sebastian/diff/src/TimeEfficientLongestCommonSubsequenceCalculator.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/sebastian/diff/src/TimeEfficientLongestCommonSubsequenceCalculator.php on line 17
+[09-Jun-2024 18:48:59 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\Diff\LongestCommonSubsequenceCalculator" not found in /home1/hozehgae/public_html/vendor/sebastian/diff/src/MemoryEfficientLongestCommonSubsequenceCalculator.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/sebastian/diff/src/MemoryEfficientLongestCommonSubsequenceCalculator.php on line 20
+[09-Jun-2024 22:21:10 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\Diff\LongestCommonSubsequenceCalculator" not found in /home1/hozehgae/public_html/vendor/sebastian/diff/src/TimeEfficientLongestCommonSubsequenceCalculator.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/sebastian/diff/src/TimeEfficientLongestCommonSubsequenceCalculator.php on line 17

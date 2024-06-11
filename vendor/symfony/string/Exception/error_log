@@ -1,0 +1,16 @@
+[09-Jun-2024 17:17:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\String\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/string/Exception/InvalidArgumentException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/string/Exception/InvalidArgumentException.php on line 14
+[09-Jun-2024 17:41:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\String\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/string/Exception/RuntimeException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/string/Exception/RuntimeException.php on line 14
+[10-Jun-2024 04:13:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\String\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/string/Exception/RuntimeException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/string/Exception/RuntimeException.php on line 14
+[10-Jun-2024 08:59:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\String\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/string/Exception/InvalidArgumentException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/string/Exception/InvalidArgumentException.php on line 14

@@ -1,0 +1,24 @@
+[09-Jun-2024 14:34:50 UTC] PHP Fatal error:  Uncaught Error: Interface "League\Config\ConfigurationInterface" not found in /home1/hozehgae/public_html/vendor/league/config/src/ReadOnlyConfiguration.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/league/config/src/ReadOnlyConfiguration.php on line 19
+[09-Jun-2024 18:31:41 UTC] PHP Fatal error:  Uncaught Error: Interface "League\Config\ConfigurationBuilderInterface" not found in /home1/hozehgae/public_html/vendor/league/config/src/Configuration.php:28
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/league/config/src/Configuration.php on line 28
+[09-Jun-2024 20:00:48 UTC] PHP Fatal error:  Uncaught Error: Interface "League\Config\MutableConfigurationInterface" not found in /home1/hozehgae/public_html/vendor/league/config/src/ConfigurationBuilderInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/league/config/src/ConfigurationBuilderInterface.php on line 19
+[10-Jun-2024 01:21:19 UTC] PHP Fatal error:  Uncaught Error: Interface "League\Config\ConfigurationBuilderInterface" not found in /home1/hozehgae/public_html/vendor/league/config/src/Configuration.php:28
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/league/config/src/Configuration.php on line 28
+[10-Jun-2024 04:47:14 UTC] PHP Fatal error:  Uncaught Error: Interface "League\Config\ConfigurationInterface" not found in /home1/hozehgae/public_html/vendor/league/config/src/ReadOnlyConfiguration.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/league/config/src/ReadOnlyConfiguration.php on line 19
+[10-Jun-2024 05:12:57 UTC] PHP Fatal error:  Uncaught Error: Interface "League\Config\MutableConfigurationInterface" not found in /home1/hozehgae/public_html/vendor/league/config/src/ConfigurationBuilderInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/league/config/src/ConfigurationBuilderInterface.php on line 19

@@ -1,0 +1,8 @@
+[10-Jun-2024 01:08:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Container\ContainerExceptionInterface" not found in /home1/hozehgae/public_html/vendor/psr/container/src/NotFoundExceptionInterface.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/psr/container/src/NotFoundExceptionInterface.php on line 8
+[10-Jun-2024 01:16:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Container\ContainerExceptionInterface" not found in /home1/hozehgae/public_html/vendor/psr/container/src/NotFoundExceptionInterface.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/psr/container/src/NotFoundExceptionInterface.php on line 8

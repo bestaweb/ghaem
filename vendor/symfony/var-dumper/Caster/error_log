@@ -1,0 +1,104 @@
+[09-Jun-2024 13:13:03 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/ConstStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/ConstStub.php on line 21
+[09-Jun-2024 13:21:53 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php on line 21
+[09-Jun-2024 14:22:00 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/UninitializedStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/UninitializedStub.php on line 19
+[09-Jun-2024 16:11:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/ScalarStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/ScalarStub.php on line 21
+[09-Jun-2024 16:16:27 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/ScalarStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/ScalarStub.php on line 21
+[09-Jun-2024 16:20:50 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/EnumStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/EnumStub.php on line 21
+[09-Jun-2024 16:45:19 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\CutStub" not found in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php on line 19
+[09-Jun-2024 17:39:37 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/DsPairStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/DsPairStub.php on line 19
+[09-Jun-2024 18:31:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\EnumStub" not found in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/ArgsStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/ArgsStub.php on line 21
+[09-Jun-2024 18:43:54 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\EnumStub" not found in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/ArgsStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/ArgsStub.php on line 21
+[09-Jun-2024 19:54:20 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/ImgStub.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/ImgStub.php on line 17
+[09-Jun-2024 20:15:55 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\EnumStub" not found in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/FrameStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/FrameStub.php on line 19
+[09-Jun-2024 20:47:11 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\CutStub" not found in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php on line 19
+[09-Jun-2024 21:00:25 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\EnumStub" not found in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/FrameStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/FrameStub.php on line 19
+[09-Jun-2024 21:04:15 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/TraceStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/TraceStub.php on line 21
+[09-Jun-2024 22:04:39 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/ConstStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/ConstStub.php on line 21
+[09-Jun-2024 22:26:48 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/DsPairStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/DsPairStub.php on line 19
+[09-Jun-2024 22:55:35 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/TraceStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/TraceStub.php on line 21
+[09-Jun-2024 22:56:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/CutStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/CutStub.php on line 21
+[09-Jun-2024 23:25:29 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/ImgStub.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/ImgStub.php on line 17
+[09-Jun-2024 23:39:46 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/LinkStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/LinkStub.php on line 19
+[10-Jun-2024 00:52:30 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/UninitializedStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/UninitializedStub.php on line 19
+[10-Jun-2024 02:20:10 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/EnumStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/EnumStub.php on line 21
+[10-Jun-2024 05:37:09 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php on line 21
+[10-Jun-2024 06:54:03 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/LinkStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/LinkStub.php on line 19
+[10-Jun-2024 08:27:49 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/CutStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Caster/CutStub.php on line 21

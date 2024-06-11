@@ -1,0 +1,56 @@
+[09-Jun-2024 13:12:41 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE\ConstantTime\Base64" not found in /home1/hozehgae/public_html/vendor/paragonie/constant_time_encoding/src/Base64DotSlash.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/paragonie/constant_time_encoding/src/Base64DotSlash.php on line 34
+[09-Jun-2024 13:24:01 UTC] PHP Fatal error:  Uncaught Error: Interface "ParagonIE\ConstantTime\EncoderInterface" not found in /home1/hozehgae/public_html/vendor/paragonie/constant_time_encoding/src/Hex.php:35
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/paragonie/constant_time_encoding/src/Hex.php on line 35
+[09-Jun-2024 14:32:44 UTC] PHP Fatal error:  Uncaught Error: Interface "ParagonIE\ConstantTime\EncoderInterface" not found in /home1/hozehgae/public_html/vendor/paragonie/constant_time_encoding/src/Hex.php:35
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/paragonie/constant_time_encoding/src/Hex.php on line 35
+[09-Jun-2024 18:24:14 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE\ConstantTime\Base64" not found in /home1/hozehgae/public_html/vendor/paragonie/constant_time_encoding/src/Base64UrlSafe.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/paragonie/constant_time_encoding/src/Base64UrlSafe.php on line 34
+[09-Jun-2024 18:55:20 UTC] PHP Fatal error:  Uncaught Error: Interface "ParagonIE\ConstantTime\EncoderInterface" not found in /home1/hozehgae/public_html/vendor/paragonie/constant_time_encoding/src/Base64.php:38
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/paragonie/constant_time_encoding/src/Base64.php on line 38
+[09-Jun-2024 22:02:48 UTC] PHP Fatal error:  Uncaught Error: Interface "ParagonIE\ConstantTime\EncoderInterface" not found in /home1/hozehgae/public_html/vendor/paragonie/constant_time_encoding/src/Base32.php:38
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/paragonie/constant_time_encoding/src/Base32.php on line 38
+[09-Jun-2024 22:11:15 UTC] PHP Fatal error:  Uncaught Error: Interface "ParagonIE\ConstantTime\EncoderInterface" not found in /home1/hozehgae/public_html/vendor/paragonie/constant_time_encoding/src/Base32.php:38
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/paragonie/constant_time_encoding/src/Base32.php on line 38
+[09-Jun-2024 23:38:09 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE\ConstantTime\Base64" not found in /home1/hozehgae/public_html/vendor/paragonie/constant_time_encoding/src/Base64DotSlashOrdered.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/paragonie/constant_time_encoding/src/Base64DotSlashOrdered.php on line 34
+[10-Jun-2024 01:14:37 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE\ConstantTime\Base32" not found in /home1/hozehgae/public_html/vendor/paragonie/constant_time_encoding/src/Base32Hex.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/paragonie/constant_time_encoding/src/Base32Hex.php on line 34
+[10-Jun-2024 04:04:45 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE\ConstantTime\Base64" not found in /home1/hozehgae/public_html/vendor/paragonie/constant_time_encoding/src/Base64DotSlash.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/paragonie/constant_time_encoding/src/Base64DotSlash.php on line 34
+[10-Jun-2024 04:21:07 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE\ConstantTime\Base64" not found in /home1/hozehgae/public_html/vendor/paragonie/constant_time_encoding/src/Base64UrlSafe.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/paragonie/constant_time_encoding/src/Base64UrlSafe.php on line 34
+[10-Jun-2024 06:57:36 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE\ConstantTime\Base32" not found in /home1/hozehgae/public_html/vendor/paragonie/constant_time_encoding/src/Base32Hex.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/paragonie/constant_time_encoding/src/Base32Hex.php on line 34
+[10-Jun-2024 08:08:43 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE\ConstantTime\Base64" not found in /home1/hozehgae/public_html/vendor/paragonie/constant_time_encoding/src/Base64DotSlashOrdered.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/paragonie/constant_time_encoding/src/Base64DotSlashOrdered.php on line 34
+[10-Jun-2024 08:23:31 UTC] PHP Fatal error:  Uncaught Error: Interface "ParagonIE\ConstantTime\EncoderInterface" not found in /home1/hozehgae/public_html/vendor/paragonie/constant_time_encoding/src/Base64.php:38
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/paragonie/constant_time_encoding/src/Base64.php on line 38

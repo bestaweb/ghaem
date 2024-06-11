@@ -1,0 +1,24 @@
+[09-Jun-2024 14:37:40 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Contracts\EventDispatcher\Event" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/Event/SentMessageEvent.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/Event/SentMessageEvent.php on line 20
+[09-Jun-2024 16:44:51 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Contracts\EventDispatcher\Event" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/Event/SentMessageEvent.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/Event/SentMessageEvent.php on line 20
+[09-Jun-2024 23:11:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Contracts\EventDispatcher\Event" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/Event/FailedMessageEvent.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/Event/FailedMessageEvent.php on line 20
+[09-Jun-2024 23:40:58 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Contracts\EventDispatcher\Event" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/Event/FailedMessageEvent.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/Event/FailedMessageEvent.php on line 20
+[10-Jun-2024 00:14:02 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Contracts\EventDispatcher\Event" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/Event/MessageEvent.php:25
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/Event/MessageEvent.php on line 25
+[10-Jun-2024 09:23:25 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Contracts\EventDispatcher\Event" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/Event/MessageEvent.php:25
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/Event/MessageEvent.php on line 25

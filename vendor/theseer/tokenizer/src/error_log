@@ -1,0 +1,16 @@
+[09-Jun-2024 19:35:08 UTC] PHP Fatal error:  Uncaught Error: Class "TheSeer\Tokenizer\Exception" not found in /home1/hozehgae/public_html/vendor/theseer/tokenizer/src/NamespaceUriException.php:4
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/theseer/tokenizer/src/NamespaceUriException.php on line 4
+[09-Jun-2024 21:14:35 UTC] PHP Fatal error:  Uncaught Error: Class "TheSeer\Tokenizer\Exception" not found in /home1/hozehgae/public_html/vendor/theseer/tokenizer/src/TokenCollectionException.php:4
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/theseer/tokenizer/src/TokenCollectionException.php on line 4
+[10-Jun-2024 00:24:30 UTC] PHP Fatal error:  Uncaught Error: Class "TheSeer\Tokenizer\Exception" not found in /home1/hozehgae/public_html/vendor/theseer/tokenizer/src/TokenCollectionException.php:4
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/theseer/tokenizer/src/TokenCollectionException.php on line 4
+[10-Jun-2024 04:25:52 UTC] PHP Fatal error:  Uncaught Error: Class "TheSeer\Tokenizer\Exception" not found in /home1/hozehgae/public_html/vendor/theseer/tokenizer/src/NamespaceUriException.php:4
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/theseer/tokenizer/src/NamespaceUriException.php on line 4

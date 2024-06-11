@@ -1,0 +1,136 @@
+[09-Jun-2024 13:04:46 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/GoneHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/GoneHttpException.php on line 17
+[09-Jun-2024 13:34:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/NotFoundHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/NotFoundHttpException.php on line 17
+[09-Jun-2024 13:53:46 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/UnauthorizedHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/UnauthorizedHttpException.php on line 17
+[09-Jun-2024 13:56:08 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/TooManyRequestsHttpException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/TooManyRequestsHttpException.php on line 19
+[09-Jun-2024 15:37:17 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/BadRequestHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/BadRequestHttpException.php on line 17
+[09-Jun-2024 15:55:36 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/UnauthorizedHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/UnauthorizedHttpException.php on line 17
+[09-Jun-2024 16:42:06 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/PreconditionFailedHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/PreconditionFailedHttpException.php on line 17
+[09-Jun-2024 17:17:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Exception\HttpExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/HttpException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/HttpException.php on line 19
+[09-Jun-2024 17:35:45 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/UnprocessableEntityHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/UnprocessableEntityHttpException.php on line 17
+[09-Jun-2024 17:36:56 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/AccessDeniedHttpException.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/AccessDeniedHttpException.php on line 18
+[09-Jun-2024 18:33:47 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/BadRequestHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/BadRequestHttpException.php on line 17
+[09-Jun-2024 20:43:01 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/UnsupportedMediaTypeHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/UnsupportedMediaTypeHttpException.php on line 17
+[09-Jun-2024 22:05:41 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/ConflictHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/ConflictHttpException.php on line 17
+[09-Jun-2024 22:12:40 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/PreconditionRequiredHttpException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/PreconditionRequiredHttpException.php on line 19
+[09-Jun-2024 22:33:51 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/LengthRequiredHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/LengthRequiredHttpException.php on line 17
+[09-Jun-2024 22:50:52 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/LengthRequiredHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/LengthRequiredHttpException.php on line 17
+[09-Jun-2024 23:41:57 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/NotAcceptableHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/NotAcceptableHttpException.php on line 17
+[10-Jun-2024 00:10:25 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/TooManyRequestsHttpException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/TooManyRequestsHttpException.php on line 19
+[10-Jun-2024 00:30:13 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/MethodNotAllowedHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/MethodNotAllowedHttpException.php on line 17
+[10-Jun-2024 01:08:25 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/GoneHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/GoneHttpException.php on line 17
+[10-Jun-2024 01:26:16 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/LockedHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/LockedHttpException.php on line 17
+[10-Jun-2024 01:32:16 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/PreconditionRequiredHttpException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/PreconditionRequiredHttpException.php on line 19
+[10-Jun-2024 01:38:36 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/MethodNotAllowedHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/MethodNotAllowedHttpException.php on line 17
+[10-Jun-2024 02:22:46 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/PreconditionFailedHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/PreconditionFailedHttpException.php on line 17
+[10-Jun-2024 03:01:21 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/UnsupportedMediaTypeHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/UnsupportedMediaTypeHttpException.php on line 17
+[10-Jun-2024 04:24:37 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/UnprocessableEntityHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/UnprocessableEntityHttpException.php on line 17
+[10-Jun-2024 04:50:32 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/LockedHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/LockedHttpException.php on line 17
+[10-Jun-2024 06:13:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Exception\HttpExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/HttpException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/HttpException.php on line 19
+[10-Jun-2024 06:27:50 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/ServiceUnavailableHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/ServiceUnavailableHttpException.php on line 17
+[10-Jun-2024 06:49:25 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/NotFoundHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/NotFoundHttpException.php on line 17
+[10-Jun-2024 07:12:30 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/ConflictHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/ConflictHttpException.php on line 17
+[10-Jun-2024 07:50:16 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/AccessDeniedHttpException.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/AccessDeniedHttpException.php on line 18
+[10-Jun-2024 08:12:01 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/NotAcceptableHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/NotAcceptableHttpException.php on line 17
+[10-Jun-2024 10:47:36 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/ServiceUnavailableHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Exception/ServiceUnavailableHttpException.php on line 17

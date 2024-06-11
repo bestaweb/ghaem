@@ -1,0 +1,40 @@
+[09-Jun-2024 14:18:23 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home1/hozehgae/public_html/vendor/league/mime-type-detection/src/EmptyExtensionToMimeTypeMap.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/league/mime-type-detection/src/EmptyExtensionToMimeTypeMap.php on line 7
+[09-Jun-2024 15:15:16 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home1/hozehgae/public_html/vendor/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php on line 5
+[09-Jun-2024 17:33:50 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\MimeTypeDetector" not found in /home1/hozehgae/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php on line 9
+[09-Jun-2024 17:42:32 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home1/hozehgae/public_html/vendor/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php on line 7
+[09-Jun-2024 20:20:46 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home1/hozehgae/public_html/vendor/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php on line 5
+[09-Jun-2024 20:44:56 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home1/hozehgae/public_html/vendor/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php on line 7
+[10-Jun-2024 00:28:24 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\MimeTypeDetector" not found in /home1/hozehgae/public_html/vendor/league/mime-type-detection/src/FinfoMimeTypeDetector.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/league/mime-type-detection/src/FinfoMimeTypeDetector.php on line 12
+[10-Jun-2024 01:38:41 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\MimeTypeDetector" not found in /home1/hozehgae/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php on line 9
+[10-Jun-2024 05:32:03 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\MimeTypeDetector" not found in /home1/hozehgae/public_html/vendor/league/mime-type-detection/src/FinfoMimeTypeDetector.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/league/mime-type-detection/src/FinfoMimeTypeDetector.php on line 12
+[10-Jun-2024 08:16:20 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home1/hozehgae/public_html/vendor/league/mime-type-detection/src/EmptyExtensionToMimeTypeMap.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/league/mime-type-detection/src/EmptyExtensionToMimeTypeMap.php on line 7

@@ -1,0 +1,96 @@
+[06-Jun-2024 22:32:09 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\ParameterBag" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/InputBag.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/InputBag.php on line 22
+[06-Jun-2024 22:34:53 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Response" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/StreamedResponse.php:27
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/StreamedResponse.php on line 27
+[06-Jun-2024 23:03:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpFoundation\trigger_deprecation() in /home1/hozehgae/public_html/vendor/symfony/http-foundation/ExpressionRequestMatcher.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/ExpressionRequestMatcher.php on line 18
+[06-Jun-2024 23:15:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\StreamedResponse" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/StreamedJsonResponse.php:45
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/StreamedJsonResponse.php on line 45
+[07-Jun-2024 01:13:13 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\ParameterBag" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/ServerBag.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/ServerBag.php on line 21
+[07-Jun-2024 01:43:39 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\ParameterBag" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/FileBag.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/FileBag.php on line 22
+[07-Jun-2024 02:06:54 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\StreamedResponse" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/StreamedJsonResponse.php:45
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/StreamedJsonResponse.php on line 45
+[07-Jun-2024 02:51:00 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\HeaderBag" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/ResponseHeaderBag.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/ResponseHeaderBag.php on line 19
+[07-Jun-2024 03:08:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpFoundation\RequestMatcherInterface" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/ChainRequestMatcher.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/ChainRequestMatcher.php on line 19
+[07-Jun-2024 04:36:15 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Response" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/BinaryFileResponse.php:26
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/BinaryFileResponse.php on line 26
+[07-Jun-2024 05:26:41 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\HeaderBag" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/ResponseHeaderBag.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/ResponseHeaderBag.php on line 19
+[07-Jun-2024 07:35:40 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Response" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/JsonResponse.php:25
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/JsonResponse.php on line 25
+[07-Jun-2024 08:07:20 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\ParameterBag" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/FileBag.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/FileBag.php on line 22
+[07-Jun-2024 08:42:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpFoundation\trigger_deprecation() in /home1/hozehgae/public_html/vendor/symfony/http-foundation/RequestMatcher.php:14
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/RequestMatcher.php on line 14
+[07-Jun-2024 09:59:28 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Response" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/StreamedResponse.php:27
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/StreamedResponse.php on line 27
+[07-Jun-2024 10:30:11 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Response" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/RedirectResponse.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/RedirectResponse.php on line 19
+[07-Jun-2024 12:00:08 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Response" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/BinaryFileResponse.php:26
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/BinaryFileResponse.php on line 26
+[07-Jun-2024 14:22:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpFoundation\trigger_deprecation() in /home1/hozehgae/public_html/vendor/symfony/http-foundation/RequestMatcher.php:14
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/RequestMatcher.php on line 14
+[07-Jun-2024 14:29:21 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\ParameterBag" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/InputBag.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/InputBag.php on line 22
+[07-Jun-2024 15:07:47 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Response" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/RedirectResponse.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/RedirectResponse.php on line 19
+[07-Jun-2024 17:01:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpFoundation\trigger_deprecation() in /home1/hozehgae/public_html/vendor/symfony/http-foundation/ExpressionRequestMatcher.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/ExpressionRequestMatcher.php on line 18
+[07-Jun-2024 17:17:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpFoundation\RequestMatcherInterface" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/ChainRequestMatcher.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/ChainRequestMatcher.php on line 19
+[07-Jun-2024 18:05:06 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Response" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/JsonResponse.php:25
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/JsonResponse.php on line 25
+[07-Jun-2024 18:26:39 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\ParameterBag" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/ServerBag.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/ServerBag.php on line 21

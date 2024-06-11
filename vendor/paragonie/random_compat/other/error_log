@@ -1,0 +1,10 @@
+[09-Jun-2024 23:03:12 UTC] PHP Fatal error:  Uncaught UnexpectedValueException: creating archive "/home1/hozehgae/public_html/vendor/paragonie/random_compat/dist/random_compat.phar" disabled by the php.ini setting phar.readonly in /home1/hozehgae/public_html/vendor/paragonie/random_compat/other/build_phar.php:9
+Stack trace:
+#0 /home1/hozehgae/public_html/vendor/paragonie/random_compat/other/build_phar.php(9): Phar->__construct('/home1/hozehgae...', 256, 'random_compat.p...')
+#1 {main}
+  thrown in /home1/hozehgae/public_html/vendor/paragonie/random_compat/other/build_phar.php on line 9
+[10-Jun-2024 01:44:21 UTC] PHP Fatal error:  Uncaught UnexpectedValueException: creating archive "/home1/hozehgae/public_html/vendor/paragonie/random_compat/dist/random_compat.phar" disabled by the php.ini setting phar.readonly in /home1/hozehgae/public_html/vendor/paragonie/random_compat/other/build_phar.php:9
+Stack trace:
+#0 /home1/hozehgae/public_html/vendor/paragonie/random_compat/other/build_phar.php(9): Phar->__construct('/home1/hozehgae...', 256, 'random_compat.p...')
+#1 {main}
+  thrown in /home1/hozehgae/public_html/vendor/paragonie/random_compat/other/build_phar.php on line 9

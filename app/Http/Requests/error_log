@@ -1,0 +1,8 @@
+[06-Jun-2024 21:59:42 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\FormRequest" not found in /home1/hozehgae/public_html/app/Http/Requests/UserRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/app/Http/Requests/UserRequest.php on line 7
+[07-Jun-2024 14:17:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\FormRequest" not found in /home1/hozehgae/public_html/app/Http/Requests/UserRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/app/Http/Requests/UserRequest.php on line 7

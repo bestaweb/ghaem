@@ -1,0 +1,8 @@
+[09-Jun-2024 15:35:58 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Config\FileLocator" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Config/FileLocator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Config/FileLocator.php on line 22
+[10-Jun-2024 07:24:37 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Config\FileLocator" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Config/FileLocator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Config/FileLocator.php on line 22

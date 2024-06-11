@@ -1,0 +1,88 @@
+[09-Jun-2024 13:14:15 UTC] PHP Fatal error:  Uncaught Error: Class "Ramsey\Collection\Queue" not found in /home1/hozehgae/public_html/vendor/ramsey/collection/src/DoubleEndedQueue.php:32
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/ramsey/collection/src/DoubleEndedQueue.php on line 32
+[09-Jun-2024 13:43:52 UTC] PHP Fatal error:  Uncaught Error: Class "Ramsey\Collection\AbstractCollection" not found in /home1/hozehgae/public_html/vendor/ramsey/collection/src/AbstractSet.php:25
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/ramsey/collection/src/AbstractSet.php on line 25
+[09-Jun-2024 16:23:46 UTC] PHP Fatal error:  Uncaught Error: Class "Ramsey\Collection\AbstractArray" not found in /home1/hozehgae/public_html/vendor/ramsey/collection/src/GenericArray.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/ramsey/collection/src/GenericArray.php on line 22
+[09-Jun-2024 19:05:40 UTC] PHP Fatal error:  Uncaught Error: Class "Ramsey\Collection\AbstractArray" not found in /home1/hozehgae/public_html/vendor/ramsey/collection/src/Queue.php:32
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/ramsey/collection/src/Queue.php on line 32
+[09-Jun-2024 19:05:41 UTC] PHP Fatal error:  Uncaught Error: Class "Ramsey\Collection\AbstractSet" not found in /home1/hozehgae/public_html/vendor/ramsey/collection/src/Set.php:41
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/ramsey/collection/src/Set.php on line 41
+[09-Jun-2024 20:23:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Ramsey\Collection\ArrayInterface" not found in /home1/hozehgae/public_html/vendor/ramsey/collection/src/CollectionInterface.php:32
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/ramsey/collection/src/CollectionInterface.php on line 32
+[09-Jun-2024 20:34:01 UTC] PHP Fatal error:  Uncaught Error: Class "Ramsey\Collection\AbstractArray" not found in /home1/hozehgae/public_html/vendor/ramsey/collection/src/Queue.php:32
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/ramsey/collection/src/Queue.php on line 32
+[09-Jun-2024 20:43:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Ramsey\Collection\ArrayInterface" not found in /home1/hozehgae/public_html/vendor/ramsey/collection/src/QueueInterface.php:100
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/ramsey/collection/src/QueueInterface.php on line 100
+[09-Jun-2024 20:58:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Ramsey\Collection\QueueInterface" not found in /home1/hozehgae/public_html/vendor/ramsey/collection/src/DoubleEndedQueueInterface.php:166
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/ramsey/collection/src/DoubleEndedQueueInterface.php on line 166
+[09-Jun-2024 21:37:14 UTC] PHP Fatal error:  Uncaught Error: Class "Ramsey\Collection\AbstractCollection" not found in /home1/hozehgae/public_html/vendor/ramsey/collection/src/AbstractSet.php:25
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/ramsey/collection/src/AbstractSet.php on line 25
+[09-Jun-2024 22:08:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Ramsey\Collection\ArrayInterface" not found in /home1/hozehgae/public_html/vendor/ramsey/collection/src/AbstractArray.php:29
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/ramsey/collection/src/AbstractArray.php on line 29
+[09-Jun-2024 22:47:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Ramsey\Collection\ArrayInterface" not found in /home1/hozehgae/public_html/vendor/ramsey/collection/src/AbstractArray.php:29
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/ramsey/collection/src/AbstractArray.php on line 29
+[09-Jun-2024 23:10:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Ramsey\Collection\QueueInterface" not found in /home1/hozehgae/public_html/vendor/ramsey/collection/src/DoubleEndedQueueInterface.php:166
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/ramsey/collection/src/DoubleEndedQueueInterface.php on line 166
+[10-Jun-2024 01:35:28 UTC] PHP Fatal error:  Uncaught Error: Class "Ramsey\Collection\AbstractArray" not found in /home1/hozehgae/public_html/vendor/ramsey/collection/src/AbstractCollection.php:51
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/ramsey/collection/src/AbstractCollection.php on line 51
+[10-Jun-2024 03:23:53 UTC] PHP Fatal error:  Uncaught Error: Class "Ramsey\Collection\AbstractSet" not found in /home1/hozehgae/public_html/vendor/ramsey/collection/src/Set.php:41
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/ramsey/collection/src/Set.php on line 41
+[10-Jun-2024 04:10:02 UTC] PHP Fatal error:  Uncaught Error: Class "Ramsey\Collection\AbstractArray" not found in /home1/hozehgae/public_html/vendor/ramsey/collection/src/AbstractCollection.php:51
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/ramsey/collection/src/AbstractCollection.php on line 51
+[10-Jun-2024 05:58:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Ramsey\Collection\ArrayInterface" not found in /home1/hozehgae/public_html/vendor/ramsey/collection/src/CollectionInterface.php:32
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/ramsey/collection/src/CollectionInterface.php on line 32
+[10-Jun-2024 06:49:00 UTC] PHP Fatal error:  Uncaught Error: Class "Ramsey\Collection\AbstractCollection" not found in /home1/hozehgae/public_html/vendor/ramsey/collection/src/Collection.php:76
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/ramsey/collection/src/Collection.php on line 76
+[10-Jun-2024 06:53:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Ramsey\Collection\ArrayInterface" not found in /home1/hozehgae/public_html/vendor/ramsey/collection/src/QueueInterface.php:100
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/ramsey/collection/src/QueueInterface.php on line 100
+[10-Jun-2024 07:16:21 UTC] PHP Fatal error:  Uncaught Error: Class "Ramsey\Collection\AbstractArray" not found in /home1/hozehgae/public_html/vendor/ramsey/collection/src/GenericArray.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/ramsey/collection/src/GenericArray.php on line 22
+[10-Jun-2024 08:01:50 UTC] PHP Fatal error:  Uncaught Error: Class "Ramsey\Collection\Queue" not found in /home1/hozehgae/public_html/vendor/ramsey/collection/src/DoubleEndedQueue.php:32
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/ramsey/collection/src/DoubleEndedQueue.php on line 32
+[10-Jun-2024 08:42:54 UTC] PHP Fatal error:  Uncaught Error: Class "Ramsey\Collection\AbstractCollection" not found in /home1/hozehgae/public_html/vendor/ramsey/collection/src/Collection.php:76
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/ramsey/collection/src/Collection.php on line 76

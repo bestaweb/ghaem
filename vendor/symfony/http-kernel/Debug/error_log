@@ -1,0 +1,24 @@
+[09-Jun-2024 16:14:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpKernel\Debug\trigger_deprecation() in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Debug/FileLinkFormatter.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Debug/FileLinkFormatter.php on line 16
+[09-Jun-2024 22:34:25 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\EventDispatcher\Debug\TraceableEventDispatcher" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Debug/TraceableEventDispatcher.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Debug/TraceableEventDispatcher.php on line 24
+[10-Jun-2024 04:58:13 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\EventDispatcher\Debug\TraceableEventDispatcher" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Debug/TraceableEventDispatcher.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Debug/TraceableEventDispatcher.php on line 24
+[10-Jun-2024 05:47:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpKernel\Debug\trigger_deprecation() in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Debug/FileLinkFormatter.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Debug/FileLinkFormatter.php on line 16
+[10-Jun-2024 06:25:58 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\RequestStack" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Debug/VirtualRequestStack.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Debug/VirtualRequestStack.php on line 24
+[10-Jun-2024 07:53:56 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\RequestStack" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Debug/VirtualRequestStack.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Debug/VirtualRequestStack.php on line 24

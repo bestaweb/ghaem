@@ -1,0 +1,26 @@
+[09-Jun-2024 12:46:30 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Finder\Iterator\MultiplePcreFilterIterator" not found in /home1/hozehgae/public_html/vendor/symfony/finder/Iterator/FilecontentFilterIterator.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/finder/Iterator/FilecontentFilterIterator.php on line 24
+[09-Jun-2024 16:51:59 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Finder\Iterator\MultiplePcreFilterIterator" not found in /home1/hozehgae/public_html/vendor/symfony/finder/Iterator/PathFilterIterator.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/finder/Iterator/PathFilterIterator.php on line 24
+[09-Jun-2024 18:59:41 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Finder\Iterator\MultiplePcreFilterIterator" not found in /home1/hozehgae/public_html/vendor/symfony/finder/Iterator/PathFilterIterator.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/finder/Iterator/PathFilterIterator.php on line 24
+[10-Jun-2024 01:02:52 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Finder\Iterator\MultiplePcreFilterIterator" not found in /home1/hozehgae/public_html/vendor/symfony/finder/Iterator/FilecontentFilterIterator.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/finder/Iterator/FilecontentFilterIterator.php on line 24
+[10-Jun-2024 02:47:02 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Finder\Iterator\MultiplePcreFilterIterator" not found in /home1/hozehgae/public_html/vendor/symfony/finder/Iterator/FilenameFilterIterator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/finder/Iterator/FilenameFilterIterator.php on line 23
+[10-Jun-2024 03:03:43 UTC] PHP Fatal error:  Could not check compatibility between Symfony\Component\Finder\Iterator\RecursiveDirectoryIterator::current(): Symfony\Component\Finder\SplFileInfo and FilesystemIterator::current(): SplFileInfo|FilesystemIterator|string, because class Symfony\Component\Finder\SplFileInfo is not available in /home1/hozehgae/public_html/vendor/symfony/finder/Iterator/RecursiveDirectoryIterator.php on line 54
+[10-Jun-2024 03:04:28 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Finder\Iterator\MultiplePcreFilterIterator" not found in /home1/hozehgae/public_html/vendor/symfony/finder/Iterator/FilenameFilterIterator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/finder/Iterator/FilenameFilterIterator.php on line 23
+[10-Jun-2024 06:18:36 UTC] PHP Fatal error:  Could not check compatibility between Symfony\Component\Finder\Iterator\RecursiveDirectoryIterator::current(): Symfony\Component\Finder\SplFileInfo and FilesystemIterator::current(): SplFileInfo|FilesystemIterator|string, because class Symfony\Component\Finder\SplFileInfo is not available in /home1/hozehgae/public_html/vendor/symfony/finder/Iterator/RecursiveDirectoryIterator.php on line 54

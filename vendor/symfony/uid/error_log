@@ -1,0 +1,104 @@
+[06-Jun-2024 20:50:51 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Uid\Uuid" not found in /home1/hozehgae/public_html/vendor/symfony/uid/UuidV5.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/uid/UuidV5.php on line 21
+[06-Jun-2024 22:11:06 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Uid\Uuid" not found in /home1/hozehgae/public_html/vendor/symfony/uid/MaxUuid.php:14
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/uid/MaxUuid.php on line 14
+[06-Jun-2024 23:20:37 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Uid\AbstractUid" not found in /home1/hozehgae/public_html/vendor/symfony/uid/Uuid.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/uid/Uuid.php on line 19
+[07-Jun-2024 01:25:04 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Uid\Uuid" not found in /home1/hozehgae/public_html/vendor/symfony/uid/NilUuid.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/uid/NilUuid.php on line 17
+[07-Jun-2024 02:09:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Uid\AbstractUid" not found in /home1/hozehgae/public_html/vendor/symfony/uid/Uuid.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/uid/Uuid.php on line 19
+[07-Jun-2024 03:30:25 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Uid\Ulid" not found in /home1/hozehgae/public_html/vendor/symfony/uid/MaxUlid.php:14
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/uid/MaxUlid.php on line 14
+[07-Jun-2024 03:46:03 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Uid\Uuid" not found in /home1/hozehgae/public_html/vendor/symfony/uid/NilUuid.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/uid/NilUuid.php on line 17
+[07-Jun-2024 04:00:02 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Uid\AbstractUid" not found in /home1/hozehgae/public_html/vendor/symfony/uid/Ulid.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/uid/Ulid.php on line 21
+[07-Jun-2024 05:25:17 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Uid\Ulid" not found in /home1/hozehgae/public_html/vendor/symfony/uid/NilUlid.php:14
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/uid/NilUlid.php on line 14
+[07-Jun-2024 06:54:44 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Uid\Uuid" not found in /home1/hozehgae/public_html/vendor/symfony/uid/UuidV3.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/uid/UuidV3.php on line 21
+[07-Jun-2024 07:06:40 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Uid\Uuid" not found in /home1/hozehgae/public_html/vendor/symfony/uid/MaxUuid.php:14
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/uid/MaxUuid.php on line 14
+[07-Jun-2024 07:23:22 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Uid\Uuid" not found in /home1/hozehgae/public_html/vendor/symfony/uid/UuidV5.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/uid/UuidV5.php on line 21
+[07-Jun-2024 09:17:57 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Uid\Uuid" not found in /home1/hozehgae/public_html/vendor/symfony/uid/UuidV4.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/uid/UuidV4.php on line 19
+[07-Jun-2024 09:37:41 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Uid\Uuid" not found in /home1/hozehgae/public_html/vendor/symfony/uid/UuidV1.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/uid/UuidV1.php on line 19
+[07-Jun-2024 10:20:53 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Uid\Uuid" not found in /home1/hozehgae/public_html/vendor/symfony/uid/UuidV8.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/uid/UuidV8.php on line 19
+[07-Jun-2024 10:37:20 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Uid\Uuid" not found in /home1/hozehgae/public_html/vendor/symfony/uid/UuidV6.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/uid/UuidV6.php on line 21
+[07-Jun-2024 11:02:38 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Uid\Ulid" not found in /home1/hozehgae/public_html/vendor/symfony/uid/NilUlid.php:14
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/uid/NilUlid.php on line 14
+[07-Jun-2024 11:38:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Uid\Uuid" not found in /home1/hozehgae/public_html/vendor/symfony/uid/UuidV7.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/uid/UuidV7.php on line 21
+[07-Jun-2024 12:29:48 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Uid\Uuid" not found in /home1/hozehgae/public_html/vendor/symfony/uid/UuidV6.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/uid/UuidV6.php on line 21
+[07-Jun-2024 12:51:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Uid\Uuid" not found in /home1/hozehgae/public_html/vendor/symfony/uid/UuidV8.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/uid/UuidV8.php on line 19
+[07-Jun-2024 15:46:35 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Uid\Ulid" not found in /home1/hozehgae/public_html/vendor/symfony/uid/MaxUlid.php:14
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/uid/MaxUlid.php on line 14
+[07-Jun-2024 15:52:30 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Uid\AbstractUid" not found in /home1/hozehgae/public_html/vendor/symfony/uid/Ulid.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/uid/Ulid.php on line 21
+[07-Jun-2024 16:00:23 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Uid\Uuid" not found in /home1/hozehgae/public_html/vendor/symfony/uid/UuidV3.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/uid/UuidV3.php on line 21
+[07-Jun-2024 16:53:33 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Uid\Uuid" not found in /home1/hozehgae/public_html/vendor/symfony/uid/UuidV4.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/uid/UuidV4.php on line 19
+[07-Jun-2024 17:11:05 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Uid\Uuid" not found in /home1/hozehgae/public_html/vendor/symfony/uid/UuidV1.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/uid/UuidV1.php on line 19
+[07-Jun-2024 17:13:05 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Uid\Uuid" not found in /home1/hozehgae/public_html/vendor/symfony/uid/UuidV7.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/uid/UuidV7.php on line 21

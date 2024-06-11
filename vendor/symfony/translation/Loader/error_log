@@ -1,0 +1,104 @@
+[09-Jun-2024 14:00:29 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Translation\Loader\ArrayLoader" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/FileLoader.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/FileLoader.php on line 22
+[09-Jun-2024 14:23:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Loader\LoaderInterface" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/ArrayLoader.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/ArrayLoader.php on line 21
+[09-Jun-2024 19:09:48 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Translation\Loader\FileLoader" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/IniFileLoader.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/IniFileLoader.php on line 19
+[09-Jun-2024 19:09:50 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Translation\Loader\FileLoader" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/YamlFileLoader.php:25
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/YamlFileLoader.php on line 25
+[09-Jun-2024 20:15:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Loader\LoaderInterface" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/IcuResFileLoader.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/IcuResFileLoader.php on line 24
+[09-Jun-2024 20:29:23 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Translation\Loader\FileLoader" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/CsvFileLoader.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/CsvFileLoader.php on line 21
+[09-Jun-2024 20:36:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Translation\Loader\FileLoader" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/JsonFileLoader.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/JsonFileLoader.php on line 21
+[09-Jun-2024 20:59:28 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Translation\Loader\FileLoader" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/CsvFileLoader.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/CsvFileLoader.php on line 21
+[09-Jun-2024 21:18:51 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Translation\Loader\FileLoader" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/PoFileLoader.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/PoFileLoader.php on line 18
+[09-Jun-2024 22:13:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Loader\LoaderInterface" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/XliffFileLoader.php:29
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/XliffFileLoader.php on line 29
+[09-Jun-2024 23:34:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Loader\LoaderInterface" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/ArrayLoader.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/ArrayLoader.php on line 21
+[09-Jun-2024 23:48:44 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Translation\Loader\FileLoader" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/PhpFileLoader.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/PhpFileLoader.php on line 19
+[10-Jun-2024 00:17:16 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Translation\Loader\FileLoader" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/JsonFileLoader.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/JsonFileLoader.php on line 21
+[10-Jun-2024 01:26:00 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Translation\Loader\FileLoader" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/IniFileLoader.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/IniFileLoader.php on line 19
+[10-Jun-2024 01:46:40 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Translation\Loader\IcuResFileLoader" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/IcuDatFileLoader.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/IcuDatFileLoader.php on line 24
+[10-Jun-2024 03:13:42 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Translation\Loader\FileLoader" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/PhpFileLoader.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/PhpFileLoader.php on line 19
+[10-Jun-2024 03:52:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Loader\LoaderInterface" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/XliffFileLoader.php:29
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/XliffFileLoader.php on line 29
+[10-Jun-2024 05:47:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Loader\LoaderInterface" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/QtFileLoader.php:26
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/QtFileLoader.php on line 26
+[10-Jun-2024 06:09:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Loader\LoaderInterface" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/IcuResFileLoader.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/IcuResFileLoader.php on line 24
+[10-Jun-2024 06:13:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Loader\LoaderInterface" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/QtFileLoader.php:26
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/QtFileLoader.php on line 26
+[10-Jun-2024 06:17:58 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Translation\Loader\FileLoader" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/MoFileLoader.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/MoFileLoader.php on line 19
+[10-Jun-2024 06:50:35 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Translation\Loader\FileLoader" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/YamlFileLoader.php:25
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/YamlFileLoader.php on line 25
+[10-Jun-2024 07:48:47 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Translation\Loader\FileLoader" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/PoFileLoader.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/PoFileLoader.php on line 18
+[10-Jun-2024 07:54:23 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Translation\Loader\ArrayLoader" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/FileLoader.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/FileLoader.php on line 22
+[10-Jun-2024 08:16:45 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Translation\Loader\IcuResFileLoader" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/IcuDatFileLoader.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/IcuDatFileLoader.php on line 24
+[10-Jun-2024 08:39:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Translation\Loader\FileLoader" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/MoFileLoader.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Loader/MoFileLoader.php on line 19

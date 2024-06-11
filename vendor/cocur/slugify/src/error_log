@@ -1,0 +1,8 @@
+[09-Jun-2024 22:24:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Cocur\Slugify\SlugifyInterface" not found in /home1/hozehgae/public_html/vendor/cocur/slugify/src/Slugify.php:27
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/cocur/slugify/src/Slugify.php on line 27
+[09-Jun-2024 23:29:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Cocur\Slugify\SlugifyInterface" not found in /home1/hozehgae/public_html/vendor/cocur/slugify/src/Slugify.php:27
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/cocur/slugify/src/Slugify.php on line 27

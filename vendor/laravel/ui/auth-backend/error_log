@@ -1,0 +1,10 @@
+[09-Jun-2024 15:21:50 UTC] PHP Fatal error:  Trait "Illuminate\Foundation\Auth\RedirectsUsers" not found in /home1/hozehgae/public_html/vendor/laravel/ui/auth-backend/ConfirmsPasswords.php on line 8
+[09-Jun-2024 16:26:28 UTC] PHP Fatal error:  Trait "Illuminate\Foundation\Auth\RedirectsUsers" not found in /home1/hozehgae/public_html/vendor/laravel/ui/auth-backend/ResetsPasswords.php on line 15
+[09-Jun-2024 18:38:19 UTC] PHP Fatal error:  Trait "Illuminate\Foundation\Auth\RedirectsUsers" not found in /home1/hozehgae/public_html/vendor/laravel/ui/auth-backend/RegistersUsers.php on line 10
+[09-Jun-2024 21:54:51 UTC] PHP Fatal error:  Trait "Illuminate\Foundation\Auth\RedirectsUsers" not found in /home1/hozehgae/public_html/vendor/laravel/ui/auth-backend/ConfirmsPasswords.php on line 8
+[09-Jun-2024 23:01:42 UTC] PHP Fatal error:  Trait "Illuminate\Foundation\Auth\RedirectsUsers" not found in /home1/hozehgae/public_html/vendor/laravel/ui/auth-backend/AuthenticatesUsers.php on line 10
+[09-Jun-2024 23:06:30 UTC] PHP Fatal error:  Trait "Illuminate\Foundation\Auth\RedirectsUsers" not found in /home1/hozehgae/public_html/vendor/laravel/ui/auth-backend/RegistersUsers.php on line 10
+[10-Jun-2024 02:42:09 UTC] PHP Fatal error:  Trait "Illuminate\Foundation\Auth\RedirectsUsers" not found in /home1/hozehgae/public_html/vendor/laravel/ui/auth-backend/VerifiesEmails.php on line 10
+[10-Jun-2024 03:02:34 UTC] PHP Fatal error:  Trait "Illuminate\Foundation\Auth\RedirectsUsers" not found in /home1/hozehgae/public_html/vendor/laravel/ui/auth-backend/ResetsPasswords.php on line 15
+[10-Jun-2024 07:21:18 UTC] PHP Fatal error:  Trait "Illuminate\Foundation\Auth\RedirectsUsers" not found in /home1/hozehgae/public_html/vendor/laravel/ui/auth-backend/VerifiesEmails.php on line 10
+[10-Jun-2024 07:43:53 UTC] PHP Fatal error:  Trait "Illuminate\Foundation\Auth\RedirectsUsers" not found in /home1/hozehgae/public_html/vendor/laravel/ui/auth-backend/AuthenticatesUsers.php on line 10

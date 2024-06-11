@@ -1,0 +1,8 @@
+[09-Jun-2024 22:26:09 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Command\Command" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/Command/MailerTestCommand.php:27
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/Command/MailerTestCommand.php on line 27
+[10-Jun-2024 09:41:24 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Command\Command" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/Command/MailerTestCommand.php:27
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/Command/MailerTestCommand.php on line 27

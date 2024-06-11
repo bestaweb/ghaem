@@ -1,0 +1,44 @@
+[09-Jun-2024 15:33:37 UTC] PHP Fatal error:  Uncaught Error: Class "Yajra\DataTables\DataTableAbstract" not found in /home1/hozehgae/public_html/vendor/yajra/laravel-datatables-oracle/src/QueryDataTable.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/yajra/laravel-datatables-oracle/src/QueryDataTable.php on line 16
+[09-Jun-2024 16:40:08 UTC] PHP Fatal error:  Uncaught Error: Class "Yajra\DataTables\DataTableAbstract" not found in /home1/hozehgae/public_html/vendor/yajra/laravel-datatables-oracle/src/QueryDataTable.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/yajra/laravel-datatables-oracle/src/QueryDataTable.php on line 16
+[09-Jun-2024 17:09:28 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Macroable" not found in /home1/hozehgae/public_html/vendor/yajra/laravel-datatables-oracle/src/DataTables.php on line 11
+[09-Jun-2024 18:07:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home1/hozehgae/public_html/vendor/yajra/laravel-datatables-oracle/src/DataTablesServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/yajra/laravel-datatables-oracle/src/DataTablesServiceProvider.php on line 10
+[09-Jun-2024 20:19:27 UTC] PHP Fatal error:  Uncaught Error: Class "Yajra\DataTables\QueryDataTable" not found in /home1/hozehgae/public_html/vendor/yajra/laravel-datatables-oracle/src/EloquentDataTable.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/yajra/laravel-datatables-oracle/src/EloquentDataTable.php on line 18
+[09-Jun-2024 21:00:32 UTC] PHP Fatal error:  Uncaught Error: Class "Yajra\DataTables\DataTableAbstract" not found in /home1/hozehgae/public_html/vendor/yajra/laravel-datatables-oracle/src/CollectionDataTable.php:14
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/yajra/laravel-datatables-oracle/src/CollectionDataTable.php on line 14
+[09-Jun-2024 22:10:50 UTC] PHP Fatal error:  Uncaught Error: Class "Yajra\DataTables\CollectionDataTable" not found in /home1/hozehgae/public_html/vendor/yajra/laravel-datatables-oracle/src/ApiResourceDataTable.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/yajra/laravel-datatables-oracle/src/ApiResourceDataTable.php on line 7
+[09-Jun-2024 22:57:44 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Macroable" not found in /home1/hozehgae/public_html/vendor/yajra/laravel-datatables-oracle/src/DataTables.php on line 11
+[09-Jun-2024 23:12:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home1/hozehgae/public_html/vendor/yajra/laravel-datatables-oracle/src/DataTablesServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/yajra/laravel-datatables-oracle/src/DataTablesServiceProvider.php on line 10
+[09-Jun-2024 23:35:46 UTC] PHP Fatal error:  Uncaught Error: Class "Yajra\DataTables\QueryDataTable" not found in /home1/hozehgae/public_html/vendor/yajra/laravel-datatables-oracle/src/EloquentDataTable.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/yajra/laravel-datatables-oracle/src/EloquentDataTable.php on line 18
+[10-Jun-2024 00:46:31 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Macroable" not found in /home1/hozehgae/public_html/vendor/yajra/laravel-datatables-oracle/src/DataTableAbstract.php on line 25
+[10-Jun-2024 01:43:41 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Macroable" not found in /home1/hozehgae/public_html/vendor/yajra/laravel-datatables-oracle/src/DataTableAbstract.php on line 25
+[10-Jun-2024 04:48:09 UTC] PHP Fatal error:  Uncaught Error: Class "Yajra\DataTables\CollectionDataTable" not found in /home1/hozehgae/public_html/vendor/yajra/laravel-datatables-oracle/src/ApiResourceDataTable.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/yajra/laravel-datatables-oracle/src/ApiResourceDataTable.php on line 7
+[10-Jun-2024 08:21:54 UTC] PHP Fatal error:  Uncaught Error: Class "Yajra\DataTables\DataTableAbstract" not found in /home1/hozehgae/public_html/vendor/yajra/laravel-datatables-oracle/src/CollectionDataTable.php:14
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/yajra/laravel-datatables-oracle/src/CollectionDataTable.php on line 14

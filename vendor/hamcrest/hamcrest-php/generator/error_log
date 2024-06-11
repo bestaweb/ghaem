@@ -1,0 +1,28 @@
+[09-Jun-2024 15:04:15 UTC] PHP Warning:  require(/home1/hozehgae/public_html/vendor/hamcrest/hamcrest-php/generator/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/hozehgae/public_html/vendor/hamcrest/hamcrest-php/generator/run.php on line 6
+[09-Jun-2024 15:04:15 UTC] PHP Warning:  require(/home1/hozehgae/public_html/vendor/hamcrest/hamcrest-php/generator/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/hozehgae/public_html/vendor/hamcrest/hamcrest-php/generator/run.php on line 6
+[09-Jun-2024 15:04:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/hozehgae/public_html/vendor/hamcrest/hamcrest-php/generator/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/hozehgae/public_html/vendor/hamcrest/hamcrest-php/generator/run.php:6
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/hamcrest/hamcrest-php/generator/run.php on line 6
+[09-Jun-2024 19:40:53 UTC] PHP Fatal error:  Uncaught Error: Class "FactoryFile" not found in /home1/hozehgae/public_html/vendor/hamcrest/hamcrest-php/generator/StaticMethodFile.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/hamcrest/hamcrest-php/generator/StaticMethodFile.php on line 7
+[09-Jun-2024 23:30:28 UTC] PHP Fatal error:  Uncaught Error: Class "FactoryFile" not found in /home1/hozehgae/public_html/vendor/hamcrest/hamcrest-php/generator/GlobalFunctionFile.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/hamcrest/hamcrest-php/generator/GlobalFunctionFile.php on line 7
+[10-Jun-2024 00:34:09 UTC] PHP Fatal error:  Uncaught Error: Class "FactoryFile" not found in /home1/hozehgae/public_html/vendor/hamcrest/hamcrest-php/generator/StaticMethodFile.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/hamcrest/hamcrest-php/generator/StaticMethodFile.php on line 7
+[10-Jun-2024 05:40:01 UTC] PHP Fatal error:  Uncaught Error: Class "FactoryFile" not found in /home1/hozehgae/public_html/vendor/hamcrest/hamcrest-php/generator/GlobalFunctionFile.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/hamcrest/hamcrest-php/generator/GlobalFunctionFile.php on line 7
+[10-Jun-2024 07:08:02 UTC] PHP Warning:  require(/home1/hozehgae/public_html/vendor/hamcrest/hamcrest-php/generator/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/hozehgae/public_html/vendor/hamcrest/hamcrest-php/generator/run.php on line 6
+[10-Jun-2024 07:08:02 UTC] PHP Warning:  require(/home1/hozehgae/public_html/vendor/hamcrest/hamcrest-php/generator/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/hozehgae/public_html/vendor/hamcrest/hamcrest-php/generator/run.php on line 6
+[10-Jun-2024 07:08:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/hozehgae/public_html/vendor/hamcrest/hamcrest-php/generator/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/hozehgae/public_html/vendor/hamcrest/hamcrest-php/generator/run.php:6
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/hamcrest/hamcrest-php/generator/run.php on line 6

@@ -1,0 +1,10 @@
+[09-Jun-2024 16:44:20 UTC] PHP Warning:  Class "Symfony\Contracts\Service\Test\ServiceLocatorTestCase" not found in /home1/hozehgae/public_html/vendor/symfony/service-contracts/Test/ServiceLocatorTest.php on line 14
+[10-Jun-2024 05:20:37 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home1/hozehgae/public_html/vendor/symfony/service-contracts/Test/ServiceLocatorTestCase.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/service-contracts/Test/ServiceLocatorTestCase.php on line 20
+[10-Jun-2024 06:44:10 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home1/hozehgae/public_html/vendor/symfony/service-contracts/Test/ServiceLocatorTestCase.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/service-contracts/Test/ServiceLocatorTestCase.php on line 20
+[10-Jun-2024 06:58:05 UTC] PHP Warning:  Class "Symfony\Contracts\Service\Test\ServiceLocatorTestCase" not found in /home1/hozehgae/public_html/vendor/symfony/service-contracts/Test/ServiceLocatorTest.php on line 14

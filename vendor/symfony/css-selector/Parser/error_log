@@ -1,0 +1,8 @@
+[09-Jun-2024 22:18:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Parser\ParserInterface" not found in /home1/hozehgae/public_html/vendor/symfony/css-selector/Parser/Parser.php:28
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/css-selector/Parser/Parser.php on line 28
+[09-Jun-2024 23:59:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Parser\ParserInterface" not found in /home1/hozehgae/public_html/vendor/symfony/css-selector/Parser/Parser.php:28
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/css-selector/Parser/Parser.php on line 28

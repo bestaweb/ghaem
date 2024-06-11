@@ -1,0 +1,72 @@
+[09-Jun-2024 13:19:59 UTC] PHP Fatal error:  Uncaught Error: Class "Orchestra\Testbench\TestCase" not found in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/TestCase.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/TestCase.php on line 13
+[09-Jun-2024 14:13:43 UTC] PHP Fatal error:  Uncaught Error: Class "Cviebrock\EloquentSluggable\Tests\TestCase" not found in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/OnUpdateTests.php:11
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/OnUpdateTests.php on line 11
+[09-Jun-2024 14:18:03 UTC] PHP Fatal error:  Uncaught Error: Class "Cviebrock\EloquentSluggable\Tests\TestCase" not found in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/BaseTests.php:32
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/BaseTests.php on line 32
+[09-Jun-2024 14:54:11 UTC] PHP Fatal error:  Uncaught Error: Class "Cviebrock\EloquentSluggable\Tests\TestCase" not found in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/SoftDeleteTests.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/SoftDeleteTests.php on line 12
+[09-Jun-2024 15:51:38 UTC] PHP Fatal error:  Uncaught Error: Class "Orchestra\Testbench\TestCase" not found in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/TestCase.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/TestCase.php on line 13
+[09-Jun-2024 17:39:10 UTC] PHP Fatal error:  Uncaught Error: Class "Cviebrock\EloquentSluggable\Tests\TestCase" not found in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/StaticTests.php:11
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/StaticTests.php on line 11
+[09-Jun-2024 18:17:03 UTC] PHP Fatal error:  Uncaught Error: Class "Cviebrock\EloquentSluggable\Tests\TestCase" not found in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/ScopeHelperTests.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/ScopeHelperTests.php on line 13
+[09-Jun-2024 19:22:52 UTC] PHP Fatal error:  Uncaught Error: Class "Cviebrock\EloquentSluggable\Tests\TestCase" not found in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/EventTests.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/EventTests.php on line 13
+[09-Jun-2024 20:25:27 UTC] PHP Fatal error:  Uncaught Error: Class "Cviebrock\EloquentSluggable\Tests\TestCase" not found in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/SoftDeleteTests.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/SoftDeleteTests.php on line 12
+[09-Jun-2024 21:14:57 UTC] PHP Fatal error:  Uncaught Error: Class "Cviebrock\EloquentSluggable\Tests\TestCase" not found in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/BaseTests.php:32
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/BaseTests.php on line 32
+[09-Jun-2024 21:34:50 UTC] PHP Fatal error:  Uncaught Error: Class "Cviebrock\EloquentSluggable\Tests\TestCase" not found in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/OnUpdateTests.php:11
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/OnUpdateTests.php on line 11
+[10-Jun-2024 00:25:59 UTC] PHP Fatal error:  Uncaught Error: Class "Cviebrock\EloquentSluggable\Tests\TestCase" not found in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/ScopeHelperTests.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/ScopeHelperTests.php on line 13
+[10-Jun-2024 01:54:45 UTC] PHP Fatal error:  Uncaught Error: Class "Cviebrock\EloquentSluggable\Tests\TestCase" not found in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/StaticTests.php:11
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/StaticTests.php on line 11
+[10-Jun-2024 03:17:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/TestServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/TestServiceProvider.php on line 10
+[10-Jun-2024 05:15:38 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/TestServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/TestServiceProvider.php on line 10
+[10-Jun-2024 05:57:42 UTC] PHP Fatal error:  Uncaught Error: Class "Cviebrock\EloquentSluggable\Tests\TestCase" not found in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/UniqueTests.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/UniqueTests.php on line 13
+[10-Jun-2024 07:16:57 UTC] PHP Fatal error:  Uncaught Error: Class "Cviebrock\EloquentSluggable\Tests\TestCase" not found in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/EventTests.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/EventTests.php on line 13
+[10-Jun-2024 10:36:03 UTC] PHP Fatal error:  Uncaught Error: Class "Cviebrock\EloquentSluggable\Tests\TestCase" not found in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/UniqueTests.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/cviebrock/eloquent-sluggable/tests/UniqueTests.php on line 13

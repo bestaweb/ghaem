@@ -1,0 +1,40 @@
+[09-Jun-2024 14:56:04 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Exception\UnexpectedValueException" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/Exception/BadRequestException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/Exception/BadRequestException.php on line 17
+[09-Jun-2024 15:13:30 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Exception\UnexpectedValueException" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/Exception/JsonException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/Exception/JsonException.php on line 19
+[09-Jun-2024 16:23:02 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Exception\UnexpectedValueException" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/Exception/JsonException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/Exception/JsonException.php on line 19
+[09-Jun-2024 20:26:29 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Exception\UnexpectedValueException" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/Exception/SuspiciousOperationException.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/Exception/SuspiciousOperationException.php on line 18
+[10-Jun-2024 01:34:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpFoundation\Exception\RequestExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/Exception/SessionNotFoundException.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/Exception/SessionNotFoundException.php on line 21
+[10-Jun-2024 01:38:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpFoundation\Exception\RequestExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/Exception/SessionNotFoundException.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/Exception/SessionNotFoundException.php on line 21
+[10-Jun-2024 02:03:00 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Exception\UnexpectedValueException" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/Exception/ConflictingHeadersException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/Exception/ConflictingHeadersException.php on line 19
+[10-Jun-2024 06:27:30 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Exception\UnexpectedValueException" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/Exception/BadRequestException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/Exception/BadRequestException.php on line 17
+[10-Jun-2024 06:46:15 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Exception\UnexpectedValueException" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/Exception/ConflictingHeadersException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/Exception/ConflictingHeadersException.php on line 19
+[10-Jun-2024 08:19:03 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Exception\UnexpectedValueException" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/Exception/SuspiciousOperationException.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/Exception/SuspiciousOperationException.php on line 18

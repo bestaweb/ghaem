@@ -1,0 +1,24 @@
+[09-Jun-2024 13:19:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Bundle\BundleInterface" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php:25
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php on line 25
+[09-Jun-2024 13:19:16 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Bundle\Bundle" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Bundle/AbstractBundle.php:26
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Bundle/AbstractBundle.php on line 26
+[09-Jun-2024 17:26:11 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\DependencyInjection\Extension\Extension" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Bundle/BundleExtension.php:28
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Bundle/BundleExtension.php on line 28
+[09-Jun-2024 19:48:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Bundle\BundleInterface" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php:25
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php on line 25
+[09-Jun-2024 21:19:04 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Bundle\Bundle" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Bundle/AbstractBundle.php:26
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Bundle/AbstractBundle.php on line 26
+[10-Jun-2024 06:55:59 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\DependencyInjection\Extension\Extension" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Bundle/BundleExtension.php:28
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/Bundle/BundleExtension.php on line 28

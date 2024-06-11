@@ -1,0 +1,56 @@
+[09-Jun-2024 15:29:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Process\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/process/Exception/RuntimeException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/process/Exception/RuntimeException.php on line 19
+[09-Jun-2024 15:36:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Process\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/process/Exception/RuntimeException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/process/Exception/RuntimeException.php on line 19
+[09-Jun-2024 15:58:07 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Process\Exception\RuntimeException" not found in /home1/hozehgae/public_html/vendor/symfony/process/Exception/RunProcessFailedException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/process/Exception/RunProcessFailedException.php on line 19
+[09-Jun-2024 16:14:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Process\Exception\RuntimeException" not found in /home1/hozehgae/public_html/vendor/symfony/process/Exception/ProcessTimedOutException.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/process/Exception/ProcessTimedOutException.php on line 21
+[09-Jun-2024 16:17:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Process\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/process/Exception/LogicException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/process/Exception/LogicException.php on line 19
+[09-Jun-2024 18:36:47 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Process\Exception\RuntimeException" not found in /home1/hozehgae/public_html/vendor/symfony/process/Exception/ProcessSignaledException.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/process/Exception/ProcessSignaledException.php on line 21
+[09-Jun-2024 22:15:50 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Process\Exception\RuntimeException" not found in /home1/hozehgae/public_html/vendor/symfony/process/Exception/RunProcessFailedException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/process/Exception/RunProcessFailedException.php on line 19
+[09-Jun-2024 23:20:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Process\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/process/Exception/LogicException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/process/Exception/LogicException.php on line 19
+[10-Jun-2024 00:44:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Process\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/process/Exception/InvalidArgumentException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/process/Exception/InvalidArgumentException.php on line 19
+[10-Jun-2024 01:34:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Process\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/process/Exception/InvalidArgumentException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/process/Exception/InvalidArgumentException.php on line 19
+[10-Jun-2024 02:20:24 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Process\Exception\RuntimeException" not found in /home1/hozehgae/public_html/vendor/symfony/process/Exception/ProcessFailedException.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/process/Exception/ProcessFailedException.php on line 21
+[10-Jun-2024 04:27:54 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Process\Exception\RuntimeException" not found in /home1/hozehgae/public_html/vendor/symfony/process/Exception/ProcessTimedOutException.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/process/Exception/ProcessTimedOutException.php on line 21
+[10-Jun-2024 05:23:51 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Process\Exception\RuntimeException" not found in /home1/hozehgae/public_html/vendor/symfony/process/Exception/ProcessFailedException.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/process/Exception/ProcessFailedException.php on line 21
+[10-Jun-2024 07:36:47 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Process\Exception\RuntimeException" not found in /home1/hozehgae/public_html/vendor/symfony/process/Exception/ProcessSignaledException.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/process/Exception/ProcessSignaledException.php on line 21

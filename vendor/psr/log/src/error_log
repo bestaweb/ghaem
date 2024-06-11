@@ -1,0 +1,10 @@
+[09-Jun-2024 15:34:46 UTC] PHP Fatal error:  Uncaught Error: Class "Psr\Log\AbstractLogger" not found in /home1/hozehgae/public_html/vendor/psr/log/src/NullLogger.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/psr/log/src/NullLogger.php on line 13
+[09-Jun-2024 23:54:26 UTC] PHP Fatal error:  Uncaught Error: Class "Psr\Log\AbstractLogger" not found in /home1/hozehgae/public_html/vendor/psr/log/src/NullLogger.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/psr/log/src/NullLogger.php on line 13
+[10-Jun-2024 01:48:48 UTC] PHP Fatal error:  Trait "Psr\Log\LoggerTrait" not found in /home1/hozehgae/public_html/vendor/psr/log/src/AbstractLogger.php on line 12
+[10-Jun-2024 02:52:27 UTC] PHP Fatal error:  Trait "Psr\Log\LoggerTrait" not found in /home1/hozehgae/public_html/vendor/psr/log/src/AbstractLogger.php on line 12

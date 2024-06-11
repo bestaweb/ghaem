@@ -1,0 +1,16 @@
+[09-Jun-2024 22:47:57 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Header\UnstructuredHeader" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/Header/MetadataHeader.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/Header/MetadataHeader.php on line 19
+[10-Jun-2024 00:30:28 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Header\UnstructuredHeader" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/Header/TagHeader.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/Header/TagHeader.php on line 19
+[10-Jun-2024 06:46:28 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Header\UnstructuredHeader" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/Header/MetadataHeader.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/Header/MetadataHeader.php on line 19
+[10-Jun-2024 09:10:27 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Header\UnstructuredHeader" not found in /home1/hozehgae/public_html/vendor/symfony/mailer/Header/TagHeader.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailer/Header/TagHeader.php on line 19

@@ -1,0 +1,8 @@
+[09-Jun-2024 18:01:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\EventDispatcher\EventSubscriberInterface" not found in /home1/hozehgae/public_html/vendor/symfony/console/EventListener/ErrorListener.php:25
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/console/EventListener/ErrorListener.php on line 25
+[10-Jun-2024 06:31:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\EventDispatcher\EventSubscriberInterface" not found in /home1/hozehgae/public_html/vendor/symfony/console/EventListener/ErrorListener.php:25
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/console/EventListener/ErrorListener.php on line 25

@@ -1,0 +1,4 @@
+[09-Jun-2024 21:09:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home1/hozehgae/public_html/vendor/realrashid/sweet-alert/src/SweetAlertServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/realrashid/sweet-alert/src/SweetAlertServiceProvider.php on line 7

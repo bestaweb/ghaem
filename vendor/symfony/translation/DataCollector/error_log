@@ -1,0 +1,8 @@
+[09-Jun-2024 14:47:53 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home1/hozehgae/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php:26
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php on line 26
+[10-Jun-2024 06:35:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home1/hozehgae/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php:26
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php on line 26

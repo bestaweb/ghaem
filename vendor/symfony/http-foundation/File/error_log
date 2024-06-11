@@ -1,0 +1,16 @@
+[09-Jun-2024 17:21:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\File\File" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/File/UploadedFile.php:32
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/File/UploadedFile.php on line 32
+[09-Jun-2024 18:50:12 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\File\File" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/File/Stream.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/File/Stream.php on line 19
+[10-Jun-2024 00:27:38 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\File\File" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/File/UploadedFile.php:32
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/File/UploadedFile.php on line 32
+[10-Jun-2024 08:14:41 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\File\File" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/File/Stream.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/File/Stream.php on line 19

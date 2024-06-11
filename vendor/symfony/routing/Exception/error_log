@@ -1,0 +1,72 @@
+[09-Jun-2024 14:59:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Routing\Exception\ResourceNotFoundException" not found in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/NoConfigurationException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/NoConfigurationException.php on line 19
+[09-Jun-2024 16:42:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/ResourceNotFoundException.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/ResourceNotFoundException.php on line 21
+[09-Jun-2024 17:50:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/InvalidArgumentException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/InvalidArgumentException.php on line 14
+[09-Jun-2024 18:19:30 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Routing\Exception\RuntimeException" not found in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/RouteCircularReferenceException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/RouteCircularReferenceException.php on line 14
+[09-Jun-2024 20:04:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/MissingMandatoryParametersException.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/MissingMandatoryParametersException.php on line 20
+[09-Jun-2024 20:51:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/RuntimeException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/RuntimeException.php on line 14
+[09-Jun-2024 22:14:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/RuntimeException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/RuntimeException.php on line 14
+[09-Jun-2024 22:36:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/MethodNotAllowedException.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/MethodNotAllowedException.php on line 21
+[10-Jun-2024 01:52:21 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Routing\Exception\RuntimeException" not found in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/RouteCircularReferenceException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/RouteCircularReferenceException.php on line 14
+[10-Jun-2024 02:46:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/RouteNotFoundException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/RouteNotFoundException.php on line 19
+[10-Jun-2024 04:55:10 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Routing\Exception\ResourceNotFoundException" not found in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/NoConfigurationException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/NoConfigurationException.php on line 19
+[10-Jun-2024 05:20:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/MethodNotAllowedException.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/MethodNotAllowedException.php on line 21
+[10-Jun-2024 06:22:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/InvalidParameterException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/InvalidParameterException.php on line 19
+[10-Jun-2024 06:49:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/MissingMandatoryParametersException.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/MissingMandatoryParametersException.php on line 20
+[10-Jun-2024 07:01:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/RouteNotFoundException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/RouteNotFoundException.php on line 19
+[10-Jun-2024 07:22:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/ResourceNotFoundException.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/ResourceNotFoundException.php on line 21
+[10-Jun-2024 08:02:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/InvalidParameterException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/InvalidParameterException.php on line 19
+[10-Jun-2024 08:28:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/InvalidArgumentException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/routing/Exception/InvalidArgumentException.php on line 14

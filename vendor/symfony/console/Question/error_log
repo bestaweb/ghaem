@@ -1,0 +1,16 @@
+[09-Jun-2024 17:07:06 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Question\Question" not found in /home1/hozehgae/public_html/vendor/symfony/console/Question/ConfirmationQuestion.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/console/Question/ConfirmationQuestion.php on line 19
+[09-Jun-2024 21:30:44 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Question\Question" not found in /home1/hozehgae/public_html/vendor/symfony/console/Question/ChoiceQuestion.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/console/Question/ChoiceQuestion.php on line 21
+[09-Jun-2024 22:45:41 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Question\Question" not found in /home1/hozehgae/public_html/vendor/symfony/console/Question/ChoiceQuestion.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/console/Question/ChoiceQuestion.php on line 21
+[10-Jun-2024 01:31:04 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Question\Question" not found in /home1/hozehgae/public_html/vendor/symfony/console/Question/ConfirmationQuestion.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/console/Question/ConfirmationQuestion.php on line 19

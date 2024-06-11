@@ -1,0 +1,114 @@
+[09-Jun-2024 13:22:21 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Prompts\Prompt" not found in /home1/hozehgae/public_html/vendor/laravel/prompts/src/Table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/prompts/src/Table.php on line 7
+[09-Jun-2024 14:36:56 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Prompts\Prompt" not found in /home1/hozehgae/public_html/vendor/laravel/prompts/src/ConfirmPrompt.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/prompts/src/ConfirmPrompt.php on line 5
+[09-Jun-2024 14:59:48 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Prompts\Prompt" not found in /home1/hozehgae/public_html/vendor/laravel/prompts/src/TextPrompt.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/prompts/src/TextPrompt.php on line 5
+[09-Jun-2024 16:31:52 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Prompts\Prompt" not found in /home1/hozehgae/public_html/vendor/laravel/prompts/src/ConfirmPrompt.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/prompts/src/ConfirmPrompt.php on line 5
+[09-Jun-2024 16:49:13 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Prompts\Prompt" not found in /home1/hozehgae/public_html/vendor/laravel/prompts/src/TextareaPrompt.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/prompts/src/TextareaPrompt.php on line 5
+[09-Jun-2024 17:29:24 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Prompts\Prompt" not found in /home1/hozehgae/public_html/vendor/laravel/prompts/src/TextareaPrompt.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/prompts/src/TextareaPrompt.php on line 5
+[09-Jun-2024 17:30:10 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Prompts\Prompt" not found in /home1/hozehgae/public_html/vendor/laravel/prompts/src/MultiSelectPrompt.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/prompts/src/MultiSelectPrompt.php on line 7
+[09-Jun-2024 18:07:14 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Prompts\Prompt" not found in /home1/hozehgae/public_html/vendor/laravel/prompts/src/Note.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/prompts/src/Note.php on line 5
+[09-Jun-2024 18:27:45 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Prompts\Prompt" not found in /home1/hozehgae/public_html/vendor/laravel/prompts/src/MultiSearchPrompt.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/prompts/src/MultiSearchPrompt.php on line 7
+[09-Jun-2024 19:21:54 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Prompts\Prompt" not found in /home1/hozehgae/public_html/vendor/laravel/prompts/src/Progress.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/prompts/src/Progress.php on line 13
+[09-Jun-2024 20:20:35 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Prompts\Prompt" not found in /home1/hozehgae/public_html/vendor/laravel/prompts/src/SearchPrompt.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/prompts/src/SearchPrompt.php on line 8
+[09-Jun-2024 20:44:11 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Prompts\Prompt" not found in /home1/hozehgae/public_html/vendor/laravel/prompts/src/PausePrompt.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/prompts/src/PausePrompt.php on line 5
+[09-Jun-2024 20:59:48 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Prompts\Prompt" not found in /home1/hozehgae/public_html/vendor/laravel/prompts/src/Spinner.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/prompts/src/Spinner.php on line 8
+[09-Jun-2024 21:34:36 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Prompts\Prompt" not found in /home1/hozehgae/public_html/vendor/laravel/prompts/src/SuggestPrompt.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/prompts/src/SuggestPrompt.php on line 8
+[09-Jun-2024 22:19:03 UTC] PHP Fatal error:  Trait "Laravel\Prompts\Concerns\Colors" not found in /home1/hozehgae/public_html/vendor/laravel/prompts/src/Prompt.php on line 12
+[09-Jun-2024 23:49:38 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Prompts\Prompt" not found in /home1/hozehgae/public_html/vendor/laravel/prompts/src/SearchPrompt.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/prompts/src/SearchPrompt.php on line 8
+[10-Jun-2024 01:13:53 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Prompts\Prompt" not found in /home1/hozehgae/public_html/vendor/laravel/prompts/src/Spinner.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/prompts/src/Spinner.php on line 8
+[10-Jun-2024 01:23:29 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Prompts\Prompt" not found in /home1/hozehgae/public_html/vendor/laravel/prompts/src/SuggestPrompt.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/prompts/src/SuggestPrompt.php on line 8
+[10-Jun-2024 02:04:31 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Prompts\Prompt" not found in /home1/hozehgae/public_html/vendor/laravel/prompts/src/MultiSelectPrompt.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/prompts/src/MultiSelectPrompt.php on line 7
+[10-Jun-2024 02:29:51 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Prompts\Prompt" not found in /home1/hozehgae/public_html/vendor/laravel/prompts/src/Progress.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/prompts/src/Progress.php on line 13
+[10-Jun-2024 02:44:22 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Prompts\Prompt" not found in /home1/hozehgae/public_html/vendor/laravel/prompts/src/Note.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/prompts/src/Note.php on line 5
+[10-Jun-2024 03:05:30 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Prompts\Prompt" not found in /home1/hozehgae/public_html/vendor/laravel/prompts/src/PasswordPrompt.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/prompts/src/PasswordPrompt.php on line 5
+[10-Jun-2024 03:32:21 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Prompts\Prompt" not found in /home1/hozehgae/public_html/vendor/laravel/prompts/src/MultiSearchPrompt.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/prompts/src/MultiSearchPrompt.php on line 7
+[10-Jun-2024 04:47:42 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Prompts\Prompt" not found in /home1/hozehgae/public_html/vendor/laravel/prompts/src/TextPrompt.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/prompts/src/TextPrompt.php on line 5
+[10-Jun-2024 04:59:44 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Prompts\Prompt" not found in /home1/hozehgae/public_html/vendor/laravel/prompts/src/SelectPrompt.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/prompts/src/SelectPrompt.php on line 8
+[10-Jun-2024 05:05:30 UTC] PHP Fatal error:  Trait "Laravel\Prompts\Concerns\Colors" not found in /home1/hozehgae/public_html/vendor/laravel/prompts/src/Prompt.php on line 12
+[10-Jun-2024 05:47:50 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Prompts\Prompt" not found in /home1/hozehgae/public_html/vendor/laravel/prompts/src/PasswordPrompt.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/prompts/src/PasswordPrompt.php on line 5
+[10-Jun-2024 06:35:39 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Prompts\Prompt" not found in /home1/hozehgae/public_html/vendor/laravel/prompts/src/Table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/prompts/src/Table.php on line 7
+[10-Jun-2024 07:58:07 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Prompts\Prompt" not found in /home1/hozehgae/public_html/vendor/laravel/prompts/src/PausePrompt.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/prompts/src/PausePrompt.php on line 5
+[10-Jun-2024 10:03:02 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Prompts\Prompt" not found in /home1/hozehgae/public_html/vendor/laravel/prompts/src/SelectPrompt.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/prompts/src/SelectPrompt.php on line 8

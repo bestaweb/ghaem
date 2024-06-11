@@ -1,0 +1,24 @@
+[07-Jun-2024 00:45:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home1/hozehgae/public_html/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/routing/RouteCompiler.php on line 20
+[07-Jun-2024 01:42:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home1/hozehgae/public_html/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/routing/RouterInterface.php on line 24
+[07-Jun-2024 04:29:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home1/hozehgae/public_html/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/routing/Router.php on line 38
+[07-Jun-2024 07:47:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home1/hozehgae/public_html/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/routing/Router.php on line 38
+[07-Jun-2024 12:57:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home1/hozehgae/public_html/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/routing/RouteCompiler.php on line 20
+[07-Jun-2024 14:08:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home1/hozehgae/public_html/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/routing/RouterInterface.php on line 24

@@ -1,0 +1,16 @@
+[09-Jun-2024 16:46:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Firebase\JWT\JWTExceptionWithPayloadInterface" not found in /home1/hozehgae/public_html/vendor/firebase/php-jwt/src/ExpiredException.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/firebase/php-jwt/src/ExpiredException.php on line 5
+[10-Jun-2024 00:13:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Firebase\JWT\JWTExceptionWithPayloadInterface" not found in /home1/hozehgae/public_html/vendor/firebase/php-jwt/src/BeforeValidException.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/firebase/php-jwt/src/BeforeValidException.php on line 5
+[10-Jun-2024 00:27:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Firebase\JWT\JWTExceptionWithPayloadInterface" not found in /home1/hozehgae/public_html/vendor/firebase/php-jwt/src/ExpiredException.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/firebase/php-jwt/src/ExpiredException.php on line 5
+[10-Jun-2024 07:48:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Firebase\JWT\JWTExceptionWithPayloadInterface" not found in /home1/hozehgae/public_html/vendor/firebase/php-jwt/src/BeforeValidException.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/firebase/php-jwt/src/BeforeValidException.php on line 5

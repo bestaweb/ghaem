@@ -1,0 +1,24 @@
+[09-Jun-2024 15:14:27 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Command\Command" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Command/TranslationPushCommand.php:33
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Command/TranslationPushCommand.php on line 33
+[09-Jun-2024 19:54:40 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Command\Command" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Command/TranslationPushCommand.php:33
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Command/TranslationPushCommand.php on line 33
+[09-Jun-2024 20:04:55 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Command\Command" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Command/XliffLintCommand.php:36
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Command/XliffLintCommand.php on line 36
+[09-Jun-2024 23:18:02 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Command\Command" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Command/TranslationPullCommand.php:33
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Command/TranslationPullCommand.php on line 33
+[10-Jun-2024 00:09:53 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Command\Command" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Command/TranslationPullCommand.php:33
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Command/TranslationPullCommand.php on line 33
+[10-Jun-2024 08:06:26 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Command\Command" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Command/XliffLintCommand.php:36
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Command/XliffLintCommand.php on line 36

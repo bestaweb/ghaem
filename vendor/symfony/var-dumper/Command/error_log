@@ -1,0 +1,8 @@
+[10-Jun-2024 09:05:53 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Command\Command" not found in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Command/ServerDumpCommand.php:39
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Command/ServerDumpCommand.php on line 39
+[10-Jun-2024 09:57:53 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Command\Command" not found in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Command/ServerDumpCommand.php:39
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Command/ServerDumpCommand.php on line 39

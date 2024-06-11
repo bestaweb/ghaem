@@ -1,0 +1,8 @@
+[10-Jun-2024 03:01:42 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Input\ArgvInput" not found in /home1/hozehgae/public_html/vendor/symfony/console/Completion/CompletionInput.php:27
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/console/Completion/CompletionInput.php on line 27
+[10-Jun-2024 07:38:34 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Input\ArgvInput" not found in /home1/hozehgae/public_html/vendor/symfony/console/Completion/CompletionInput.php:27
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/console/Completion/CompletionInput.php on line 27

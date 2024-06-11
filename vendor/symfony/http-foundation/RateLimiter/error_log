@@ -1,0 +1,16 @@
+[09-Jun-2024 14:37:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpFoundation\RateLimiter\RequestRateLimiterInterface" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/RateLimiter/PeekableRequestRateLimiterInterface.php:32
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/RateLimiter/PeekableRequestRateLimiterInterface.php on line 32
+[10-Jun-2024 01:56:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpFoundation\RateLimiter\RequestRateLimiterInterface" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/RateLimiter/PeekableRequestRateLimiterInterface.php:32
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/RateLimiter/PeekableRequestRateLimiterInterface.php on line 32
+[10-Jun-2024 05:49:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpFoundation\RateLimiter\PeekableRequestRateLimiterInterface" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/RateLimiter/AbstractRequestRateLimiter.php:25
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/RateLimiter/AbstractRequestRateLimiter.php on line 25
+[10-Jun-2024 07:37:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpFoundation\RateLimiter\PeekableRequestRateLimiterInterface" not found in /home1/hozehgae/public_html/vendor/symfony/http-foundation/RateLimiter/AbstractRequestRateLimiter.php:25
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-foundation/RateLimiter/AbstractRequestRateLimiter.php on line 25

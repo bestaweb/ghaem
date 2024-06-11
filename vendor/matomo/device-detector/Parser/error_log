@@ -1,0 +1,32 @@
+[09-Jun-2024 14:41:37 UTC] PHP Fatal error:  Uncaught Error: Class "DeviceDetector\Parser\AbstractBotParser" not found in /home1/hozehgae/public_html/vendor/matomo/device-detector/Parser/Bot.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/matomo/device-detector/Parser/Bot.php on line 22
+[09-Jun-2024 18:30:31 UTC] PHP Fatal error:  Uncaught Error: Class "DeviceDetector\Parser\AbstractParser" not found in /home1/hozehgae/public_html/vendor/matomo/device-detector/Parser/VendorFragment.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/matomo/device-detector/Parser/VendorFragment.php on line 20
+[09-Jun-2024 19:48:52 UTC] PHP Fatal error:  Uncaught Error: Class "DeviceDetector\Parser\AbstractParser" not found in /home1/hozehgae/public_html/vendor/matomo/device-detector/Parser/OperatingSystem.php:25
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/matomo/device-detector/Parser/OperatingSystem.php on line 25
+[09-Jun-2024 20:15:42 UTC] PHP Fatal error:  Uncaught Error: Class "DeviceDetector\Parser\AbstractParser" not found in /home1/hozehgae/public_html/vendor/matomo/device-detector/Parser/AbstractBotParser.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/matomo/device-detector/Parser/AbstractBotParser.php on line 20
+[10-Jun-2024 04:54:00 UTC] PHP Fatal error:  Uncaught Error: Class "DeviceDetector\Parser\AbstractParser" not found in /home1/hozehgae/public_html/vendor/matomo/device-detector/Parser/VendorFragment.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/matomo/device-detector/Parser/VendorFragment.php on line 20
+[10-Jun-2024 05:34:14 UTC] PHP Fatal error:  Uncaught Error: Class "DeviceDetector\Parser\AbstractParser" not found in /home1/hozehgae/public_html/vendor/matomo/device-detector/Parser/AbstractBotParser.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/matomo/device-detector/Parser/AbstractBotParser.php on line 20
+[10-Jun-2024 08:13:40 UTC] PHP Fatal error:  Uncaught Error: Class "DeviceDetector\Parser\AbstractBotParser" not found in /home1/hozehgae/public_html/vendor/matomo/device-detector/Parser/Bot.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/matomo/device-detector/Parser/Bot.php on line 22
+[10-Jun-2024 08:20:25 UTC] PHP Fatal error:  Uncaught Error: Class "DeviceDetector\Parser\AbstractParser" not found in /home1/hozehgae/public_html/vendor/matomo/device-detector/Parser/OperatingSystem.php:25
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/matomo/device-detector/Parser/OperatingSystem.php on line 25

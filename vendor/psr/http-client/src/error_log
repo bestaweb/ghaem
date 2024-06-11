@@ -1,0 +1,16 @@
+[09-Jun-2024 17:42:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Client\ClientExceptionInterface" not found in /home1/hozehgae/public_html/vendor/psr/http-client/src/NetworkExceptionInterface.php:14
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/psr/http-client/src/NetworkExceptionInterface.php on line 14
+[09-Jun-2024 19:40:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Client\ClientExceptionInterface" not found in /home1/hozehgae/public_html/vendor/psr/http-client/src/NetworkExceptionInterface.php:14
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/psr/http-client/src/NetworkExceptionInterface.php on line 14
+[10-Jun-2024 01:14:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Client\ClientExceptionInterface" not found in /home1/hozehgae/public_html/vendor/psr/http-client/src/RequestExceptionInterface.php:14
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/psr/http-client/src/RequestExceptionInterface.php on line 14
+[10-Jun-2024 01:35:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Client\ClientExceptionInterface" not found in /home1/hozehgae/public_html/vendor/psr/http-client/src/RequestExceptionInterface.php:14
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/psr/http-client/src/RequestExceptionInterface.php on line 14

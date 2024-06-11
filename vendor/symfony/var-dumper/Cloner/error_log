@@ -1,0 +1,16 @@
+[09-Jun-2024 15:40:20 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\AbstractCloner" not found in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Cloner/VarCloner.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Cloner/VarCloner.php on line 17
+[10-Jun-2024 00:02:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\VarDumper\Cloner\ClonerInterface" not found in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Cloner/AbstractCloner.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Cloner/AbstractCloner.php on line 22
+[10-Jun-2024 05:15:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\VarDumper\Cloner\ClonerInterface" not found in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Cloner/AbstractCloner.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Cloner/AbstractCloner.php on line 22
+[10-Jun-2024 08:39:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\AbstractCloner" not found in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Cloner/VarCloner.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/var-dumper/Cloner/VarCloner.php on line 17

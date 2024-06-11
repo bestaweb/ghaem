@@ -1,0 +1,32 @@
+[09-Jun-2024 15:03:53 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Transport\AbstractHttpTransport" not found in /home1/hozehgae/public_html/vendor/symfony/mailgun-mailer/Transport/MailgunHttpTransport.php:29
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailgun-mailer/Transport/MailgunHttpTransport.php on line 29
+[09-Jun-2024 15:27:08 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Transport\AbstractTransportFactory" not found in /home1/hozehgae/public_html/vendor/symfony/mailgun-mailer/Transport/MailgunTransportFactory.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailgun-mailer/Transport/MailgunTransportFactory.php on line 22
+[09-Jun-2024 16:12:57 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Transport\AbstractTransportFactory" not found in /home1/hozehgae/public_html/vendor/symfony/mailgun-mailer/Transport/MailgunTransportFactory.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailgun-mailer/Transport/MailgunTransportFactory.php on line 22
+[09-Jun-2024 19:40:07 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Transport\AbstractHttpTransport" not found in /home1/hozehgae/public_html/vendor/symfony/mailgun-mailer/Transport/MailgunHttpTransport.php:29
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailgun-mailer/Transport/MailgunHttpTransport.php on line 29
+[09-Jun-2024 23:25:49 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Transport\AbstractApiTransport" not found in /home1/hozehgae/public_html/vendor/symfony/mailgun-mailer/Transport/MailgunApiTransport.php:32
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailgun-mailer/Transport/MailgunApiTransport.php on line 32
+[10-Jun-2024 01:42:12 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Transport\AbstractApiTransport" not found in /home1/hozehgae/public_html/vendor/symfony/mailgun-mailer/Transport/MailgunApiTransport.php:32
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailgun-mailer/Transport/MailgunApiTransport.php on line 32
+[10-Jun-2024 02:36:15 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Transport\Smtp\EsmtpTransport" not found in /home1/hozehgae/public_html/vendor/symfony/mailgun-mailer/Transport/MailgunSmtpTransport.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailgun-mailer/Transport/MailgunSmtpTransport.php on line 21
+[10-Jun-2024 08:25:04 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Transport\Smtp\EsmtpTransport" not found in /home1/hozehgae/public_html/vendor/symfony/mailgun-mailer/Transport/MailgunSmtpTransport.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailgun-mailer/Transport/MailgunSmtpTransport.php on line 21

@@ -1,0 +1,40 @@
+[09-Jun-2024 14:47:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Exception/RfcComplianceException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Exception/RfcComplianceException.php on line 17
+[09-Jun-2024 15:08:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Exception/LogicException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Exception/LogicException.php on line 17
+[09-Jun-2024 16:08:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Exception/RuntimeException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Exception/RuntimeException.php on line 17
+[09-Jun-2024 16:47:57 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Exception\RfcComplianceException" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Exception/AddressEncoderException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Exception/AddressEncoderException.php on line 17
+[09-Jun-2024 23:11:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Exception/InvalidArgumentException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Exception/InvalidArgumentException.php on line 17
+[10-Jun-2024 04:46:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Exception/LogicException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Exception/LogicException.php on line 17
+[10-Jun-2024 07:20:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Exception/RuntimeException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Exception/RuntimeException.php on line 17
+[10-Jun-2024 07:30:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Exception/RfcComplianceException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Exception/RfcComplianceException.php on line 17
+[10-Jun-2024 07:44:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\Exception\ExceptionInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Exception/InvalidArgumentException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Exception/InvalidArgumentException.php on line 17
+[10-Jun-2024 09:15:20 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Exception\RfcComplianceException" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Exception/AddressEncoderException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Exception/AddressEncoderException.php on line 17

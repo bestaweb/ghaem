@@ -1,0 +1,24 @@
+[09-Jun-2024 15:58:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home1/hozehgae/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedMethodErrorEnhancer.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedMethodErrorEnhancer.php on line 20
+[09-Jun-2024 22:22:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home1/hozehgae/public_html/vendor/symfony/error-handler/ErrorEnhancer/ClassNotFoundErrorEnhancer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/error-handler/ErrorEnhancer/ClassNotFoundErrorEnhancer.php on line 22
+[10-Jun-2024 01:55:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home1/hozehgae/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedFunctionErrorEnhancer.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedFunctionErrorEnhancer.php on line 20
+[10-Jun-2024 04:59:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home1/hozehgae/public_html/vendor/symfony/error-handler/ErrorEnhancer/ClassNotFoundErrorEnhancer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/error-handler/ErrorEnhancer/ClassNotFoundErrorEnhancer.php on line 22
+[10-Jun-2024 07:46:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home1/hozehgae/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedFunctionErrorEnhancer.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedFunctionErrorEnhancer.php on line 20
+[10-Jun-2024 08:47:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home1/hozehgae/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedMethodErrorEnhancer.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedMethodErrorEnhancer.php on line 20

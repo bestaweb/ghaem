@@ -1,0 +1,32 @@
+[09-Jun-2024 17:41:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home1/hozehgae/public_html/vendor/laravel/ui/src/UiServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/ui/src/UiServiceProvider.php on line 8
+[09-Jun-2024 18:05:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home1/hozehgae/public_html/vendor/laravel/ui/src/UiCommand.php:10
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/ui/src/UiCommand.php on line 10
+[09-Jun-2024 21:04:26 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home1/hozehgae/public_html/vendor/laravel/ui/src/UiCommand.php:10
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/ui/src/UiCommand.php on line 10
+[10-Jun-2024 01:11:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home1/hozehgae/public_html/vendor/laravel/ui/src/AuthCommand.php:10
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/ui/src/AuthCommand.php on line 10
+[10-Jun-2024 01:14:02 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home1/hozehgae/public_html/vendor/laravel/ui/src/AuthCommand.php:10
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/ui/src/AuthCommand.php on line 10
+[10-Jun-2024 05:48:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home1/hozehgae/public_html/vendor/laravel/ui/src/ControllersCommand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/ui/src/ControllersCommand.php on line 12
+[10-Jun-2024 08:05:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home1/hozehgae/public_html/vendor/laravel/ui/src/ControllersCommand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/ui/src/ControllersCommand.php on line 12
+[10-Jun-2024 08:44:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home1/hozehgae/public_html/vendor/laravel/ui/src/UiServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/laravel/ui/src/UiServiceProvider.php on line 8

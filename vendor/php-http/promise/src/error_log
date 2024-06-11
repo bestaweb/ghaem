@@ -1,0 +1,16 @@
+[09-Jun-2024 18:09:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Http\Promise\Promise" not found in /home1/hozehgae/public_html/vendor/php-http/promise/src/RejectedPromise.php:10
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/php-http/promise/src/RejectedPromise.php on line 10
+[09-Jun-2024 20:36:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Http\Promise\Promise" not found in /home1/hozehgae/public_html/vendor/php-http/promise/src/FulfilledPromise.php:10
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/php-http/promise/src/FulfilledPromise.php on line 10
+[09-Jun-2024 22:50:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Http\Promise\Promise" not found in /home1/hozehgae/public_html/vendor/php-http/promise/src/RejectedPromise.php:10
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/php-http/promise/src/RejectedPromise.php on line 10
+[10-Jun-2024 07:50:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Http\Promise\Promise" not found in /home1/hozehgae/public_html/vendor/php-http/promise/src/FulfilledPromise.php:10
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/php-http/promise/src/FulfilledPromise.php on line 10

@@ -1,0 +1,8 @@
+[09-Jun-2024 17:16:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\XPath\TranslatorInterface" not found in /home1/hozehgae/public_html/vendor/symfony/css-selector/XPath/Translator.php:31
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/css-selector/XPath/Translator.php on line 31
+[09-Jun-2024 20:15:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\XPath\TranslatorInterface" not found in /home1/hozehgae/public_html/vendor/symfony/css-selector/XPath/Translator.php:31
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/css-selector/XPath/Translator.php on line 31

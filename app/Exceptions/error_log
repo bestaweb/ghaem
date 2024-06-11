@@ -1,0 +1,8 @@
+[04-Jun-2024 10:13:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Exceptions\Handler" not found in /home1/hozehgae/public_html/app/Exceptions/Handler.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/app/Exceptions/Handler.php on line 8
+[04-Jun-2024 21:43:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Exceptions\Handler" not found in /home1/hozehgae/public_html/app/Exceptions/Handler.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/app/Exceptions/Handler.php on line 8

@@ -1,0 +1,16 @@
+[09-Jun-2024 15:43:47 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Test/ProviderFactoryTestCase.php:32
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Test/ProviderFactoryTestCase.php on line 32
+[09-Jun-2024 21:18:24 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Test/ProviderTestCase.php:29
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Test/ProviderTestCase.php on line 29
+[09-Jun-2024 23:18:55 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Test/ProviderFactoryTestCase.php:32
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Test/ProviderFactoryTestCase.php on line 32
+[10-Jun-2024 00:59:48 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home1/hozehgae/public_html/vendor/symfony/translation/Test/ProviderTestCase.php:29
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/translation/Test/ProviderTestCase.php on line 29

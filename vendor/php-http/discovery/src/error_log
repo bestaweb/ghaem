@@ -1,0 +1,80 @@
+[09-Jun-2024 14:05:17 UTC] PHP Fatal error:  Uncaught Error: Class "Http\Discovery\Exception\NotFoundException" not found in /home1/hozehgae/public_html/vendor/php-http/discovery/src/NotFoundException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/php-http/discovery/src/NotFoundException.php on line 14
+[09-Jun-2024 14:16:49 UTC] PHP Fatal error:  Uncaught Error: Class "Http\Discovery\ClassDiscovery" not found in /home1/hozehgae/public_html/vendor/php-http/discovery/src/StreamFactoryDiscovery.php:15
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/php-http/discovery/src/StreamFactoryDiscovery.php on line 15
+[09-Jun-2024 15:16:19 UTC] PHP Fatal error:  Uncaught Error: Class "Http\Discovery\ClassDiscovery" not found in /home1/hozehgae/public_html/vendor/php-http/discovery/src/HttpClientDiscovery.php:15
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/php-http/discovery/src/HttpClientDiscovery.php on line 15
+[09-Jun-2024 16:42:41 UTC] PHP Fatal error:  Uncaught Error: Class "Http\Discovery\ClassDiscovery" not found in /home1/hozehgae/public_html/vendor/php-http/discovery/src/HttpAsyncClientDiscovery.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/php-http/discovery/src/HttpAsyncClientDiscovery.php on line 13
+[09-Jun-2024 16:57:27 UTC] PHP Fatal error:  Uncaught Error: Class "Http\Discovery\ClassDiscovery" not found in /home1/hozehgae/public_html/vendor/php-http/discovery/src/MessageFactoryDiscovery.php:15
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/php-http/discovery/src/MessageFactoryDiscovery.php on line 15
+[09-Jun-2024 18:58:03 UTC] PHP Fatal error:  Uncaught Error: Class "Http\Discovery\ClassDiscovery" not found in /home1/hozehgae/public_html/vendor/php-http/discovery/src/MessageFactoryDiscovery.php:15
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/php-http/discovery/src/MessageFactoryDiscovery.php on line 15
+[09-Jun-2024 19:46:18 UTC] PHP Fatal error:  Uncaught Error: Class "Http\Discovery\ClassDiscovery" not found in /home1/hozehgae/public_html/vendor/php-http/discovery/src/UriFactoryDiscovery.php:15
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/php-http/discovery/src/UriFactoryDiscovery.php on line 15
+[09-Jun-2024 20:16:29 UTC] PHP Fatal error:  Uncaught Error: Class "Http\Discovery\ClassDiscovery" not found in /home1/hozehgae/public_html/vendor/php-http/discovery/src/StreamFactoryDiscovery.php:15
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/php-http/discovery/src/StreamFactoryDiscovery.php on line 15
+[09-Jun-2024 20:17:15 UTC] PHP Fatal error:  Uncaught Error: Class "Http\Discovery\ClassDiscovery" not found in /home1/hozehgae/public_html/vendor/php-http/discovery/src/Psr17FactoryDiscovery.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/php-http/discovery/src/Psr17FactoryDiscovery.php on line 19
+[09-Jun-2024 21:26:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Message\RequestFactoryInterface" not found in /home1/hozehgae/public_html/vendor/php-http/discovery/src/Psr17Factory.php:42
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/php-http/discovery/src/Psr17Factory.php on line 42
+[09-Jun-2024 22:50:32 UTC] PHP Fatal error:  Uncaught Error: Class "Http\Discovery\ClassDiscovery" not found in /home1/hozehgae/public_html/vendor/php-http/discovery/src/HttpAsyncClientDiscovery.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/php-http/discovery/src/HttpAsyncClientDiscovery.php on line 13
+[09-Jun-2024 23:17:10 UTC] PHP Fatal error:  Uncaught Error: Class "Http\Discovery\ClassDiscovery" not found in /home1/hozehgae/public_html/vendor/php-http/discovery/src/Psr18ClientDiscovery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/php-http/discovery/src/Psr18ClientDiscovery.php on line 14
+[10-Jun-2024 00:10:00 UTC] PHP Fatal error:  Uncaught Error: Class "Http\Discovery\ClassDiscovery" not found in /home1/hozehgae/public_html/vendor/php-http/discovery/src/Psr18ClientDiscovery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/php-http/discovery/src/Psr18ClientDiscovery.php on line 14
+[10-Jun-2024 01:02:33 UTC] PHP Fatal error:  Uncaught Error: Class "Http\Discovery\ClassDiscovery" not found in /home1/hozehgae/public_html/vendor/php-http/discovery/src/HttpClientDiscovery.php:15
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/php-http/discovery/src/HttpClientDiscovery.php on line 15
+[10-Jun-2024 01:50:48 UTC] PHP Fatal error:  Uncaught Error: Class "Http\Discovery\ClassDiscovery" not found in /home1/hozehgae/public_html/vendor/php-http/discovery/src/Psr17FactoryDiscovery.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/php-http/discovery/src/Psr17FactoryDiscovery.php on line 19
+[10-Jun-2024 02:26:37 UTC] PHP Fatal error:  Uncaught Error: Class "Http\Discovery\ClassDiscovery" not found in /home1/hozehgae/public_html/vendor/php-http/discovery/src/UriFactoryDiscovery.php:15
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/php-http/discovery/src/UriFactoryDiscovery.php on line 15
+[10-Jun-2024 04:02:00 UTC] PHP Fatal error:  Uncaught Error: Class "Http\Discovery\Psr17Factory" not found in /home1/hozehgae/public_html/vendor/php-http/discovery/src/Psr18Client.php:23
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/php-http/discovery/src/Psr18Client.php on line 23
+[10-Jun-2024 06:50:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Message\RequestFactoryInterface" not found in /home1/hozehgae/public_html/vendor/php-http/discovery/src/Psr17Factory.php:42
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/php-http/discovery/src/Psr17Factory.php on line 42
+[10-Jun-2024 07:54:10 UTC] PHP Fatal error:  Uncaught Error: Class "Http\Discovery\Psr17Factory" not found in /home1/hozehgae/public_html/vendor/php-http/discovery/src/Psr18Client.php:23
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/php-http/discovery/src/Psr18Client.php on line 23
+[10-Jun-2024 08:57:59 UTC] PHP Fatal error:  Uncaught Error: Class "Http\Discovery\Exception\NotFoundException" not found in /home1/hozehgae/public_html/vendor/php-http/discovery/src/NotFoundException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/php-http/discovery/src/NotFoundException.php on line 14

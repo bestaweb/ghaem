@@ -1,0 +1,12 @@
+[09-Jun-2024 19:59:55 UTC] PHP Warning:  require(/home1/hozehgae/public_html/vendor/namshi/jose/tests/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/hozehgae/public_html/vendor/namshi/jose/tests/bootstrap.php on line 3
+[09-Jun-2024 19:59:55 UTC] PHP Warning:  require(/home1/hozehgae/public_html/vendor/namshi/jose/tests/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/hozehgae/public_html/vendor/namshi/jose/tests/bootstrap.php on line 3
+[09-Jun-2024 19:59:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/hozehgae/public_html/vendor/namshi/jose/tests/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/hozehgae/public_html/vendor/namshi/jose/tests/bootstrap.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/namshi/jose/tests/bootstrap.php on line 3
+[09-Jun-2024 23:13:11 UTC] PHP Warning:  require(/home1/hozehgae/public_html/vendor/namshi/jose/tests/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/hozehgae/public_html/vendor/namshi/jose/tests/bootstrap.php on line 3
+[09-Jun-2024 23:13:11 UTC] PHP Warning:  require(/home1/hozehgae/public_html/vendor/namshi/jose/tests/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/hozehgae/public_html/vendor/namshi/jose/tests/bootstrap.php on line 3
+[09-Jun-2024 23:13:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/hozehgae/public_html/vendor/namshi/jose/tests/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/hozehgae/public_html/vendor/namshi/jose/tests/bootstrap.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/namshi/jose/tests/bootstrap.php on line 3

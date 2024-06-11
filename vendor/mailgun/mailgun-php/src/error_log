@@ -1,0 +1,8 @@
+[10-Jun-2024 09:54:37 UTC] PHP Fatal error:  Uncaught Error: Class "Webmozart\Assert\Assert" not found in /home1/hozehgae/public_html/vendor/mailgun/mailgun-php/src/Assert.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/mailgun/mailgun-php/src/Assert.php on line 21
+[10-Jun-2024 10:15:12 UTC] PHP Fatal error:  Uncaught Error: Class "Webmozart\Assert\Assert" not found in /home1/hozehgae/public_html/vendor/mailgun/mailgun-php/src/Assert.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/mailgun/mailgun-php/src/Assert.php on line 21

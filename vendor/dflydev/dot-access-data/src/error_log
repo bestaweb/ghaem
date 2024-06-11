@@ -1,0 +1,8 @@
+[09-Jun-2024 21:26:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Dflydev\DotAccessData\DataInterface" not found in /home1/hozehgae/public_html/vendor/dflydev/dot-access-data/src/Data.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/dflydev/dot-access-data/src/Data.php on line 24
+[10-Jun-2024 09:02:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Dflydev\DotAccessData\DataInterface" not found in /home1/hozehgae/public_html/vendor/dflydev/dot-access-data/src/Data.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/dflydev/dot-access-data/src/Data.php on line 24

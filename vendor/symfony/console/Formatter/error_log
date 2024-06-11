@@ -1,0 +1,48 @@
+[09-Jun-2024 15:09:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Formatter\OutputFormatterStyleInterface" not found in /home1/hozehgae/public_html/vendor/symfony/console/Formatter/NullOutputFormatterStyle.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/console/Formatter/NullOutputFormatterStyle.php on line 17
+[09-Jun-2024 16:49:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Formatter\OutputFormatterStyleInterface" not found in /home1/hozehgae/public_html/vendor/symfony/console/Formatter/NullOutputFormatterStyle.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/console/Formatter/NullOutputFormatterStyle.php on line 17
+[09-Jun-2024 17:06:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home1/hozehgae/public_html/vendor/symfony/console/Formatter/OutputFormatterStyleStack.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/console/Formatter/OutputFormatterStyleStack.php on line 20
+[09-Jun-2024 19:24:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Formatter\WrappableOutputFormatterInterface" not found in /home1/hozehgae/public_html/vendor/symfony/console/Formatter/OutputFormatter.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/console/Formatter/OutputFormatter.php on line 24
+[09-Jun-2024 19:31:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Formatter\OutputFormatterInterface" not found in /home1/hozehgae/public_html/vendor/symfony/console/Formatter/WrappableOutputFormatterInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/console/Formatter/WrappableOutputFormatterInterface.php on line 19
+[09-Jun-2024 20:25:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Formatter\OutputFormatterInterface" not found in /home1/hozehgae/public_html/vendor/symfony/console/Formatter/WrappableOutputFormatterInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/console/Formatter/WrappableOutputFormatterInterface.php on line 19
+[09-Jun-2024 22:26:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home1/hozehgae/public_html/vendor/symfony/console/Formatter/OutputFormatterStyleStack.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/console/Formatter/OutputFormatterStyleStack.php on line 20
+[09-Jun-2024 23:47:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Formatter\OutputFormatterInterface" not found in /home1/hozehgae/public_html/vendor/symfony/console/Formatter/NullOutputFormatter.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/console/Formatter/NullOutputFormatter.php on line 17
+[10-Jun-2024 02:43:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Formatter\OutputFormatterStyleInterface" not found in /home1/hozehgae/public_html/vendor/symfony/console/Formatter/OutputFormatterStyle.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/console/Formatter/OutputFormatterStyle.php on line 21
+[10-Jun-2024 05:40:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Formatter\OutputFormatterInterface" not found in /home1/hozehgae/public_html/vendor/symfony/console/Formatter/NullOutputFormatter.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/console/Formatter/NullOutputFormatter.php on line 17
+[10-Jun-2024 06:53:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Formatter\OutputFormatterStyleInterface" not found in /home1/hozehgae/public_html/vendor/symfony/console/Formatter/OutputFormatterStyle.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/console/Formatter/OutputFormatterStyle.php on line 21
+[10-Jun-2024 08:14:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Formatter\WrappableOutputFormatterInterface" not found in /home1/hozehgae/public_html/vendor/symfony/console/Formatter/OutputFormatter.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/console/Formatter/OutputFormatter.php on line 24

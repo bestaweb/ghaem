@@ -1,0 +1,40 @@
+[09-Jun-2024 15:01:25 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Part\AbstractPart" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Part/AbstractMultipartPart.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Part/AbstractMultipartPart.php on line 19
+[09-Jun-2024 15:46:04 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Part\AbstractPart" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Part/SMimePart.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Part/SMimePart.php on line 19
+[09-Jun-2024 22:30:52 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Part\TextPart" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Part/DataPart.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Part/DataPart.php on line 20
+[09-Jun-2024 23:25:40 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Part\DataPart" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Part/MessagePart.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Part/MessagePart.php on line 22
+[10-Jun-2024 02:38:19 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Part\AbstractPart" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Part/TextPart.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Part/TextPart.php on line 24
+[10-Jun-2024 02:58:10 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Part\AbstractPart" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Part/SMimePart.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Part/SMimePart.php on line 19
+[10-Jun-2024 03:43:13 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Part\AbstractPart" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Part/TextPart.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Part/TextPart.php on line 24
+[10-Jun-2024 05:00:15 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Part\AbstractPart" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Part/AbstractMultipartPart.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Part/AbstractMultipartPart.php on line 19
+[10-Jun-2024 06:21:29 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Part\TextPart" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Part/DataPart.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Part/DataPart.php on line 20
+[10-Jun-2024 08:40:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Part\DataPart" not found in /home1/hozehgae/public_html/vendor/symfony/mime/Part/MessagePart.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mime/Part/MessagePart.php on line 22

@@ -1,0 +1,98 @@
+[09-Jun-2024 15:31:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/AddAnnotatedClassesToCachePass.php:25
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/AddAnnotatedClassesToCachePass.php on line 25
+[09-Jun-2024 16:04:51 UTC] PHP Fatal error:  Trait "Symfony\Component\DependencyInjection\Compiler\PriorityTaggedServiceTrait" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/ControllerArgumentValueResolverPass.php on line 29
+[09-Jun-2024 16:09:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/RemoveEmptyControllerArgumentLocatorsPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/RemoveEmptyControllerArgumentLocatorsPass.php on line 22
+[09-Jun-2024 16:36:16 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\DependencyInjection\Compiler\MergeExtensionConfigurationPass" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/MergeExtensionConfigurationPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/MergeExtensionConfigurationPass.php on line 22
+[09-Jun-2024 16:48:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterControllerArgumentLocatorsPass.php:35
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterControllerArgumentLocatorsPass.php on line 35
+[09-Jun-2024 17:08:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/RemoveEmptyControllerArgumentLocatorsPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/RemoveEmptyControllerArgumentLocatorsPass.php on line 22
+[09-Jun-2024 17:09:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/ResettableServicePass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/ResettableServicePass.php on line 24
+[09-Jun-2024 17:45:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterLocaleAwareServicesPass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterLocaleAwareServicesPass.php on line 24
+[09-Jun-2024 18:11:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/LoggerPass.php:26
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/LoggerPass.php on line 26
+[09-Jun-2024 18:24:09 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\DependencyInjection\Compiler\MergeExtensionConfigurationPass" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/MergeExtensionConfigurationPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/MergeExtensionConfigurationPass.php on line 22
+[09-Jun-2024 19:38:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/AddAnnotatedClassesToCachePass.php:25
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/AddAnnotatedClassesToCachePass.php on line 25
+[09-Jun-2024 20:55:37 UTC] PHP Fatal error:  Trait "Symfony\Component\DependencyInjection\Compiler\PriorityTaggedServiceTrait" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/ControllerArgumentValueResolverPass.php on line 29
+[09-Jun-2024 22:08:49 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DependencyInjection\Extension" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/ConfigurableExtension.php:28
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/ConfigurableExtension.php on line 28
+[09-Jun-2024 23:14:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterLocaleAwareServicesPass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterLocaleAwareServicesPass.php on line 24
+[10-Jun-2024 01:08:08 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Fragment\FragmentHandler" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/LazyLoadingFragmentHandler.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/LazyLoadingFragmentHandler.php on line 24
+[10-Jun-2024 01:29:49 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\DependencyInjection\Extension\Extension" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/Extension.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/Extension.php on line 21
+[10-Jun-2024 02:58:29 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DependencyInjection\Extension" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/ConfigurableExtension.php:28
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/ConfigurableExtension.php on line 28
+[10-Jun-2024 03:21:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/ServicesResetter.php:26
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/ServicesResetter.php on line 26
+[10-Jun-2024 03:37:39 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Fragment\FragmentHandler" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/LazyLoadingFragmentHandler.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/LazyLoadingFragmentHandler.php on line 24
+[10-Jun-2024 03:40:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/FragmentRendererPass.php:26
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/FragmentRendererPass.php on line 26
+[10-Jun-2024 03:42:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/LoggerPass.php:26
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/LoggerPass.php on line 26
+[10-Jun-2024 05:36:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/FragmentRendererPass.php:26
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/FragmentRendererPass.php on line 26
+[10-Jun-2024 07:59:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/ResettableServicePass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/ResettableServicePass.php on line 24
+[10-Jun-2024 08:58:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterControllerArgumentLocatorsPass.php:35
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterControllerArgumentLocatorsPass.php on line 35
+[10-Jun-2024 09:26:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/ServicesResetter.php:26
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/ServicesResetter.php on line 26
+[10-Jun-2024 09:30:25 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\DependencyInjection\Extension\Extension" not found in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/Extension.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/http-kernel/DependencyInjection/Extension.php on line 21

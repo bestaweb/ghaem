@@ -1,0 +1,8 @@
+[09-Jun-2024 18:31:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\RemoteEvent\PayloadConverterInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mailgun-mailer/RemoteEvent/MailgunPayloadConverter.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailgun-mailer/RemoteEvent/MailgunPayloadConverter.php on line 20
+[10-Jun-2024 06:40:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\RemoteEvent\PayloadConverterInterface" not found in /home1/hozehgae/public_html/vendor/symfony/mailgun-mailer/RemoteEvent/MailgunPayloadConverter.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/symfony/mailgun-mailer/RemoteEvent/MailgunPayloadConverter.php on line 20

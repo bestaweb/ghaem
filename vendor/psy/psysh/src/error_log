@@ -1,0 +1,32 @@
+[09-Jun-2024 16:17:25 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\ExecutionClosure" not found in /home1/hozehgae/public_html/vendor/psy/psysh/src/ExecutionLoopClosure.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/psy/psysh/src/ExecutionLoopClosure.php on line 22
+[09-Jun-2024 17:59:06 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\ExecutionClosure" not found in /home1/hozehgae/public_html/vendor/psy/psysh/src/ExecutionLoopClosure.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/psy/psysh/src/ExecutionLoopClosure.php on line 22
+[09-Jun-2024 21:15:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\EnvInterface" not found in /home1/hozehgae/public_html/vendor/psy/psysh/src/SuperglobalsEnv.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/psy/psysh/src/SuperglobalsEnv.php on line 17
+[09-Jun-2024 21:57:27 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Application" not found in /home1/hozehgae/public_html/vendor/psy/psysh/src/Shell.php:51
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/psy/psysh/src/Shell.php on line 51
+[09-Jun-2024 22:16:03 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Application" not found in /home1/hozehgae/public_html/vendor/psy/psysh/src/Shell.php:51
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/psy/psysh/src/Shell.php on line 51
+[10-Jun-2024 00:36:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\EnvInterface" not found in /home1/hozehgae/public_html/vendor/psy/psysh/src/SuperglobalsEnv.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/psy/psysh/src/SuperglobalsEnv.php on line 17
+[10-Jun-2024 03:53:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\EnvInterface" not found in /home1/hozehgae/public_html/vendor/psy/psysh/src/SystemEnv.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/psy/psysh/src/SystemEnv.php on line 17
+[10-Jun-2024 04:57:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\EnvInterface" not found in /home1/hozehgae/public_html/vendor/psy/psysh/src/SystemEnv.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/hozehgae/public_html/vendor/psy/psysh/src/SystemEnv.php on line 17
