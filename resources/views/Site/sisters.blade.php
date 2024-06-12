@@ -109,7 +109,7 @@
     <section class="services-area ptb-100">
         <div class="container">
             <div class="section-title text-left">
-                <h2>نشست های دوره ای</h2>
+                <h2>سلسله نشست های دوره ای حوزه</h2>
             </div>
 
             <div class="row">
@@ -118,10 +118,10 @@
                         <div class="row m-0">
                             <div class="col-lg-6 col-md-12 p-0">
                                 <div class="content">
-                                    <h3><a href="single-service.html">نشست خانواده و تربیت</a></h3>
+                                    <h3><a href="{{url('/single-service1')}}">نشست خانواده و تربیت</a></h3>
                                     <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال
                                         استاندارد صنعت بوده است.</p>
-                                    <a href="single-service.html" class="read-more-btn">ادامه مطلب <i
+                                    <a href="{{url('/single-service1')}}" class="read-more-btn">ادامه مطلب <i
                                             class='bx bx-left-arrow-alt'></i></a>
                                 </div>
                             </div>
@@ -140,10 +140,10 @@
                         <div class="row m-0">
                             <div class="col-lg-6 col-md-12 p-0">
                                 <div class="content">
-                                    <h3><a href="single-service.html">نشست مهدویت و رسانه</a></h3>
+                                    <h3><a href="{{url('/single-service2')}}">نشست مهدویت و رسانه</a></h3>
                                     <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال
                                         استاندارد صنعت بوده است.</p>
-                                    <a href="single-service.html" class="read-more-btn">ادامه مطلب <i
+                                    <a href="{{url('/single-service2')}}" class="read-more-btn">ادامه مطلب <i
                                             class='bx bx-left-arrow-alt'></i></a>
                                 </div>
                             </div>
@@ -162,10 +162,10 @@
                         <div class="row m-0">
                             <div class="col-lg-6 col-md-12 p-0">
                                 <div class="content">
-                                    <h3><a href="single-service.html">نشست حجاب و عفاف</a></h3>
+                                    <h3><a href="{{url('/single-service3')}}">نشست حجاب و عفاف</a></h3>
                                     <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال
                                         استاندارد صنعت بوده است.</p>
-                                    <a href="single-service.html" class="read-more-btn">ادامه مطلب <i
+                                    <a href="{{url('/single-service3')}}" class="read-more-btn">ادامه مطلب <i
                                             class='bx bx-left-arrow-alt'></i></a>
                                 </div>
                             </div>
@@ -184,10 +184,10 @@
                         <div class="row m-0">
                             <div class="col-lg-6 col-md-12 p-0">
                                 <div class="content">
-                                    <h3><a href="single-service.html">نشست امام شناسی</a></h3>
+                                    <h3><a href="{{url('/single-service4')}}">نشست امام شناسی</a></h3>
                                     <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال
                                         استاندارد صنعت بوده است.</p>
-                                    <a href="single-service.html" class="read-more-btn">ادامه مطلب <i
+                                    <a href="{{url('/single-service4')}}" class="read-more-btn">ادامه مطلب <i
                                             class='bx bx-left-arrow-alt'></i></a>
                                 </div>
                             </div>
@@ -203,7 +203,7 @@
 
                 <div class="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay=".6s">
                     <div class="services-btn-box">
-                        <a href="services-3.html" class="default-btn">
+                        <a href="{{'/all-services'}}" class="default-btn">
                             <i class='bx bx-bullseye'></i>مشاهده همه<span></span>
                         </a>
                     </div>
@@ -222,60 +222,60 @@
                 display: none;
             }
         </style>
-        <div class="container-fluid">
+        <div class="container">
             <div class="case-studies-slides owl-carousel">
                 <div class="single-case-studies-item">
-                    <a href="#" class="image d-block">
+                    <a href="{{'/speech'}}" class="image d-block">
                         <img src="{{asset('site/img/case-studies/case-studies-img1.jpg')}}" alt="image">
                     </a>
 
                     <div class="content">
-                        <h3><a href="#">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
-                        <a href="#" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
+                        <h3><a href="{{'/speech'}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
+                        <a href="{{'/speech'}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
                     </div>
                 </div>
 
                 <div class="single-case-studies-item">
-                    <a href="#" class="image d-block">
+                    <a href="{{'/speech'}}" class="image d-block">
                         <img src="{{asset('site/img/case-studies/case-studies-img2.jpg')}}" alt="image">
                     </a>
 
                     <div class="content">
-                        <h3><a href="#">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
-                        <a href="#" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
+                        <h3><a href="{{'/speech'}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
+                        <a href="{{'/speech'}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
                     </div>
                 </div>
 
                 <div class="single-case-studies-item">
-                    <a href="#" class="image d-block">
+                    <a href="{{'/speech'}}" class="image d-block">
                         <img src="{{asset('site/img/case-studies/case-studies-img3.jpg')}}" alt="image">
                     </a>
 
                     <div class="content">
-                        <h3><a href="#">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
-                        <a href="#" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
+                        <h3><a href="{{'/speech'}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
+                        <a href="{{'/speech'}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
                     </div>
                 </div>
 
                 <div class="single-case-studies-item">
-                    <a href="#" class="image d-block">
+                    <a href="{{'/speech'}}" class="image d-block">
                         <img src="{{asset('site/img/case-studies/case-studies-img4.jpg')}}" alt="image">
                     </a>
 
                     <div class="content">
-                        <h3><a href="#">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
-                        <a href="#" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
+                        <h3><a href="{{'/speech'}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
+                        <a href="{{'/speech'}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
                     </div>
                 </div>
 
                 <div class="single-case-studies-item">
-                    <a href="#" class="image d-block">
+                    <a href="{{'/speech'}}" class="image d-block">
                         <img src="{{asset('site/img/case-studies/case-studies-img5.jpg')}}" alt="image">
                     </a>
 
                     <div class="content">
-                        <h3><a href="#">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
-                        <a href="#" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
+                        <h3><a href="{{'/speech'}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
+                        <a href="{{'/speech'}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
                     </div>
                 </div>
             </div>

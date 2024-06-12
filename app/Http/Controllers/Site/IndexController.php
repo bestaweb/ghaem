@@ -74,6 +74,35 @@ class IndexController extends Controller
         return View('Site.journal');
     }
 
+    public function singleService1()
+    {
+        return View('Site.single-service1');
+    }
+    public function singleService2()
+    {
+        return View('Site.single-service2');
+    }
+    public function singleService3()
+    {
+        return View('Site.single-service3');
+    }
+    public function singleService4()
+    {
+    return View('Site.single-service4');
+    }
+
+    public function allServices(){
+        return View('Site.all-services');
+    }
+
+    public function speech()
+    {
+        return View('Site.speech');
+    }
+    public function news()
+    {
+        return View('Site.news');
+    }
     /**
      * Show the form for creating a new resource.
      */

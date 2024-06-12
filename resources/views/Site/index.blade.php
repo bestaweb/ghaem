@@ -154,10 +154,10 @@
                         <div class="row m-0">
                             <div class="col-lg-6 col-md-12 p-0">
                                 <div class="content">
-                                    <h3><a href="single-service.html">نشست خانواده و تربیت</a></h3>
+                                    <h3><a href="{{url('/single-service1')}}">نشست خانواده و تربیت</a></h3>
                                     <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال
                                         استاندارد صنعت بوده است.</p>
-                                    <a href="single-service.html" class="read-more-btn">ادامه مطلب <i
+                                    <a href="{{url('/single-service1')}}" class="read-more-btn">ادامه مطلب <i
                                             class='bx bx-left-arrow-alt'></i></a>
                                 </div>
                             </div>
@@ -176,10 +176,10 @@
                         <div class="row m-0">
                             <div class="col-lg-6 col-md-12 p-0">
                                 <div class="content">
-                                    <h3><a href="single-service.html">نشست مهدویت و رسانه</a></h3>
+                                    <h3><a href="{{url('/single-service2')}}">نشست مهدویت و رسانه</a></h3>
                                     <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال
                                         استاندارد صنعت بوده است.</p>
-                                    <a href="single-service.html" class="read-more-btn">ادامه مطلب <i
+                                    <a href="{{url('/single-service2')}}" class="read-more-btn">ادامه مطلب <i
                                             class='bx bx-left-arrow-alt'></i></a>
                                 </div>
                             </div>
@@ -198,10 +198,10 @@
                         <div class="row m-0">
                             <div class="col-lg-6 col-md-12 p-0">
                                 <div class="content">
-                                    <h3><a href="single-service.html">نشست حجاب و عفاف</a></h3>
+                                    <h3><a href="{{url('/single-service3')}}">نشست حجاب و عفاف</a></h3>
                                     <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال
                                         استاندارد صنعت بوده است.</p>
-                                    <a href="single-service.html" class="read-more-btn">ادامه مطلب <i
+                                    <a href="{{url('/single-service3')}}" class="read-more-btn">ادامه مطلب <i
                                             class='bx bx-left-arrow-alt'></i></a>
                                 </div>
                             </div>
@@ -220,10 +220,10 @@
                         <div class="row m-0">
                             <div class="col-lg-6 col-md-12 p-0">
                                 <div class="content">
-                                    <h3><a href="single-service.html">نشست امام شناسی</a></h3>
+                                    <h3><a href="{{url('/single-service4')}}">نشست امام شناسی</a></h3>
                                     <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال
                                         استاندارد صنعت بوده است.</p>
-                                    <a href="single-service.html" class="read-more-btn">ادامه مطلب <i
+                                    <a href="{{url('/single-service4')}}" class="read-more-btn">ادامه مطلب <i
                                             class='bx bx-left-arrow-alt'></i></a>
                                 </div>
                             </div>
@@ -239,7 +239,7 @@
 
                 <div class="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay=".6s">
                     <div class="services-btn-box">
-                        <a href="services-3.html" class="default-btn">
+                        <a href="{{'/all-services'}}" class="default-btn">
                             <i class='bx bx-bullseye'></i>مشاهده همه<span></span>
                         </a>
                     </div>
@@ -260,57 +260,57 @@
         <div class="container">
             <div class="case-studies-slides owl-carousel">
                 <div class="single-case-studies-item">
-                    <a href="#" class="image d-block">
+                    <a href="{{'/speech'}}" class="image d-block">
                         <img src="{{asset('site/img/case-studies/case-studies-img1.jpg')}}" alt="image">
                     </a>
 
                     <div class="content">
-                        <h3><a href="#">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
-                        <a href="#" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
+                        <h3><a href="{{'/speech'}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
+                        <a href="{{'/speech'}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
                     </div>
                 </div>
 
                 <div class="single-case-studies-item">
-                    <a href="#" class="image d-block">
+                    <a href="{{'/speech'}}" class="image d-block">
                         <img src="{{asset('site/img/case-studies/case-studies-img2.jpg')}}" alt="image">
                     </a>
 
                     <div class="content">
-                        <h3><a href="#">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
-                        <a href="#" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
+                        <h3><a href="{{'/speech'}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
+                        <a href="{{'/speech'}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
                     </div>
                 </div>
 
                 <div class="single-case-studies-item">
-                    <a href="#" class="image d-block">
+                    <a href="{{'/speech'}}" class="image d-block">
                         <img src="{{asset('site/img/case-studies/case-studies-img3.jpg')}}" alt="image">
                     </a>
 
                     <div class="content">
-                        <h3><a href="#">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
-                        <a href="#" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
+                        <h3><a href="{{'/speech'}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
+                        <a href="{{'/speech'}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
                     </div>
                 </div>
 
                 <div class="single-case-studies-item">
-                    <a href="#" class="image d-block">
+                    <a href="{{'/speech'}}" class="image d-block">
                         <img src="{{asset('site/img/case-studies/case-studies-img4.jpg')}}" alt="image">
                     </a>
 
                     <div class="content">
-                        <h3><a href="#">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
-                        <a href="#" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
+                        <h3><a href="{{'/speech'}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
+                        <a href="{{'/speech'}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
                     </div>
                 </div>
 
                 <div class="single-case-studies-item">
-                    <a href="#" class="image d-block">
+                    <a href="{{'/speech'}}" class="image d-block">
                         <img src="{{asset('site/img/case-studies/case-studies-img5.jpg')}}" alt="image">
                     </a>
 
                     <div class="content">
-                        <h3><a href="#">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
-                        <a href="#" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
+                        <h3><a href="{{'/speech'}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
+                        <a href="{{'/speech'}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
                     </div>
                 </div>
             </div>
@@ -427,14 +427,14 @@
             <div class="blog-slides owl-carousel">
                 <div class="single-blog-post-item">
                     <div class="post-image">
-                        <a href="#" class="d-block">
+                        <a href="{{url('/news')}}" class="d-block">
                             <img src="{{asset('site/img/blog-image/1.jpg')}}" alt="image">
                         </a>
                     </div>
 
                     <div class="post-content">
-                        <a href="#" class="category">کلاس اخلاق</a>
-                        <h3><a href="#">دوره اخلاق و تربیت</a></h3>
+                        <a href="{{url('/news')}}" class="category">کلاس اخلاق</a>
+                        <h3><a href="{{url('/news')}}">دوره اخلاق و تربیت</a></h3>
                         <ul class="post-content-footer d-flex justify-content-between align-items-center">
                             <li>
                                 <div class="post-author d-flex align-items-center">
@@ -450,14 +450,14 @@
 
                 <div class="single-blog-post-item">
                     <div class="post-image">
-                        <a href="#" class="d-block">
+                        <a href="{{url('/news')}}" class="d-block">
                             <img src="{{asset('site/img/blog-image/2.jpg')}}" alt="image">
                         </a>
                     </div>
 
                     <div class="post-content">
-                        <a href="#" class="category">ادب اجتماعی</a>
-                        <h3><a href="#">دوره اداب اجتماعی فردی</a></h3>
+                        <a href="{{url('/news')}}" class="category">ادب اجتماعی</a>
+                        <h3><a href="{{url('/news')}}">دوره اداب اجتماعی فردی</a></h3>
                         <ul class="post-content-footer d-flex justify-content-between align-items-center">
                             <li>
                                 <div class="post-author d-flex align-items-center">
@@ -473,14 +473,14 @@
 
                 <div class="single-blog-post-item">
                     <div class="post-image">
-                        <a href="#" class="d-block">
+                        <a href="{{url('/news')}}" class="d-block">
                             <img src="{{asset('site/img/blog-image/3.jpg')}}" alt="image">
                         </a>
                     </div>
 
                     <div class="post-content">
-                        <a href="#" class="category">اقتصاد اسلامی</a>
-                        <h3><a href="#">دوره اقتصاد با محوریت اسلام</a></h3>
+                        <a href="{{url('/news')}}" class="category">اقتصاد اسلامی</a>
+                        <h3><a href="{{url('/news')}}">دوره اقتصاد با محوریت اسلام</a></h3>
                         <ul class="post-content-footer d-flex justify-content-between align-items-center">
                             <li>
                                 <div class="post-author d-flex align-items-center">
@@ -496,14 +496,14 @@
 
                 <div class="single-blog-post-item">
                     <div class="post-image">
-                        <a href="#" class="d-block">
+                        <a href="{{url('/news')}}" class="d-block">
                             <img src="{{asset('site/img/blog-image/2.jpg')}}" alt="image">
                         </a>
                     </div>
 
                     <div class="post-content">
-                        <a href="#" class="category">تفسیر قرآن</a>
-                        <h3><a href="#">دوره تفسیر قرآن کریم</a></h3>
+                        <a href="{{url('/new')}}" class="category">تفسیر قرآن</a>
+                        <h3><a href="{{url('/news')}}">دوره تفسیر قرآن کریم</a></h3>
                         <ul class="post-content-footer d-flex justify-content-between align-items-center">
                             <li>
                                 <div class="post-author d-flex align-items-center">

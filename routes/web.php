@@ -25,6 +25,13 @@ Route::get('/loan-institute'  , [App\Http\Controllers\Site\IndexController::clas
 Route::get('/charity'  , [App\Http\Controllers\Site\IndexController::class, 'charity']);
 Route::get('/mahdia'  , [App\Http\Controllers\Site\IndexController::class, 'mahdia']);
 Route::get('/journal'  , [App\Http\Controllers\Site\IndexController::class, 'journal']);
+Route::get('/single-service1'  , [App\Http\Controllers\Site\IndexController::class, 'singleService1']);
+Route::get('/single-service2'  , [App\Http\Controllers\Site\IndexController::class, 'singleService2']);
+Route::get('/single-service3'  , [App\Http\Controllers\Site\IndexController::class, 'singleService3']);
+Route::get('/single-service4'  , [App\Http\Controllers\Site\IndexController::class, 'singleService4']);
+Route::get('/all-services'  , [App\Http\Controllers\Site\IndexController::class, 'allServices']);
+Route::get('/speech'  , [App\Http\Controllers\Site\IndexController::class, 'speech']);
+Route::get('/news'  , [App\Http\Controllers\Site\IndexController::class, 'news']);
 
 
 //Route::get('/', function () {
