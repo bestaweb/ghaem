@@ -39,8 +39,7 @@
     <section class="digital-agency-banner">
         <div class="container">
             <div class="digital-agency-banner-content">
-                <h1 class="wow fadeInUp" style="font-family: 'Mehr Nastaliq Web';font-size: 50px !important;">حوزه علمیه
-                    و مدرسه حضرت قائم (عج) چیذر</h1>
+                <h1 class="wow fadeInUp" style="font-family: 'Mehr Nastaliq Web';font-size: 50px !important;">حوزه علمیه حضرت قائم (عج) چیذر</h1>
                 <p class="wow fadeInUp">لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40
                     سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به
                     مدت 40 سال استاندارد صنعت بوده است.</p>
