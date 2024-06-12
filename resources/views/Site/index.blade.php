@@ -239,7 +239,7 @@
 
                 <div class="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay=".6s">
                     <div class="services-btn-box">
-                        <a href="{{'/all-services'}}" class="default-btn">
+                        <a href="{{'/meeting'}}" class="default-btn">
                             <i class='bx bx-bullseye'></i>مشاهده همه<span></span>
                         </a>
                     </div>

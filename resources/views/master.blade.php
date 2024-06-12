@@ -43,7 +43,7 @@
         <div class="container">
             <div class="spacle-responsive-menu">
                 <div class="logo">
-                    <a href="index-digital-marketing-agency.html">
+                    <a href="{{asset('site/img/logo.png')}}">
                         <img src="{{asset('site/img/logo.png')}}" style="max-width:30%" alt="logo">
                     </a>
                 </div>

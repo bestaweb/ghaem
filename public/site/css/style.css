@@ -5366,15 +5366,15 @@ Sidebar Widget Area CSS
 }
 
 .widget-area .widget_spacle_posts_thumb .item .thumb .fullimage.bg1 {
-  background-image: url(../../site/img/blog-image/7.jpg);
+  background-image: url(../../site/img/blog-image/3.jpg);
 }
 
 .widget-area .widget_spacle_posts_thumb .item .thumb .fullimage.bg2 {
-  background-image: url(../../site/img/blog-image/8.jpg);
+  background-image: url(../../site/img/blog-image/2.jpg);
 }
 
 .widget-area .widget_spacle_posts_thumb .item .thumb .fullimage.bg3 {
-  background-image: url(../../site/img/blog-image/9.jpg);
+  background-image: url(../../site/img/blog-image/1.jpg);
 }
 
 .widget-area .widget_spacle_posts_thumb .item .info {
@@ -7320,10 +7320,10 @@ SaaS Home Page CSS
 }
 
 .service-details-content .service-details-info .single-info-box {
-  -ms-flex: 0 0 20%;
+  -ms-flex: 0 0 25%;
   -webkit-box-flex: 0;
-          flex: 0 0 20%;
-  max-width: 20%;
+          flex: 0 0 25%;
+  max-width: 25%;
   padding-left: 15px;
   padding-right: 15px;
 }
