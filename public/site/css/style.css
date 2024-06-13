@@ -376,6 +376,7 @@ p:last-child {
 Preloader Area CSS
 =================================================*/
 .preloader-area {
+    border-radius: 32px;
   position: fixed;
   top: 0;
   background-color: rgba(255, 255, 255, 0.8);
@@ -391,14 +392,17 @@ Preloader Area CSS
 }
 /*========================*/
 .loading-message {
+    font-family: IranNastaliq;
     background-color: #ffffff; /* White background for the message */
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Drop shadow effect */
+    border-radius: 32px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Drop shadow effect */
     animation: fadeIn 2s ease-in-out infinite alternate; /* Animate the fadeIn effect */
 }
 
 .loading-message p {
+    font-family: Vazirmatn RD FD, serif;
+
     margin: 0;
 }
 
@@ -2001,6 +2005,7 @@ Services Area CSS
 }
 
 .services-content {
+    font-family: "Vazirmatn RD FD", sans-serif;
   -ms-flex: 0 0 50%;
   -webkit-box-flex: 0;
           flex: 0 0 50%;
@@ -2128,8 +2133,8 @@ Video Presentation Area CSS
           transform: translateY(-50%);
   width: 80px;
   height: 80px;
-  background-color: #496989;
-  border-radius: 5px;
+  background-color: #58A399;
+  border-radius: 50%;
   color: #ffffff;
   font-size: 60px;
   z-index: 1;
@@ -2146,8 +2151,8 @@ Video Presentation Area CSS
   z-index: -1;
   bottom: 0;
   left: 0;
-  border-radius: 5px;
-  border: 1px solid #496989;
+  border-radius: 50%;
+  border: 1px solid #58A399;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -4196,6 +4201,7 @@ Our Loving Clients Area CSS
 Blog Area CSS
 =================================================*/
 .single-blog-post {
+    font-family: "Vazirmatn RD FD", sans-serif;
   border-radius: 2px;
   margin-bottom: 30px;
   -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
@@ -7638,14 +7644,14 @@ Case Studies Area CSS
 }
 
 .single-case-studies-item .image img {
-  border-radius: 5px 5px 0 0;
+  border-radius: 8px 8px 0 0;
 }
 
 .single-case-studies-item .content {
   background-color: #f9f9f9;
   text-align: left;
-  padding: 30px 25px 25px;
-  border-radius: 0 0 5px 5px;
+  padding: 24px 8px 12px 8px;
+  border-radius: 0 0 8px 8px;
   position: relative;
 }
 
@@ -7658,6 +7664,7 @@ Case Studies Area CSS
 
 .single-case-studies-item .content .link-btn {
   width: 40px;
+    margin-bottom: 4px;
   height: 40px;
   line-height: 48px;
   text-align: center;
@@ -7665,7 +7672,7 @@ Case Studies Area CSS
   -webkit-transition: 0.5s;
   transition: 0.5s;
   color: #ffffff;
-  border-radius: 3px;
+  border-radius: 12px;
   position: absolute;
   font-size: 30px;
   right: 20px;

@@ -20,7 +20,7 @@ Route::get('/register'  , [App\Http\Controllers\Site\IndexController::class, 're
 Route::get('/brothers'  , [App\Http\Controllers\Site\IndexController::class, 'brothers']);
 Route::get('/sisters'  , [App\Http\Controllers\Site\IndexController::class, 'sisters']);
 Route::get('/publishing-center'  , [App\Http\Controllers\Site\IndexController::class, 'publishingCenter']);
-Route::get('/kindergarden'  , [App\Http\Controllers\Site\IndexController::class, 'kindergarden']);
+Route::get('/kindergarten'  , [App\Http\Controllers\Site\IndexController::class, 'kindergarten']);
 Route::get('/loan-institute'  , [App\Http\Controllers\Site\IndexController::class, 'loanInstitute']);
 Route::get('/charity'  , [App\Http\Controllers\Site\IndexController::class, 'charity']);
 Route::get('/mahdia'  , [App\Http\Controllers\Site\IndexController::class, 'mahdia']);

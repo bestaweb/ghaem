@@ -3,6 +3,40 @@
 @endsection
 @section('main')
 
+    <style>
+        .video-container {
+            position: relative;
+            width: 100%;
+            max-width: 640px;
+            margin: 0 auto;
+        }
+        .video-cover {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('{{ asset('site/img/blog-image/1.jpg') }}') no-repeat center center;
+            background-size: cover;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .video-cover::before {
+            background:url('{{ asset('site/img/blog-image/1.jpg') }}') no-repeat center center;
+            content: "▶";
+            font-size: 48px;
+            color: black;
+        }
+        video {
+            display: none;
+            width: 100%;
+        }
+        video.playing {
+            display: block;
+        }
+    </style>
     <!-- Start Page Title Area -->
     <div class="page-title-area">
         <div class="container">
@@ -16,12 +50,20 @@
     <!-- Service details -->
     <div class="service-details ptb-100">
         <div class="container">
-            <div class="service-details-image">
-                <img src="{{url('/site/img/media/mahdia2.jpg')}}" alt="image" class="mx-auto d-block">
-            </div>
+            <div class="container mt-5">
+                <div class="row " style="justify-content: center">
+                    <div class="col-md-8" >
+                        <div class="video-box">
+                            <img src="{{asset('/site/img/blog-image/1.jpg')}}" class="main-image" alt="image">
 
+                            <a href="{{asset('/site/video/1.mp4')}}" class="video-btn popup-youtube">
+                                <i class="bx bx-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             <div class="service-details-content">
-                <h3 class="text-center pb-2">موضوعات اصلی نشست</h3>
+                <h3 class="pb-4" style="margin-top: 80px">موضوعات اصلی نشست</h3>
 
                 <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است.</p>
 
@@ -33,7 +75,7 @@
 
                 <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است.</p>
 
-                <div class="service-details-info ">
+                <div class="service-details-info" style="margin-bottom: 100px">
                     <div class="single-info-box">
                         <h4>سخنران</h4>
                         <span>آیت الله هاشمی اولیا</span>
@@ -79,5 +121,4 @@
         </div>
     </div>
     <!-- End Service details -->
-
 @endsection

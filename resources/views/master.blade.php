@@ -86,7 +86,7 @@
                                     <a href="{{url('/mahdia')}}" class="nav-link">مرکز مشاوره مهدیا</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="{{url('/kindergarden')}}" class="nav-link">مهد کودک</a>
+                                    <a href="{{url('/kindergarten')}}" class="nav-link">مهد کودک</a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="{{url('/publish-center')}}" class="nav-link">مرکز نشر</a>

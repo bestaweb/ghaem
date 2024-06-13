@@ -39,18 +39,18 @@
     <section class="digital-agency-banner">
         <div class="container">
             <div class="digital-agency-banner-content">
-                <h1 class="wow fadeInUp" style="font-family: 'Mehr Nastaliq Web';font-size: 50px !important;">حوزه علمیه حضرت قائم (عج) </h1>
-                <p class="wow fadeInUp">لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40
+                <h1 class="wow fadeInUp" style="font-family: 'IranNastaliq',serif;font-size: 60px !important;">حوزه علمیه حضرت قائم (عج) </h1>
+                <p class="wow fadeInUp" style="font-family: IranNastaliq,serif">لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40
                     سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به
                     مدت 40 سال استاندارد صنعت بوده است.</p>
             </div>
         </div>
     </section>
-    <div class="matn" style="background-color: #efefef;width: 100%;display: flex;">
+    <div style="background-color: #efefef;width: 100%;display: flex;">
         <div style="width: 55%;margin: 0 auto;display: flex;">
-            <div><img src="{{asset('site/img/marketing-agency/rightline.png')}}"></div>
+            <div><img src="{{asset('site/img/marketing-agency/rightline.png')}}" style="padding-top: 6px" alt=""></div>
             <div class="marquee"><span style="margin-bottom: 12px;margin-top: 12px;display: inline-block;animation: marquee 20s linear infinite;">يَرْفَعِ اللَّهُ الَّذِينَ آمَنُوا مِنْكُمْ وَالَّذِينَ أُوتُوا الْعِلْمَ دَرَجَاتٍ | شهادت رئیس جمهور سیزدهم حضرت آیت الله رئیسی را تسلیت عرض می کنیم | ملت ما باید به عنوان یک تکلیف و یک حق در این انتخابات شرکت کنند </span></div>
-            <div><img src="{{asset('site/img/marketing-agency/leftline.png')}}"></div>
+            <div><img src="{{asset('site/img/marketing-agency/leftline.png')}}" style="padding-top: 6px" alt=""></div>
         </div>
     </div>
 
@@ -63,7 +63,7 @@
                 <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
                     <div class="single-features-card tx-center"  style="background-color:#AAD7D9" >
                         <h3>
-                            <a href="{{url('brothers')}}" class="btn btn-default" style="padding: 5px 0;font-family: 'IRANSansWeb Medium';font-size: 23px;">حوزه علمیه برادران</a>
+                            <a href="{{url('brothers')}}" class="btn btn-default" style="padding: 5px 0;font-family: 'IRANSansWeb Medium',serif;font-size: 23px;">حوزه علمیه برادران</a>
                         </h3>
                     </div>
                 </div>
@@ -71,7 +71,7 @@
                 <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
                     <div class="single-features-card tx-center" style="background-color:#E6A4B4">
                         <h3>
-                            <a href="{{url('sisters')}}" class="btn btn-default" style="padding: 5px 0;font-family: 'IRANSansWeb Medium';font-size: 23px;">حوزه علمیه خواهران</a>
+                            <a href="{{url('sisters')}}" class="btn btn-default" style="padding: 5px 0;font-family: 'IRANSansWeb Medium',serif;font-size: 23px;">حوزه علمیه خواهران</a>
                         </h3>
                     </div>
                 </div>
@@ -85,7 +85,7 @@
                     <div class="single-features-card tx-center">
                         <i class='bx bx-conversation'></i>
                         <h3>
-                            <a href="#" class="card-title">حوزه علمیه برادران</a>
+                            <a href="{{url('brothers')}}" class="card-title">حوزه علمیه برادران</a>
                         </h3>
                         <p>حوزه علمیه ویژه طلاب بخش برادران</p>
                     </div>
@@ -95,7 +95,7 @@
                     <div class="single-features-card tx-center">
                         <i class='bx bx-laptop'></i>
                         <h3>
-                            <a href="#" class="card-title">حوزه علمیه خواهران</a>
+                            <a href="{{url('sisters')}}" class="card-title">حوزه علمیه خواهران</a>
                         </h3>
                         <p>حوزه علمیه ویژه طلاب بخش خواهران</p>
                     </div>
@@ -105,7 +105,7 @@
                     <div class="single-features-card tx-center">
                         <i class='bx bxs-badge-check'></i>
                         <h3>
-                            <a href="#" class="card-title">مرکز نشر</a>
+                            <a href="{{'publishing-center'}}" class="card-title">مرکز نشر</a>
                         </h3>
                         <p>مرکز نشر کتب و مقالات اساتید و طلاب برجسته حوزه</p>
                     </div>
@@ -114,7 +114,7 @@
                     <div class="single-features-card tx-center">
                         <i class='bx bxs-megaphone'></i>
                         <h3>
-                            <a href="#" class="card-title">موسسه خیریه</a>
+                            <a href="{{'charity'}}" class="card-title">موسسه خیریه</a>
                         </h3>
                         <p>موسسه خیریه وابسته به حوزه جهت کمک به طلاب</p>
                     </div>
@@ -123,7 +123,7 @@
                     <div class="single-features-card tx-center">
                         <i class='bx bxs-megaphone'></i>
                         <h3>
-                            <a href="#" class="card-title">مرکز مشاوره</a>
+                            <a href="{{'charity'}}" class="card-title">مرکز مشاوره</a>
                         </h3>
                         <p>مرکز مشاوره با بهره گیری از متخصصین حوزه و دانشگاه</p>
                     </div>
@@ -132,7 +132,7 @@
                     <div class="single-features-card tx-center">
                         <i class='bx bxs-megaphone'></i>
                         <h3>
-                            <a href="#" class="card-title">مهد کودک</a>
+                            <a href="{{'kindergarten'}}" class="card-title">مهد کودک</a>
                         </h3>
                         <p>مهدکودک در زمینه آموزش مفاهیم قرآنی برای خردسالان</p>
                     </div>
@@ -154,10 +154,10 @@
                         <div class="row m-0">
                             <div class="col-lg-6 col-md-12 p-0">
                                 <div class="content">
-                                    <h3><a href="{{url('/single-service1')}}">نشست خانواده و تربیت</a></h3>
+                                    <h3><a href="{{url('/single-meeting')}}">نشست خانواده و تربیت</a></h3>
                                     <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال
                                         استاندارد صنعت بوده است.</p>
-                                    <a href="{{url('/single-service1')}}" class="read-more-btn">ادامه مطلب <i
+                                    <a href="{{url('/single-meeting')}}" class="read-more-btn">ادامه مطلب <i
                                             class='bx bx-left-arrow-alt'></i></a>
                                 </div>
                             </div>
@@ -176,10 +176,10 @@
                         <div class="row m-0">
                             <div class="col-lg-6 col-md-12 p-0">
                                 <div class="content">
-                                    <h3><a href="{{url('/single-service2')}}">نشست مهدویت و رسانه</a></h3>
+                                    <h3><a href="{{url('/single-meeting')}}">نشست مهدویت و رسانه</a></h3>
                                     <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال
                                         استاندارد صنعت بوده است.</p>
-                                    <a href="{{url('/single-service2')}}" class="read-more-btn">ادامه مطلب <i
+                                    <a href="{{url('/single-meeting')}}" class="read-more-btn">ادامه مطلب <i
                                             class='bx bx-left-arrow-alt'></i></a>
                                 </div>
                             </div>
@@ -198,10 +198,10 @@
                         <div class="row m-0">
                             <div class="col-lg-6 col-md-12 p-0">
                                 <div class="content">
-                                    <h3><a href="{{url('/single-service3')}}">نشست حجاب و عفاف</a></h3>
+                                    <h3><a href="{{url('/single-meeting')}}">نشست حجاب و عفاف</a></h3>
                                     <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال
                                         استاندارد صنعت بوده است.</p>
-                                    <a href="{{url('/single-service3')}}" class="read-more-btn">ادامه مطلب <i
+                                    <a href="{{url('/single-meeting')}}" class="read-more-btn">ادامه مطلب <i
                                             class='bx bx-left-arrow-alt'></i></a>
                                 </div>
                             </div>
@@ -220,10 +220,10 @@
                         <div class="row m-0">
                             <div class="col-lg-6 col-md-12 p-0">
                                 <div class="content">
-                                    <h3><a href="{{url('/single-service4')}}">نشست امام شناسی</a></h3>
+                                    <h3><a href="{{url('/single-meeting')}}">نشست امام شناسی</a></h3>
                                     <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال
                                         استاندارد صنعت بوده است.</p>
-                                    <a href="{{url('/single-service4')}}" class="read-more-btn">ادامه مطلب <i
+                                    <a href="{{url('/single-meeting')}}" class="read-more-btn">ادامه مطلب <i
                                             class='bx bx-left-arrow-alt'></i></a>
                                 </div>
                             </div>
@@ -251,12 +251,6 @@
 
     <!-- Start Case Studies Area -->
     <section class="case-studies-area pt-70 pb-20">
-        <style>
-            .owl-prev,
-            .owl-next {
-                display: none;
-            }
-        </style>
         <div class="container">
             <div class="case-studies-slides owl-carousel">
                 <div class="single-case-studies-item">
@@ -319,7 +313,7 @@
     <!-- End Case Studies Area -->
 
     <section class="services-area bg-right-shape mt-4 mb-4">
-        <div class="container">
+        <div class="container pt-3">
             <div class="row align-items-center">
                 <div class="services-content it-service-content">
                     <div class="content left-content">
