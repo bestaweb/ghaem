@@ -49,10 +49,7 @@
   }
   .default-btn {
     font-size: 13px;
-padding-right: 45px;
-padding-left: 20px;
-    padding-top: 12px;
-    padding-bottom: 12px;
+      padding: 12px;
   }
   .default-btn i {
     font-size: 18px;

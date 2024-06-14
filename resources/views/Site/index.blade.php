@@ -56,36 +56,55 @@
 
     <!-- End Digital Agency Banner -->
 
-    <div class="features-card-section pt-5 pb-5">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
-                    <div class="single-features-card tx-center"  style="background-color:#AAD7D9" >
-                        <h3>
-                            <a href="{{url('brothers')}}" class="btn btn-default" style="padding: 5px 0;font-family: 'IRANSansWeb Medium',serif;font-size: 23px;">حوزه علمیه برادران</a>
-                        </h3>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
-                    <div class="single-features-card tx-center" style="background-color:#E6A4B4">
-                        <h3>
-                            <a href="{{url('sisters')}}" class="btn btn-default" style="padding: 5px 0;font-family: 'IRANSansWeb Medium',serif;font-size: 23px;">حوزه علمیه خواهران</a>
-                        </h3>
-                    </div>
-                </div>
+    {{--  Start brothers and sisters section  --}}
+    <div class="container">
+        <div class="row pt-3" style="justify-content: center">
+            <div class="col-md-3 p-2">
+                <a href="{{url('/brothers')}}">
+                    <img src="{{ asset('/site/img/برادران.png') }}" alt="Image 1">
+                </a>            </div>
+            <div class="col-md-3 p-2">
+                <a href="{{url('/sisters')}}">
+                    <img src="{{ asset('/site/img/خواهران.png') }}" alt="Image 2">
+                </a>
             </div>
         </div>
     </div>
+    {{--  End brothers and sisters section  --}}
+
+
+    {{--    <div class="features-card-section pt-5 pb-5">--}}
+{{--        <div class="container">--}}
+{{--            <div class="row">--}}
+
+{{--                <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".2s">--}}
+{{--                    <div class="single-features-card tx-center"  style="background-color:#AAD7D9" >--}}
+{{--                        <h3>--}}
+{{--                            <a href="{{url('brothers')}}" class="btn btn-default" style="padding: 5px 0;font-family: 'IRANSansWeb Medium',serif;font-size: 23px;">حوزه علمیه برادران</a>--}}
+{{--                        </h3>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+
+{{--                <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".3s">--}}
+{{--                    <div class="single-features-card tx-center" style="background-color:#E6A4B4">--}}
+{{--                        <h3>--}}
+{{--                            <a href="{{url('sisters')}}" class="btn btn-default" style="padding: 5px 0;font-family: 'IRANSansWeb Medium',serif;font-size: 23px;">حوزه علمیه خواهران</a>--}}
+{{--                        </h3>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+
+    {{--    Start sections Card    --}}
     <div class="features-card-section pt-100 pb-70 bg-f8fbfa">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
                     <div class="single-features-card tx-center">
-                        <i class='bx bx-conversation'></i>
+                        <i class='bx bx-male'></i>
                         <h3>
-                            <a href="{{url('brothers')}}" class="card-title">حوزه علمیه برادران</a>
+                            <a href="{{url('/brothers')}}" class="card-title">حوزه علمیه برادران</a>
                         </h3>
                         <p>حوزه علمیه ویژه طلاب بخش برادران</p>
                     </div>
@@ -93,9 +112,9 @@
 
                 <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
                     <div class="single-features-card tx-center">
-                        <i class='bx bx-laptop'></i>
+                        <i class='bx bx-female'></i>
                         <h3>
-                            <a href="{{url('sisters')}}" class="card-title">حوزه علمیه خواهران</a>
+                            <a href="{{url('/sisters')}}" class="card-title">حوزه علمیه خواهران</a>
                         </h3>
                         <p>حوزه علمیه ویژه طلاب بخش خواهران</p>
                     </div>
@@ -103,7 +122,7 @@
 
                 <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".4s">
                     <div class="single-features-card tx-center">
-                        <i class='bx bxs-badge-check'></i>
+                        <i class='bx bxs-book-open'></i>
                         <h3>
                             <a href="{{'publishing-center'}}" class="card-title">مرکز نشر</a>
                         </h3>
@@ -112,7 +131,7 @@
                 </div>
                 <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="single-features-card tx-center">
-                        <i class='bx bxs-megaphone'></i>
+                        <i class='bx bxs-gift'></i>
                         <h3>
                             <a href="{{'charity'}}" class="card-title">موسسه خیریه</a>
                         </h3>
@@ -121,16 +140,16 @@
                 </div>
                 <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="single-features-card tx-center">
-                        <i class='bx bxs-megaphone'></i>
+                        <i class='bx bxs-book'></i>
                         <h3>
-                            <a href="{{'charity'}}" class="card-title">مرکز مشاوره</a>
+                            <a href="{{'mahdia'}}" class="card-title">مرکز مشاوره</a>
                         </h3>
                         <p>مرکز مشاوره با بهره گیری از متخصصین حوزه و دانشگاه</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="single-features-card tx-center">
-                        <i class='bx bxs-megaphone'></i>
+                        <i class='bx bx-cake'></i>
                         <h3>
                             <a href="{{'kindergarten'}}" class="card-title">مهد کودک</a>
                         </h3>
@@ -138,8 +157,11 @@
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
+    {{--    End sections Card    --}}
+
 
     <!-- Start Services Area -->
     <section class="services-area mt-3 mb-3">
@@ -240,7 +262,8 @@
                 <div class="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay=".6s">
                     <div class="services-btn-box">
                         <a href="{{'/meeting'}}" class="default-btn">
-                            <i class='bx bx-bullseye'></i>مشاهده همه<span></span>
+                            مشاهده همه
+                            <i class="bx bx-chevron-right"></i>
                         </a>
                     </div>
                 </div>

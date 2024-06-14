@@ -137,7 +137,6 @@
 
 @yield('main')
 
-<!-- Start Footer Area -->
 
 <!-- Start footer Area -->
 <footer class="footer-area">

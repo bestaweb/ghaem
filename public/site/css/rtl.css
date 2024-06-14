@@ -299,8 +299,8 @@ font-family: "Vazirmatn RD FD", sans-serif;
     padding-left: 0;
 }
 .default-btn {
-    padding-right: 50px;
-    padding-left: 25px;
+    padding-right: 48px;
+    padding-left: 24px;
 }
 .default-btn i {
     right: 25px;
@@ -753,13 +753,10 @@ blockquote::after, .blockquote::after {
     margin-right: 10px;
 }
 .services-btn-box .default-btn {
-    padding-left: 35px;
-    padding-right: 65px;
+
 }
-.services-btn-box .default-btn i {
-    left: auto;
-    right: 35px;
-}
+
+
 .single-case-studies-item .content {
     text-align: right;
 }

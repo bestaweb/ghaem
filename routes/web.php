@@ -34,6 +34,7 @@ Route::get('/speech'  , [App\Http\Controllers\Site\IndexController::class, 'spee
 Route::get('/news'  , [App\Http\Controllers\Site\IndexController::class, 'news']);
 Route::get('/meeting'  , [App\Http\Controllers\Site\IndexController::class, 'meeting']);
 Route::get('/single-meeting'  , [App\Http\Controllers\Site\IndexController::class, 'singleMeeting']);
+Route::get('/video-gallery'  , [App\Http\Controllers\Site\IndexController::class, 'videoGallery']);
 
 
 //Route::get('/', function () {
