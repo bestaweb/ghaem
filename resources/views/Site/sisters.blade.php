@@ -39,7 +39,7 @@
     <section class="digital-agency-banner">
         <div class="container">
             <div class="digital-agency-banner-content">
-                <h1 class="wow fadeInUp" style="font-family: 'Mehr Nastaliq Web';font-size: 50px !important;">حوزه علمیه حضرت قائم (عج) چیذر</h1>
+                <h1 class="wow fadeInUp" style="font-family: 'IranNastaliq',serif;font-size: 50px !important;">حوزه علمیه حضرت قائم (عج) چیذر</h1>
                 <p class="wow fadeInUp">لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40
                     سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به
                     مدت 40 سال استاندارد صنعت بوده است.</p>
@@ -54,13 +54,14 @@
     <!-- End Digital Agency Banner -->
 
 
+    <!-- Start section cards -->
 
     <div class="features-card-section pt-100 pb-70 bg-f8fbfa">
         <div class="container">
             <div class="row">
                 <div class="col-lg col-sm-6 wow fadeInUp" data-wow-delay=".2s">
                     <div class="single-features-card tx-center">
-                        <i class='bx bx-conversation'></i>
+                        <i class='bx bx-receipt'></i>
                         <h3>
                             <a href="#" class="card-title">معاونت آموزش</a>
                         </h3>
@@ -71,7 +72,7 @@
 
                 <div class="col-lg col-sm-6 wow fadeInUp" data-wow-delay=".3s">
                     <div class="single-features-card tx-center">
-                        <i class='bx bx-laptop'></i>
+                        <i class='bx bx-spreadsheet'></i>
                         <h3>
                             <a href="#" class="card-title">معاونت پژوهش</a>
                         </h3>
@@ -82,7 +83,7 @@
 
                 <div class="col-lg col-sm-6 wow fadeInUp" data-wow-delay=".4s">
                     <div class="single-features-card tx-center">
-                        <i class='bx bxs-badge-check'></i>
+                        <i class='bx bxs-user-detail'></i>
                         <h3>
                             <a href="#" class="card-title">معاونت فرهنگ</a>
                         </h3>
@@ -104,9 +105,11 @@
         </div>
     </div>
 
+    <!-- Start section cards -->
+
 
     <!-- Start Services Area -->
-    <section class="services-area ptb-100">
+    <section class="services-area mt-3 mb-3">
         <div class="container">
             <div class="section-title text-left">
                 <h2>سلسله نشست های دوره ای حوزه</h2>
@@ -118,10 +121,10 @@
                         <div class="row m-0">
                             <div class="col-lg-6 col-md-12 p-0">
                                 <div class="content">
-                                    <h3><a href="{{url('/single-service1')}}">نشست خانواده و تربیت</a></h3>
+                                    <h3><a href="{{url('/single-meeting')}}">نشست خانواده و تربیت</a></h3>
                                     <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال
                                         استاندارد صنعت بوده است.</p>
-                                    <a href="{{url('/single-service1')}}" class="read-more-btn">ادامه مطلب <i
+                                    <a href="{{url('/single-meeting')}}" class="read-more-btn">ادامه مطلب <i
                                             class='bx bx-left-arrow-alt'></i></a>
                                 </div>
                             </div>
@@ -140,10 +143,10 @@
                         <div class="row m-0">
                             <div class="col-lg-6 col-md-12 p-0">
                                 <div class="content">
-                                    <h3><a href="{{url('/single-service2')}}">نشست مهدویت و رسانه</a></h3>
+                                    <h3><a href="{{url('/single-meeting')}}">نشست مهدویت و رسانه</a></h3>
                                     <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال
                                         استاندارد صنعت بوده است.</p>
-                                    <a href="{{url('/single-service2')}}" class="read-more-btn">ادامه مطلب <i
+                                    <a href="{{url('/single-meeting')}}" class="read-more-btn">ادامه مطلب <i
                                             class='bx bx-left-arrow-alt'></i></a>
                                 </div>
                             </div>
@@ -162,10 +165,10 @@
                         <div class="row m-0">
                             <div class="col-lg-6 col-md-12 p-0">
                                 <div class="content">
-                                    <h3><a href="{{url('/single-service3')}}">نشست حجاب و عفاف</a></h3>
+                                    <h3><a href="{{url('/single-meeting')}}">نشست حجاب و عفاف</a></h3>
                                     <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال
                                         استاندارد صنعت بوده است.</p>
-                                    <a href="{{url('/single-service3')}}" class="read-more-btn">ادامه مطلب <i
+                                    <a href="{{url('/single-meeting')}}" class="read-more-btn">ادامه مطلب <i
                                             class='bx bx-left-arrow-alt'></i></a>
                                 </div>
                             </div>
@@ -184,10 +187,10 @@
                         <div class="row m-0">
                             <div class="col-lg-6 col-md-12 p-0">
                                 <div class="content">
-                                    <h3><a href="{{url('/single-service4')}}">نشست امام شناسی</a></h3>
+                                    <h3><a href="{{url('/single-meeting')}}">نشست امام شناسی</a></h3>
                                     <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال
                                         استاندارد صنعت بوده است.</p>
-                                    <a href="{{url('/single-service4')}}" class="read-more-btn">ادامه مطلب <i
+                                    <a href="{{url('/single-meeting')}}" class="read-more-btn">ادامه مطلب <i
                                             class='bx bx-left-arrow-alt'></i></a>
                                 </div>
                             </div>
@@ -203,8 +206,9 @@
 
                 <div class="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay=".6s">
                     <div class="services-btn-box">
-                        <a href="{{'/all-services'}}" class="default-btn">
-                            <i class='bx bx-bullseye'></i>مشاهده همه<span></span>
+                        <a href="{{'/meeting'}}" class="default-btn">
+                            مشاهده همه
+                            <i class="bx bx-chevron-right"></i>
                         </a>
                     </div>
                 </div>
@@ -212,7 +216,6 @@
         </div>
     </section>
     <!-- End Services Area -->
-
 
     <!-- Start Case Studies Area -->
     <section class="case-studies-area pt-70 pb-20">
@@ -498,7 +501,7 @@
             <div class="row align-items-center text-center">
                 <div class="col-lg-12 col-md-12">
                     <div class="lets-talk-content">
-                        <h2 class="wow fadeInUp">درباره حوزه علمیه حضرت قائم (عج) چیذر</h2>
+                        <h2 class="wow fadeInUp pb-4">درباره حوزه علمیه حضرت قائم (عج) چیذر</h2>
                         <p class="wow fadeInUp text-justify">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،
                             و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که
                             لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای

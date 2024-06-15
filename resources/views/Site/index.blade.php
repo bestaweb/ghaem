@@ -73,30 +73,7 @@
     {{--  End brothers and sisters section  --}}
 
 
-    {{--    <div class="features-card-section pt-5 pb-5">--}}
-{{--        <div class="container">--}}
-{{--            <div class="row">--}}
 
-{{--                <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".2s">--}}
-{{--                    <div class="single-features-card tx-center"  style="background-color:#AAD7D9" >--}}
-{{--                        <h3>--}}
-{{--                            <a href="{{url('brothers')}}" class="btn btn-default" style="padding: 5px 0;font-family: 'IRANSansWeb Medium',serif;font-size: 23px;">حوزه علمیه برادران</a>--}}
-{{--                        </h3>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-
-{{--                <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".3s">--}}
-{{--                    <div class="single-features-card tx-center" style="background-color:#E6A4B4">--}}
-{{--                        <h3>--}}
-{{--                            <a href="{{url('sisters')}}" class="btn btn-default" style="padding: 5px 0;font-family: 'IRANSansWeb Medium',serif;font-size: 23px;">حوزه علمیه خواهران</a>--}}
-{{--                        </h3>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </div>--}}
-
-    {{--    Start sections Card    --}}
     <div class="features-card-section pt-100 pb-70 bg-f8fbfa">
         <div class="container">
             <div class="row">
@@ -538,7 +515,7 @@
     </section>
     <!-- End Blog Area -->
 
-    <section class="faq-area ptb-100 bg-f8fbfa">
+    <section class="faq-area ptb-5 bg-f8fbfa">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12 col-md-12">
@@ -631,7 +608,7 @@
             <div class="row align-items-center text-center">
                 <div class="col-lg-12 col-md-12">
                     <div class="lets-talk-content">
-                        <h2 class="wow fadeInUp">درباره حوزه علمیه و مدرسه حضرت قائم (عج) چیذر</h2>
+                        <h2 class="wow fadeInUp pb-5">درباره حوزه علمیه و مدرسه حضرت قائم (عج) چیذر</h2>
                         <p class="wow fadeInUp text-justify">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،
                             و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که
                             لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای

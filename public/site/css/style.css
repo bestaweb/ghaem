@@ -247,6 +247,148 @@ p:last-child {
     border-radius: 8px;
 }
 
+/*     Start adooca template classes       */
+
+.breadcrumb-area {
+    background: -o-linear-gradient(40deg, #fcf4ff 0, #ffffff 100%);
+    background: linear-gradient(50deg, #fcf4ff 0, #ffffff 100%);
+}
+.breadcrumb-area .bread-pagination ul li,
+.breadcrumb-area .bread-pagination ul li a,
+.breadcrumb-content .td-heading .td__desc,
+.breadcrumb-content .td-heading .td__title
+{
+    color: #32325c !important;
+}
+.generic-portfolio-list {
+    overflow: hidden;
+}
+.overlay {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background-color: #000;
+    opacity: 0.8;
+}
+.section-padding {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.section-heading {
+    position: relative;
+    z-index: 1;
+}
+.section__title {
+    font-size: 35px;
+    font-weight: 700;
+}
+.portfolio-filter {
+    text-align: center;
+}
+.portfolio-filter li {
+    display: inline-block;
+    padding: 8px 25px;
+    cursor: pointer;
+    color: #233d63;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.portfolio-filter li.active {
+    color: #58A399;
+    -webkit-box-shadow: 0 6px 25px rgba(14, 16, 48, 0.1);
+    -moz-box-shadow: 0 6px 25px rgba(14, 16, 48, 0.1);
+    box-shadow: 0 6px 25px rgba(14, 16, 48, 0.1);
+    background-color: #fff;
+}
+.generic-portfolio-item {
+    position: relative;
+    z-index: 1;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+.generic-portfolio-item img {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
+}
+.generic-portfolio-content {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+.generic-portfolio-item:hover img {
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.generic-portfolio-item:hover .generic-portfolio-content .portfolio-link {
+    opacity: 1;
+    visibility: visible;
+}
+.generic-portfolio-item:hover .generic-portfolio-content .portfolio-link .icon-element,
+.generic-portfolio-item:hover .generic-portfolio-content .portfolio-link:after {
+    visibility: visible;
+    opacity: 1;
+}
+
+.icon-element-md {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+}
+
+.generic-portfolio-content .portfolio-link .icon-element {
+    color: #fff;
+    position: absolute;
+    top: 55%;
+    left: 43%;
+    -ms-transform: translate(-50%, -50%) scale(1.4);
+    transform: translate(-50%, -50%) scale(1.4);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+}
+.generic-portfolio-content .portfolio-link:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/*     End adooca template classes       */
+
+
 /* default-btn&optional-btn */
 .default-btn {
     align-content: space-between;
@@ -2132,8 +2274,8 @@ Video Presentation Area CSS
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   background-color: #58A399;
   border-radius: 50%;
   color: #ffffff;
@@ -6509,10 +6651,11 @@ Footer Area CSS
   position: relative;
   z-index: 1;
   padding-top: 80px;
+    margin-top: 120px;
 }
 
 .footer-area::before {
-  content: '';
+    content: '';
   position: absolute;
   left: 0;
   top: 0;
