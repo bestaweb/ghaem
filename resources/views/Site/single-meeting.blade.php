@@ -42,7 +42,7 @@
         <div class="container">
             <div class="page-title-content">
                 <h2>نشست خانواده</h2>
-                <p>اخبار نشست های ما</p>
+                <p>جزئیات نشست</p>
             </div>
         </div>
     </div>

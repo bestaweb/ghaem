@@ -395,19 +395,19 @@
 
     <!-- Start Blog Area -->
     <section class="blog-area pt-70">
-        <div class="container-fluid">
+        <div class="container pb-5">
 
             <div class="blog-slides owl-carousel">
                 <div class="single-blog-post-item">
                     <div class="post-image">
-                        <a href="#" class="d-block">
+                        <a href="{{url('/single-news')}}" class="d-block">
                             <img src="{{asset('site/img/blog-image/1.jpg')}}" alt="image">
                         </a>
                     </div>
 
                     <div class="post-content">
-                        <a href="#" class="category">کلاس اخلاق</a>
-                        <h3><a href="#">دوره اخلاق و تربیت</a></h3>
+                        <a href="{{url('/single-news')}}" class="category">کلاس اخلاق</a>
+                        <h3><a href="{{url('/single-news')}}">دوره اخلاق و تربیت</a></h3>
                         <ul class="post-content-footer d-flex justify-content-between align-items-center">
                             <li>
                                 <div class="post-author d-flex align-items-center">
@@ -423,14 +423,14 @@
 
                 <div class="single-blog-post-item">
                     <div class="post-image">
-                        <a href="#" class="d-block">
+                        <a href="{{url('/single-news')}}" class="d-block">
                             <img src="{{asset('site/img/blog-image/2.jpg')}}" alt="image">
                         </a>
                     </div>
 
                     <div class="post-content">
-                        <a href="#" class="category">ادب اجتماعی</a>
-                        <h3><a href="#">دوره اداب اجتماعی فردی</a></h3>
+                        <a href="{{url('/single-news')}}" class="category">ادب اجتماعی</a>
+                        <h3><a href="{{url('/single-news')}}">دوره اداب اجتماعی فردی</a></h3>
                         <ul class="post-content-footer d-flex justify-content-between align-items-center">
                             <li>
                                 <div class="post-author d-flex align-items-center">
@@ -446,14 +446,14 @@
 
                 <div class="single-blog-post-item">
                     <div class="post-image">
-                        <a href="#" class="d-block">
+                        <a href="{{url('/single-news')}}" class="d-block">
                             <img src="{{asset('site/img/blog-image/3.jpg')}}" alt="image">
                         </a>
                     </div>
 
                     <div class="post-content">
-                        <a href="#" class="category">اقتصاد اسلامی</a>
-                        <h3><a href="#">دوره اقتصاد با محوریت اسلام</a></h3>
+                        <a href="{{url('/single-news')}}" class="category">اقتصاد اسلامی</a>
+                        <h3><a href="{{url('/single-news')}}">دوره اقتصاد با محوریت اسلام</a></h3>
                         <ul class="post-content-footer d-flex justify-content-between align-items-center">
                             <li>
                                 <div class="post-author d-flex align-items-center">
@@ -469,14 +469,14 @@
 
                 <div class="single-blog-post-item">
                     <div class="post-image">
-                        <a href="#" class="d-block">
+                        <a href="{{url('/news')}}" class="d-block">
                             <img src="{{asset('site/img/blog-image/2.jpg')}}" alt="image">
                         </a>
                     </div>
 
                     <div class="post-content">
-                        <a href="#" class="category">تفسیر قرآن</a>
-                        <h3><a href="#">دوره تفسیر قرآن کریم</a></h3>
+                        <a href="{{url('/single-news')}}" class="category">تفسیر قرآن</a>
+                        <h3><a href="{{url('/single-news')}}">دوره تفسیر قرآن کریم</a></h3>
                         <ul class="post-content-footer d-flex justify-content-between align-items-center">
                             <li>
                                 <div class="post-author d-flex align-items-center">
@@ -488,6 +488,14 @@
                             </li>
                         </ul>
                     </div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay=".6s">
+                <div class="services-btn-box">
+                    <a href="{{'/news'}}" class="default-btn">
+                        مشاهده همه
+                        <i class="bx bx-chevron-right"></i>
+                    </a>
                 </div>
             </div>
         </div>

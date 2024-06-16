@@ -35,47 +35,130 @@
         </section>
         <!-- End About Area -->
 
-        <!-- Start Partner Area -->
-        <section class="partner-area pt-70 pb-70 bg-f8fbfa">
+
+        <!-- منطقه تاریخ -->
+        <section class="history-area ptb-100 bg-fbf9f8">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-3 col-md-12">
-                        <div class="partner-title">
-                            <h3>همراان ما:</h3>
-                        </div>
-                    </div>
+                <div class="section-title">
+                    <h3>تاریخچه ما</h3>
+                </div>
 
-                    <div class="col-lg-9 col-md-12">
-                        <div class="partner-slides owl-carousel owl-theme">
-                            <div class="single-partner-item">
-                                <a href="#">
-                                    <img src="{{asset('site/img/partner-image/1.png')}}" alt="image">
-                                </a>
-                            </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul class="timeline">
+                            <li>
+                                <div class="timeline-badge"></div>
 
-                            <div class="single-partner-item">
-                                <a href="#">
-                                    <img src="{{asset('site/img/partner-image/2.png')}}" alt="image">
-                                </a>
-                            </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>تاریخچه مختصر</h4>
+                                    </div>
 
-                            <div class="single-partner-item">
-                                <a href="#">
-                                    <img src="{{asset('site/img/partner-image/3.png')}}" alt="image">
-                                </a>
-                            </div>
+                                    <div class="timeline-body">
+                                        <p>مطالعه‌ام به من اجازه می‌دهد که از انیمه‌های توآئه لاکریمیس آزاد استفاده کند.  برای این کار مخالف سرپنتیوس است.</p>
+                                    </div>
 
-                            <div class="single-partner-item">
-                                <a href="#">
-                                    <img src="{{asset('site/img/partner-image/4.png')}}" alt="image">
-                                </a>
-                            </div>
-                        </div>
+                                    <div class="timeline-footer">
+                                        <p>1988 - 1992</p>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="timeline-inverted">
+                                <div class="timeline-badge"></div>
+
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>تاریخچه مختصر</h4>
+                                    </div>
+
+                                    <div class="timeline-body">
+                                        <p>مطالعه‌ام به من اجازه می‌دهد که از انیمه‌های توآئه لاکریمیس آزاد استفاده کند.  برای این کار مخالف سرپنتیوس است.</p>
+                                    </div>
+
+                                    <div class="timeline-footer">
+                                        <p>1993 - 1997</p>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="timeline-badge"></div>
+
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>تاریخچه مختصر</h4>
+                                    </div>
+
+                                    <div class="timeline-body">
+                                        <p>مطالعه‌ام به من اجازه می‌دهد که از انیمه‌های توآئه لاکریمیس آزاد استفاده کند.  برای این کار مخالف سرپنتیوس است.</p>
+                                    </div>
+
+                                    <div class="timeline-footer">
+                                        <p>1998 - 2001</p>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="timeline-inverted">
+                                <div class="timeline-badge"></div>
+
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>تاریخچه مختصر</h4>
+                                    </div>
+
+                                    <div class="timeline-body">
+                                        <p>مطالعه‌ام به من اجازه می‌دهد که از انیمه‌های توآئه لاکریمیس آزاد استفاده کند.  برای این کار مخالف سرپنتیوس است.</p>
+                                    </div>
+
+                                    <div class="timeline-footer">
+                                        <p>2001 - 2005</p>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="timeline-badge"></div>
+
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>تاریخچه مختصر</h4>
+                                    </div>
+
+                                    <div class="timeline-body">
+                                        <p>مطالعه‌ام به من اجازه می‌دهد که از انیمه‌های توآئه لاکریمیس آزاد استفاده کند.  برای این کار مخالف سرپنتیوس است.</p>
+                                    </div>
+
+                                    <div class="timeline-footer">
+                                        <p>2005 - 2010</p>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="timeline-inverted">
+                                <div class="timeline-badge"></div>
+
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>تاریخچه مختصر</h4>
+                                    </div>
+
+                                    <div class="timeline-body">
+                                        <p>مطالعه‌ام به من اجازه می‌دهد که از انیمه‌های توآئه لاکریمیس آزاد استفاده کند.  برای این کار مخالف سرپنتیوس است.</p>
+                                    </div>
+
+                                    <div class="timeline-footer">
+                                        <p>2010 - 2022</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- End Partner Area -->
+        <!-- منطقه پایان تاریخ -->
 
         <!-- Start Team Area -->
         <section class="team-area pb-70 pt-70">
@@ -140,6 +223,50 @@
             </div>
         </section>
         <!-- End Team Area -->
+
+        <!-- Start Partner Area -->
+        <section class="partner-area pt-70 pb-70 bg-f8fbfa">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-12">
+                        <div class="partner-title">
+                            <h3>همراهان ما:</h3>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-9 col-md-12">
+                        <div class="partner-slides owl-carousel owl-theme">
+                            <div class="single-partner-item">
+                                <a href="#">
+                                    <img src="{{asset('site/img/partner-image/1.png')}}" alt="image">
+                                </a>
+                            </div>
+
+                            <div class="single-partner-item">
+                                <a href="#">
+                                    <img src="{{asset('site/img/partner-image/2.png')}}" alt="image">
+                                </a>
+                            </div>
+
+                            <div class="single-partner-item">
+                                <a href="#">
+                                    <img src="{{asset('site/img/partner-image/3.png')}}" alt="image">
+                                </a>
+                            </div>
+
+                            <div class="single-partner-item">
+                                <a href="#">
+                                    <img src="{{asset('site/img/partner-image/4.png')}}" alt="image">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Partner Area -->
+
+
 @endsection
 @section('script')
 @endsection

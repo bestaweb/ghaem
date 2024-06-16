@@ -12,25 +12,258 @@
     </div>
     <!-- End Page Title Area -->
 
-    <div class="container my-4">
+    <!-- Start Blog Area -->
+    <section class="blog-area ptb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog-post">
+                        <div class="post-image">
+                            <a href="{{url('/single-news')}}"><img src="{{asset('/site/img/media/mahdia3.jpg')}}" alt="image"></a>
 
+                            <div class="date"><i class='bx bx-calendar'></i> 01 دی 1398</div>
+                        </div>
 
-        <div class="row">
-            <div class="col-12">
-                <div class="mb-5">
-                    <img src="{{asset('/site/img/speech/speech1.jpg')}}" alt="سخنرانی">
+                        <div class="post-content">
+                            <h3><a href="{{url('/single-news')}}">حجاب و عفاف و تاثیر آن بر جامعه</a></h3>
+
+                            <div class="post-info">
+                                <div class="post-by">
+                                    <img src="{{asset('/site/img/author-image/6.jpg')}}" alt="image">
+
+                                    <h6>زهرا محمدی</h6>
+                                </div>
+
+                                <div class="details-btn">
+                                    <a href="{{url('/single-news')}}"><i class="bx bx-left-arrow-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="mb-5">
-                    <img src="{{asset('/site/img/speech/speech2.jpg')}}" alt="سخنرانی" >                </div>
-                <div class="mb-5">
-                    <img src="{{asset('/site/img/speech/speech3.jpg')}}" alt="سخنرانی" class="mt-lg-5">
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog-post">
+                        <div class="post-image">
+                            <a href="{{url('/single-news')}}"><img src="{{asset('/site/img/media/mahdia3.jpg')}}" alt="image"></a>
+
+                            <div class="date"><i class='bx bx-calendar'></i> 01 دی 1398</div>
+                        </div>
+
+                        <div class="post-content">
+                            <h3><a href="{{url('/single-news')}}">حجاب و عفاف و تاثیر آن بر جامعه</a></h3>
+
+                            <div class="post-info">
+                                <div class="post-by">
+                                    <img src="{{asset('/site/img/author-image/6.jpg')}}" alt="image">
+
+                                    <h6>زهرا محمدی</h6>
+                                </div>
+
+                                <div class="details-btn">
+                                    <a href="{{url('/single-news')}}"><i class="bx bx-left-arrow-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog-post">
+                        <div class="post-image">
+                            <a href="{{url('/single-news')}}"><img src="{{asset('/site/img/media/mahdia3.jpg')}}" alt="image"></a>
 
+                            <div class="date"><i class='bx bx-calendar'></i> 01 دی 1398</div>
+                        </div>
+
+                        <div class="post-content">
+                            <h3><a href="{{url('/single-news')}}">حجاب و عفاف و تاثیر آن بر جامعه</a></h3>
+
+                            <div class="post-info">
+                                <div class="post-by">
+                                    <img src="{{asset('/site/img/author-image/6.jpg')}}" alt="image">
+
+                                    <h6>زهرا محمدی</h6>
+                                </div>
+
+                                <div class="details-btn">
+                                    <a href="{{url('/single-news')}}"><i class="bx bx-left-arrow-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog-post">
+                        <div class="post-image">
+                            <a href="{{url('/single-news')}}"><img src="{{asset('/site/img/media/mahdia3.jpg')}}" alt="image"></a>
+
+                            <div class="date"><i class='bx bx-calendar'></i> 01 دی 1398</div>
+                        </div>
+
+                        <div class="post-content">
+                            <h3><a href="{{url('/single-news')}}">حجاب و عفاف و تاثیر آن بر جامعه</a></h3>
+
+                            <div class="post-info">
+                                <div class="post-by">
+                                    <img src="{{asset('/site/img/author-image/6.jpg')}}" alt="image">
+
+                                    <h6>زهرا محمدی</h6>
+                                </div>
+
+                                <div class="details-btn">
+                                    <a href="{{url('/single-news')}}"><i class="bx bx-left-arrow-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog-post">
+                        <div class="post-image">
+                            <a href="{{url('/single-news')}}"><img src="{{asset('/site/img/media/mahdia3.jpg')}}" alt="image"></a>
+
+                            <div class="date"><i class='bx bx-calendar'></i> 01 دی 1398</div>
+                        </div>
+
+                        <div class="post-content">
+                            <h3><a href="{{url('/single-news')}}">حجاب و عفاف و تاثیر آن بر جامعه</a></h3>
+
+                            <div class="post-info">
+                                <div class="post-by">
+                                    <img src="{{asset('/site/img/author-image/6.jpg')}}" alt="image">
+
+                                    <h6>زهرا محمدی</h6>
+                                </div>
+
+                                <div class="details-btn">
+                                    <a href="{{url('/single-news')}}"><i class="bx bx-left-arrow-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog-post">
+                        <div class="post-image">
+                            <a href="{{url('/single-news')}}"><img src="{{asset('/site/img/media/mahdia3.jpg')}}" alt="image"></a>
+
+                            <div class="date"><i class='bx bx-calendar'></i> 01 دی 1398</div>
+                        </div>
+
+                        <div class="post-content">
+                            <h3><a href="{{url('/single-news')}}">حجاب و عفاف و تاثیر آن بر جامعه</a></h3>
+
+                            <div class="post-info">
+                                <div class="post-by">
+                                    <img src="{{asset('/site/img/author-image/6.jpg')}}" alt="image">
+
+                                    <h6>زهرا محمدی</h6>
+                                </div>
+
+                                <div class="details-btn">
+                                    <a href="{{url('/single-news')}}"><i class="bx bx-left-arrow-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog-post">
+                        <div class="post-image">
+                            <a href="{{url('/single-news')}}"><img src="{{asset('/site/img/media/mahdia3.jpg')}}" alt="image"></a>
+
+                            <div class="date"><i class='bx bx-calendar'></i> 01 دی 1398</div>
+                        </div>
+
+                        <div class="post-content">
+                            <h3><a href="{{url('/single-news')}}">حجاب و عفاف و تاثیر آن بر جامعه</a></h3>
+
+                            <div class="post-info">
+                                <div class="post-by">
+                                    <img src="{{asset('/site/img/author-image/6.jpg')}}" alt="image">
+
+                                    <h6>زهرا محمدی</h6>
+                                </div>
+
+                                <div class="details-btn">
+                                    <a href="{{url('/single-news')}}"><i class="bx bx-left-arrow-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog-post">
+                        <div class="post-image">
+                            <a href="{{url('/single-news')}}"><img src="{{asset('/site/img/media/mahdia3.jpg')}}" alt="image"></a>
+
+                            <div class="date"><i class='bx bx-calendar'></i> 01 دی 1398</div>
+                        </div>
+
+                        <div class="post-content">
+                            <h3><a href="{{url('/single-news')}}">حجاب و عفاف و تاثیر آن بر جامعه</a></h3>
+
+                            <div class="post-info">
+                                <div class="post-by">
+                                    <img src="{{asset('/site/img/author-image/6.jpg')}}" alt="image">
+
+                                    <h6>زهرا محمدی</h6>
+                                </div>
+
+                                <div class="details-btn">
+                                    <a href="{{url('/single-news')}}"><i class="bx bx-left-arrow-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog-post">
+                        <div class="post-image">
+                            <a href="{{url('/single-news')}}"><img src="{{asset('/site/img/media/mahdia3.jpg')}}" alt="image"></a>
+
+                            <div class="date"><i class='bx bx-calendar'></i> 01 دی 1398</div>
+                        </div>
+
+                        <div class="post-content">
+                            <h3><a href="{{url('/single-news')}}">حجاب و عفاف و تاثیر آن بر جامعه</a></h3>
+
+                            <div class="post-info">
+                                <div class="post-by">
+                                    <img src="{{asset('/site/img/author-image/6.jpg')}}" alt="image">
+
+                                    <h6>زهرا محمدی</h6>
+                                </div>
+
+                                <div class="details-btn">
+                                    <a href="{{url('/single-news')}}"><i class="bx bx-left-arrow-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 col-md-12">
+                    <div class="pagination-area">
+                        <a href="#" class="prev page-numbers"><i class='bx bxs-arrow-to-right'></i></a>
+                        <a href="#" class="page-numbers">1</a>
+                        <span class="page-numbers current" aria-current="page">2</span>
+                        <a href="#" class="page-numbers">3</a>
+                        <a href="#" class="next page-numbers"><i class='bx bxs-arrow-to-left'></i></a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div style="margin-bottom: 80px"></div>
-    </div>
+    </section>
+    <!-- End Blog Area -->
+
 
 
 @endsection

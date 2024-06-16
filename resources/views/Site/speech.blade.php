@@ -20,7 +20,7 @@
             <div class="container mt-5">
                 <div class="row " style="justify-content: center">
                     <div class="col-md-8" >
-                        <img src="{{asset('/site/img/media/mahdia1.jpg')}}" alt="image">
+                        <img src="{{asset('/site/img/media/mahdia1.jpg')}}" class="mx-auto d-block" alt="image">
                     </div>
                 </div>
                 <div class="service-details-content">

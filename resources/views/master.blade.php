@@ -33,7 +33,11 @@
 
 <div class="preloader-area">
     <div class="loading-message">
-        <p><span class="dot-1" style="font-size: 80px;font-family:Sahel !important;"> حوزه علمیه </span><span class="dot-2" style="font-size: 80px;font-family:Sahel !important;"> </span><span class="dot-3" style="font-size: 80px;font-family:Sahel !important;"> حضرت قائم (عج) </span></p>
+        <p>
+            <span class="dot-1" style="font-size: 80px;font-family:IranNastaliq,serif !important;"> حوزه علمیه </span>
+            <span class="dot-2" style="font-size: 80px;font-family:IranNastaliq,serif !important;"> </span>
+            <span class="dot-3" style="font-size: 80px;font-family:IranNastaliq,serif !important;"> حضرت قائم (عج) </span>
+        </p>
     </div>
 </div>
 

@@ -28,6 +28,7 @@ Route::get('/journal'  , [App\Http\Controllers\Site\IndexController::class, 'jou
 Route::get('/all-services'  , [App\Http\Controllers\Site\IndexController::class, 'allServices']);
 Route::get('/speech'  , [App\Http\Controllers\Site\IndexController::class, 'speech']);
 Route::get('/news'  , [App\Http\Controllers\Site\IndexController::class, 'news']);
+Route::get('/single-news'  , [App\Http\Controllers\Site\IndexController::class, 'singleNews']);
 Route::get('/meeting'  , [App\Http\Controllers\Site\IndexController::class, 'meeting']);
 Route::get('/single-meeting'  , [App\Http\Controllers\Site\IndexController::class, 'singleMeeting']);
 Route::get('/video-gallery'  , [App\Http\Controllers\Site\IndexController::class, 'videoGallery']);
