@@ -74,23 +74,6 @@ class IndexController extends Controller
         return View('Site.journal');
     }
 
-    public function singleService1()
-    {
-        return View('Site.single-service1');
-    }
-    public function singleService2()
-    {
-        return View('Site.single-service2');
-    }
-    public function singleService3()
-    {
-        return View('Site.single-service3');
-    }
-    public function singleService4()
-    {
-    return View('Site.single-service4');
-    }
-
     public function allServices(){
         return View('Site.all-services');
     }
@@ -102,6 +85,30 @@ class IndexController extends Controller
     public function news()
     {
         return View('Site.news');
+    }
+    public function singleNews()
+    {
+        return View('Site.single-news');
+    }
+
+    public function meeting()
+    {
+        return View('Site.meeting');
+    }
+
+    public function singleMeeting()
+    {
+        return View('Site.single-meeting');
+    }
+
+    public function videoGallery()
+    {
+        return View('Site.video-gallery');
+    }
+
+    public function imageGallery()
+    {
+        return View('Site.image-gallery');
     }
     /**
      * Show the form for creating a new resource.
