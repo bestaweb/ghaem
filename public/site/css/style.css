@@ -97,9 +97,6 @@ img {
   background-color: #f4f5fe;
 }
 
-
-
-
 .bg-f4e9da {
   background-color: #f4e9da;
 }
@@ -107,9 +104,6 @@ img {
 .bg-f9f9f9 {
   background-color: #f9f9f9;
 }
-
-
-
 
 .ptb-100 {
   padding-top: 100px;
@@ -387,6 +381,11 @@ p:last-child {
 }
 
 /*     End adooca template classes       */
+
+/*     Start tora template classes      */
+
+/*     End tora template classes      */
+
 
 
 /* default-btn&optional-btn */
@@ -825,10 +824,7 @@ changed from 1290 to 1540
 
 .spacle-nav .navbar {
   background-color: transparent;
-  padding-right: 0;
-  padding-top: 0;
-  padding-left: 0;
-  padding-bottom: 0;
+    padding: 0;
 }
 
 .spacle-nav .navbar .navbar-brand {
@@ -5336,6 +5332,8 @@ Page Title Area CSS
 }
 
 /*  Start torakoos classes  */
+
+
 .timeline {
     list-style-type: none;
     padding: 0;
@@ -5479,6 +5477,7 @@ Page Title Area CSS
     font-weight: 900;
     color: #58A399;
 }
+
 /*  End torakoos classes    */
 
 /*================================================

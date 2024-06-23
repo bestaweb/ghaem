@@ -18,6 +18,82 @@
     <section class="blog-area ptb-100">
         <div class="container">
             <div class="row">
+                <div class="col-lg-4 col-md-12">
+                    <aside class="widget-area" id="secondary">
+                        <section class="widget widget_search">
+                            <form class="search-form">
+                                <label>
+                                    <span class="screen-reader-text">جستجو کنید:</span>
+                                    <input type="search" class="search-field" placeholder="جستجو ...">
+                                </label>
+                                <button type="submit"><i class='bx bx-search-alt'></i></button>
+                            </form>
+                        </section>
+
+                        <section class="widget widget_spacle_posts_thumb">
+                            <h3 class="widget-title">نشست های محبوب</h3>
+
+                            <article class="item">
+                                <a href="#" class="thumb">
+                                    <span class="fullimage cover bg1" role="img"></span>
+                                </a>
+                                <div class="info">
+                                    <time datetime="2019-06-30">10 دی 1398</time>
+                                    <h4 class="title usmall"><a href="#">لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد.</a></h4>
+                                </div>
+
+                                <div class="clear"></div>
+                            </article>
+
+                            <article class="item">
+                                <a href="#" class="thumb">
+                                    <span class="fullimage cover bg2" role="img"></span>
+                                </a>
+                                <div class="info">
+                                    <time datetime="2019-06-30">10 دی 1398</time>
+                                    <h4 class="title usmall"><a href="#">لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد.</a></h4>
+                                </div>
+
+                                <div class="clear"></div>
+                            </article>
+
+                            <article class="item">
+                                <a href="#" class="thumb">
+                                    <span class="fullimage cover bg3" role="img"></span>
+                                </a>
+                                <div class="info">
+                                    <time datetime="2019-06-30">10 دی 1398</time>
+                                    <h4 class="title usmall"><a href="#">لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد.</a></h4>
+                                </div>
+
+                                <div class="clear"></div>
+                            </article>
+                        </section>
+
+                        <section class="widget widget_categories">
+                            <h3 class="widget-title">دسته بندی ها</h3>
+
+                            <ul>
+                                <li><a href="#">مهدویت</a></li>
+                                <li><a href="#">امام شناسی</a></li>
+                                <li><a href="#">فقه و تدین</a></li>
+                                <li><a href="#">خانواده</a></li>
+                                <li><a href="#">دسته بندی نشده</a></li>
+                            </ul>
+                        </section>
+
+                        <section class="widget widget_archive">
+                            <h3 class="widget-title">بایگانی ها</h3>
+
+                            <ul>
+                                <li><a href="#">مهر 1398</a></li>
+                                <li><a href="#">آبان 1398</a></li>
+                                <li><a href="#">آذر 1398</a></li>
+                            </ul>
+                        </section>
+
+                    </aside>
+                </div>
                 <div class="col-lg-8 col-md-12">
                     <div class="row">
                         <div class="col-lg-6 col-md-6">
@@ -240,82 +316,6 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-12">
-                    <aside class="widget-area" id="secondary">
-                        <section class="widget widget_search">
-                            <form class="search-form">
-                                <label>
-                                    <span class="screen-reader-text">جستجو کنید:</span>
-                                    <input type="search" class="search-field" placeholder="جستجو ...">
-                                </label>
-                                <button type="submit"><i class='bx bx-search-alt'></i></button>
-                            </form>
-                        </section>
-
-                        <section class="widget widget_spacle_posts_thumb">
-                            <h3 class="widget-title">نشست های محبوب</h3>
-
-                            <article class="item">
-                                <a href="#" class="thumb">
-                                    <span class="fullimage cover bg1" role="img"></span>
-                                </a>
-                                <div class="info">
-                                    <time datetime="2019-06-30">10 دی 1398</time>
-                                    <h4 class="title usmall"><a href="#">لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد.</a></h4>
-                                </div>
-
-                                <div class="clear"></div>
-                            </article>
-
-                            <article class="item">
-                                <a href="#" class="thumb">
-                                    <span class="fullimage cover bg2" role="img"></span>
-                                </a>
-                                <div class="info">
-                                    <time datetime="2019-06-30">10 دی 1398</time>
-                                    <h4 class="title usmall"><a href="#">لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد.</a></h4>
-                                </div>
-
-                                <div class="clear"></div>
-                            </article>
-
-                            <article class="item">
-                                <a href="#" class="thumb">
-                                    <span class="fullimage cover bg3" role="img"></span>
-                                </a>
-                                <div class="info">
-                                    <time datetime="2019-06-30">10 دی 1398</time>
-                                    <h4 class="title usmall"><a href="#">لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد.</a></h4>
-                                </div>
-
-                                <div class="clear"></div>
-                            </article>
-                        </section>
-
-                        <section class="widget widget_categories">
-                            <h3 class="widget-title">دسته بندی ها</h3>
-
-                            <ul>
-                                <li><a href="#">مهدویت</a></li>
-                                <li><a href="#">امام شناسی</a></li>
-                                <li><a href="#">فقه و تدین</a></li>
-                                <li><a href="#">خانواده</a></li>
-                                <li><a href="#">دسته بندی نشده</a></li>
-                            </ul>
-                        </section>
-
-                        <section class="widget widget_archive">
-                            <h3 class="widget-title">بایگانی ها</h3>
-
-                            <ul>
-                                <li><a href="#">مهر 1398</a></li>
-                                <li><a href="#">آبان 1398</a></li>
-                                <li><a href="#">آذر 1398</a></li>
-                            </ul>
-                        </section>
-
-                    </aside>
-                </div>
             </div>
         </div>
     </section>

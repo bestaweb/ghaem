@@ -24,7 +24,15 @@
                     </div>
                 </div>
                 <div class="service-details-content">
-                    <h3 class="pb-4" style="margin-top: 80px">موضوعات اصلی</h3>
+                    <div class="row pt-5">
+                        <div class="col-12 text-center">
+                            <audio controls>
+                                <source src="{{asset('/site/audio/sample-9s.mp3')}}" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+                    <h3 class="pb-4" style="margin-top: 40px">موضوعات اصلی</h3>
 
                     <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است.</p>
 

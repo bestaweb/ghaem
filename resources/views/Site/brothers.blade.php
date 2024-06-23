@@ -39,7 +39,7 @@
     <section class="digital-agency-banner">
         <div class="container">
             <div class="digital-agency-banner-content">
-                <h1 class="wow fadeInUp" style="font-family: 'IranNastaliq',serif;font-size: 50px !important;">حوزه علمیه حضرت قائم (عج) چیذر</h1>
+                <h1 class="wow fadeInUp" style="font-family: 'IranNastaliq',serif;font-size: 50px !important;">حوزه علمیه برادران حضرت قائم (عج) چیذر</h1>
                 <p class="wow fadeInUp">لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40
                     سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به
                     مدت 40 سال استاندارد صنعت بوده است.</p>
@@ -48,9 +48,16 @@
     </section>
 
 
-    <div class="marquee">
-        <span>يَرْفَعِ اللَّهُ الَّذِينَ آمَنُوا مِنْكُمْ وَالَّذِينَ أُوتُوا الْعِلْمَ دَرَجَاتٍ</span>
+    {{--   Start line   --}}
+    <div style="background-color: #f0f0f9;width: 100%;display: flex; height: 50px;">
+        <div style="width: 55%;margin: 0 auto;display: flex;">
+            <div><img src="{{asset('site/img/navaar.png')}}" style="padding-top: 8px;max-height: 100%;" alt=""></div>
+            <div class="marquee"><span style="margin-bottom: 12px;margin-top: 12px;display: inline-block;animation: marquee 20s linear infinite;">يَرْفَعِ اللَّهُ الَّذِينَ آمَنُوا مِنْكُمْ وَالَّذِينَ أُوتُوا الْعِلْمَ دَرَجَاتٍ | شهادت رئیس جمهور سیزدهم حضرت آیت الله رئیسی را تسلیت عرض می کنیم | ملت ما باید به عنوان یک تکلیف و یک حق در این انتخابات شرکت کنند </span></div>
+            <div><img src="{{asset('site/img/navaar.png')}}" style="padding-top: 8px;max-height: 100%;" alt=""></div>
+        </div>
     </div>
+    {{--   End line   --}}
+
     <!-- End Digital Agency Banner -->
 
 
@@ -204,7 +211,7 @@
 
                 <div class="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay=".6s">
                     <div class="services-btn-box">
-                        <a href="{{'/meeting'}}" class="default-btn">
+                        <a href="{{url('/meeting')}}" class="default-btn">
                             مشاهده همه
                             <i class="bx bx-chevron-right"></i>
                         </a>
@@ -214,7 +221,6 @@
         </div>
     </section>
     <!-- End Services Area -->
-
 
 
     <!-- Start Case Studies Area -->
@@ -228,57 +234,57 @@
         <div class="container">
             <div class="case-studies-slides owl-carousel">
                 <div class="single-case-studies-item">
-                    <a href="{{'/speech'}}" class="image d-block">
+                    <a href="{{url('/speech')}}" class="image d-block">
                         <img src="{{asset('site/img/case-studies/case-studies-img1.jpg')}}" alt="image">
                     </a>
 
                     <div class="content">
-                        <h3><a href="{{'/speech'}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
-                        <a href="{{'/speech'}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
+                        <h3><a href="{{url('/speech')}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
+                        <a href="{{url('/speech')}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
                     </div>
                 </div>
 
                 <div class="single-case-studies-item">
-                    <a href="{{'/speech'}}" class="image d-block">
+                    <a href="{{url('/speech')}}" class="image d-block">
                         <img src="{{asset('site/img/case-studies/case-studies-img2.jpg')}}" alt="image">
                     </a>
 
                     <div class="content">
-                        <h3><a href="{{'/speech'}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
+                        <h3><a href="{{url('/speech')}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
                         <a href="{{'/speech'}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
                     </div>
                 </div>
 
                 <div class="single-case-studies-item">
-                    <a href="{{'/speech'}}" class="image d-block">
+                    <a href="{{url('/speech')}}" class="image d-block">
                         <img src="{{asset('site/img/case-studies/case-studies-img3.jpg')}}" alt="image">
                     </a>
 
                     <div class="content">
-                        <h3><a href="{{'/speech'}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
-                        <a href="{{'/speech'}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
+                        <h3><a href="{{url('/speech')}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
+                        <a href="{{url('/speech')}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
                     </div>
                 </div>
 
                 <div class="single-case-studies-item">
-                    <a href="{{'/speech'}}" class="image d-block">
+                    <a href="{{url('/speech')}}" class="image d-block">
                         <img src="{{asset('site/img/case-studies/case-studies-img4.jpg')}}" alt="image">
                     </a>
 
                     <div class="content">
-                        <h3><a href="{{'/speech'}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
-                        <a href="{{'/speech'}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
+                        <h3><a href="{{url('/speech')}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
+                        <a href="{{url('/speech')}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
                     </div>
                 </div>
 
                 <div class="single-case-studies-item">
-                    <a href="{{'/speech'}}" class="image d-block">
+                    <a href="{{url('/speech')}}" class="image d-block">
                         <img src="{{asset('site/img/case-studies/case-studies-img5.jpg')}}" alt="image">
                     </a>
 
                     <div class="content">
-                        <h3><a href="{{'/speech'}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
-                        <a href="{{'/speech'}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
+                        <h3><a href="{{url('/speech')}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
+                        <a href="{{url('/speech')}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
                     </div>
                 </div>
             </div>
@@ -492,7 +498,7 @@
             </div>
             <div class="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay=".6s">
                 <div class="services-btn-box">
-                    <a href="{{'/news'}}" class="default-btn">
+                    <a href="{{url('/news')}}" class="default-btn">
                         مشاهده همه
                         <i class="bx bx-chevron-right"></i>
                     </a>

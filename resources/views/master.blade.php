@@ -96,7 +96,7 @@
                                     <a href="{{url('/publish-center')}}" class="nav-link">مرکز نشر</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="{{'/journal'}}" class="nav-link">نشریه</a>
+                                    <a href="{{url('/journal')}}" class="nav-link">نشریه</a>
                                 </li>
                             </ul>
                         </li>
@@ -112,7 +112,7 @@
                             <a href="{{url('/loan-institute')}}" class="nav-link">موسسه قرض الحسنه</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{'/journal'}}" class="nav-link">نشریه</a>
+                            <a href="{{url('/journal')}}" class="nav-link">نشریه</a>
                         </li>
                         <li class="nav-item">
                             <a href="{{url('/about')}}" class="nav-link">درباره ما</a>
@@ -164,7 +164,7 @@
                         <li><a href="#">درباره ما</a></li>
                         <li><a href="#">آخرین اخبار</a></li>
                         <li><a href="#">حریم خصوصی</a></li>
-                        <li><a href="#">شرایط و ضوابط</a></li>
+                       <li><a href="#">شرایط و ضوابط</a></li>
                     </ul>
                 </div>
             </div>
@@ -186,7 +186,11 @@
                     <h3>اطلاعات تماس</h3>
 
                     <ul class="footer-contact-info">
-                        <li>موقعیت: <a href="https://goo.gl/maps/MQ78iGP5g9VgZcJ38" target="_blank">تهران، شمیران، چیذر، خیابان شهید افشین محمودیان، کوی علمیه خواهران</a></li>
+                        <li>موقعیت:
+                            <a href="https://goo.gl/maps/MQ78iGP5g9VgZcJ38" target="_blank">
+                                تهران، شمیران، چیذر، خیابان شهید افشین محمودیان، کوی علمیه خواهران
+                            </a>
+                        </li>
                         <li>ایمیل: <a href="mailto:hello@spacle.com">info@hozehghaem.ir</a></li>
                         <li>تلفن: <a href="tel:021-12345678">021-22203301</a></li>
                         <li>تلفن: <a href="tel:021-12345678">021-22211382</a></li>

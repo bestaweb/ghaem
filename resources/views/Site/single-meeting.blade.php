@@ -35,6 +35,8 @@
         }
         video.playing {
             display: block;
+            max-width: 100%;
+            object-fit: fill;
         }
     </style>
     <!-- Start Page Title Area -->
@@ -48,14 +50,13 @@
     </div>
     <!-- End Page Title Area -->
     <!-- Service details -->
-    <div class="service-details ptb-100">
+    <div class="service-details">
         <div class="container">
             <div class="container mt-5">
                 <div class="row " style="justify-content: center">
                     <div class="col-md-8" >
                         <div class="video-box">
                             <img src="{{asset('/site/img/blog-image/1.jpg')}}" class="main-image" alt="image">
-
                             <a href="{{asset('/site/video/1.mp4')}}" class="video-btn popup-youtube">
                                 <i class="bx bx-play"></i>
                             </a>

@@ -7,7 +7,6 @@
         .card-title {
             font-size: 20px;
         }
-
         .marquee {
 
             width: 100%;
@@ -40,19 +39,24 @@
         <div class="container">
             <div class="digital-agency-banner-content">
                 <h1 class="wow fadeInUp" style="font-family: 'IranNastaliq',serif;font-size: 60px !important;">حوزه علمیه حضرت قائم (عج) </h1>
-                <p class="wow fadeInUp" style="font-family: IranNastaliq,serif">لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40
+                <p class="wow fadeInUp">لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40
                     سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به
-                    مدت 40 سال استاندارد صنعت بوده است.</p>
+                    مدت 40 سال استاندارد صنعت بوده است.
+                </p>
             </div>
         </div>
     </section>
-    <div style="background-color: #efefef;width: 100%;display: flex;">
+
+    {{--   Start line   --}}
+    <div style="background-color: #f0f0f9;width: 100%;display: flex; height: 50px;">
         <div style="width: 55%;margin: 0 auto;display: flex;">
-            <div><img src="{{asset('site/img/marketing-agency/rightline.png')}}" style="padding-top: 6px" alt=""></div>
+            <div><img src="{{asset('site/img/navaar.png')}}" style="padding-top: 8px;max-height: 100%;" alt=""></div>
             <div class="marquee"><span style="margin-bottom: 12px;margin-top: 12px;display: inline-block;animation: marquee 20s linear infinite;">يَرْفَعِ اللَّهُ الَّذِينَ آمَنُوا مِنْكُمْ وَالَّذِينَ أُوتُوا الْعِلْمَ دَرَجَاتٍ | شهادت رئیس جمهور سیزدهم حضرت آیت الله رئیسی را تسلیت عرض می کنیم | ملت ما باید به عنوان یک تکلیف و یک حق در این انتخابات شرکت کنند </span></div>
-            <div><img src="{{asset('site/img/marketing-agency/leftline.png')}}" style="padding-top: 6px" alt=""></div>
+            <div><img src="{{asset('site/img/navaar.png')}}" style="padding-top: 8px;max-height: 100%;" alt=""></div>
         </div>
     </div>
+    {{--   End line   --}}
+
 
     <!-- End Digital Agency Banner -->
 
@@ -73,7 +77,7 @@
     {{--  End brothers and sisters section  --}}
 
 
-
+    {{--    Start sections Card    --}}
     <div class="features-card-section pt-100 pb-70 bg-f8fbfa">
         <div class="container">
             <div class="row">
@@ -101,7 +105,7 @@
                     <div class="single-features-card tx-center">
                         <i class='bx bxs-book-open'></i>
                         <h3>
-                            <a href="{{'publishing-center'}}" class="card-title">مرکز نشر</a>
+                            <a href="{{url('publishing-center')}}" class="card-title">مرکز نشر</a>
                         </h3>
                         <p>مرکز نشر کتب و مقالات اساتید و طلاب برجسته حوزه</p>
                     </div>
@@ -110,7 +114,7 @@
                     <div class="single-features-card tx-center">
                         <i class='bx bxs-gift'></i>
                         <h3>
-                            <a href="{{'charity'}}" class="card-title">موسسه خیریه</a>
+                            <a href="{{url('/charity')}}" class="card-title">موسسه خیریه</a>
                         </h3>
                         <p>موسسه خیریه وابسته به حوزه جهت کمک به طلاب</p>
                     </div>
@@ -119,16 +123,16 @@
                     <div class="single-features-card tx-center">
                         <i class='bx bxs-book'></i>
                         <h3>
-                            <a href="{{'mahdia'}}" class="card-title">مرکز مشاوره</a>
+                            <a href="{{url('/mahdia')}}" class="card-title">مرکز مشاوره</a>
                         </h3>
                         <p>مرکز مشاوره با بهره گیری از متخصصین حوزه و دانشگاه</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="single-features-card tx-center">
-                        <i class='bx bx-cake'></i>
+                        <i class='bx bxs-book'></i>
                         <h3>
-                            <a href="{{'kindergarten'}}" class="card-title">مهد کودک</a>
+                            <a href="{{url('/kindergarten')}}" class="card-title">مهد کودک</a>
                         </h3>
                         <p>مهدکودک در زمینه آموزش مفاهیم قرآنی برای خردسالان</p>
                     </div>
@@ -138,7 +142,6 @@
         </div>
     </div>
     {{--    End sections Card    --}}
-
 
     <!-- Start Services Area -->
     <section class="services-area mt-3 mb-3">
@@ -238,7 +241,7 @@
 
                 <div class="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay=".6s">
                     <div class="services-btn-box">
-                        <a href="{{'/meeting'}}" class="default-btn">
+                        <a href="{{url('/meeting')}}" class="default-btn">
                             مشاهده همه
                             <i class="bx bx-chevron-right"></i>
                         </a>
@@ -254,57 +257,57 @@
         <div class="container">
             <div class="case-studies-slides owl-carousel">
                 <div class="single-case-studies-item">
-                    <a href="{{'/speech'}}" class="image d-block">
+                    <a href="{{url('/speech')}}" class="image d-block">
                         <img src="{{asset('site/img/case-studies/case-studies-img1.jpg')}}" alt="image">
                     </a>
 
                     <div class="content">
-                        <h3><a href="{{'/speech'}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
-                        <a href="{{'/speech'}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
+                        <h3><a href="{{url('/speech')}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
+                        <a href="{{url('/speech')}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
                     </div>
                 </div>
 
                 <div class="single-case-studies-item">
-                    <a href="{{'/speech'}}" class="image d-block">
+                    <a href="{{url('/speech')}}" class="image d-block">
                         <img src="{{asset('site/img/case-studies/case-studies-img2.jpg')}}" alt="image">
                     </a>
 
                     <div class="content">
-                        <h3><a href="{{'/speech'}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
-                        <a href="{{'/speech'}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
+                        <h3><a href="{{url('/speech')}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
+                        <a href="{{url('/speech')}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
                     </div>
                 </div>
 
                 <div class="single-case-studies-item">
-                    <a href="{{'/speech'}}" class="image d-block">
+                    <a href="{{url('/speech')}}" class="image d-block">
                         <img src="{{asset('site/img/case-studies/case-studies-img3.jpg')}}" alt="image">
                     </a>
 
                     <div class="content">
-                        <h3><a href="{{'/speech'}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
-                        <a href="{{'/speech'}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
+                        <h3><a href="{{url('/speech')}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
+                        <a href="{{url('/speech')}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
                     </div>
                 </div>
 
                 <div class="single-case-studies-item">
-                    <a href="{{'/speech'}}" class="image d-block">
+                    <a href="{{url('/speech')}}" class="image d-block">
                         <img src="{{asset('site/img/case-studies/case-studies-img4.jpg')}}" alt="image">
                     </a>
 
                     <div class="content">
-                        <h3><a href="{{'/speech'}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
-                        <a href="{{'/speech'}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
+                        <h3><a href="{{url('/speech')}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
+                        <a href="{{url('/speech')}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
                     </div>
                 </div>
 
                 <div class="single-case-studies-item">
-                    <a href="{{'/speech'}}" class="image d-block">
+                    <a href="{{url('/speech')}}" class="image d-block">
                         <img src="{{asset('site/img/case-studies/case-studies-img5.jpg')}}" alt="image">
                     </a>
 
                     <div class="content">
-                        <h3><a href="{{'/speech'}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
-                        <a href="{{'/speech'}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
+                        <h3><a href="{{url('/speech')}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
+                        <a href="{{url('/speech')}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
                     </div>
                 </div>
             </div>
@@ -513,7 +516,7 @@
             </div>
             <div class="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay=".6s">
                 <div class="services-btn-box">
-                    <a href="{{'/news'}}" class="default-btn">
+                    <a href="{{url('/news')}}" class="default-btn">
                         مشاهده همه
                         <i class="bx bx-chevron-right"></i>
                     </a>
@@ -617,22 +620,10 @@
                 <div class="col-lg-12 col-md-12">
                     <div class="lets-talk-content">
                         <h2 class="wow fadeInUp pb-5">درباره حوزه علمیه و مدرسه حضرت قائم (عج) چیذر</h2>
-                        <p class="wow fadeInUp text-justify">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،
-                            و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که
-                            لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
-                            کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و
-                            متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص
-                            طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و
-                            دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی
-                            دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار
-                            گیرد.لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
-                            گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط
-                            فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای
-                            زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم
-                            افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان
-                            فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و
-                            شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات
-                            پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
+                        <p class="wow fadeInUp text-justify">
+                            حوزه علمیه حضرت قائم (عج) چیذر از سال ۱۳۴۶ در دو بخش برادران و خواهران آغاز به کار نمود.
+                            از سال ۱۳۹۳ واحد خواهران با نظارت مرکز مدیریت حوزه های علمیه فعالیت خود را در سه رشته کلام با گرایش امامت، تفسیر و علوم قرآنی و مشاوره خانواده در قالب موسسه آموزش عالی حوزوی ادامه داد. این مؤسسه متشکل از سه معاونت آموزش آموزش ،پژوهش و فرهنگی می باشد .
+                            </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 wow fadeInRight" data-wow-delay=".2s">

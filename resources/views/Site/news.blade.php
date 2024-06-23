@@ -12,6 +12,42 @@
     </div>
     <!-- End Page Title Area -->
 
+    <!-- Start Filter Area -->
+    <div class="container my-4">
+        <div class="row">
+            <!-- ستون اول: دراپ‌دان برای دسته‌بندی مطالب -->
+            <div class="col-md-4 mb-3">
+                <select class="form-control">
+                    <option value="" disabled selected>انتخاب دسته‌بندی</option>
+                    <option value="category1">دسته‌بندی 1</option>
+                    <option value="category2">دسته‌بندی 2</option>
+                    <option value="category3">دسته‌بندی 3</option>
+                </select>
+            </div>
+
+            <!-- ستون دوم: دراپ‌دان برای مرتب‌سازی بر اساس زمان انتشار -->
+            <div class="col-md-4 mb-3">
+                <select class="form-control">
+                    <option value="" disabled selected>مرتب‌سازی بر اساس</option>
+                    <option value="newest">جدیدترین</option>
+                    <option value="oldest">قدیمی‌ترین</option>
+                </select>
+            </div>
+
+            <!-- ستون سوم: فیلد جستجو -->
+            <div class="col-md-4 mb-3">
+                <input type="text" class="form-control" placeholder="جستجو...">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <button type="button" class="btn btn-primary" style="background-color: #58A399">تایید</button>
+            </div>
+        </div>
+    </div>
+    <!-- End Filter Area -->
+
+
     <!-- Start Blog Area -->
     <section class="blog-area ptb-100">
         <div class="container">
