@@ -103,7 +103,7 @@
 
                 <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".4s">
                     <div class="single-features-card tx-center">
-                        <i class='bx bxs-book-open'></i>
+                        <i class='bx bxs-book'></i>
                         <h3>
                             <a href="{{url('publishing-center')}}" class="card-title">مرکز نشر</a>
                         </h3>
@@ -112,7 +112,7 @@
                 </div>
                 <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="single-features-card tx-center">
-                        <i class='bx bxs-gift'></i>
+                        <i class='bx bxs-donate-blood'></i>
                         <h3>
                             <a href="{{url('/charity')}}" class="card-title">موسسه خیریه</a>
                         </h3>
@@ -121,7 +121,7 @@
                 </div>
                 <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="single-features-card tx-center">
-                        <i class='bx bxs-book'></i>
+                        <i class='bx bxs-user-voice'></i>
                         <h3>
                             <a href="{{url('/mahdia')}}" class="card-title">مرکز مشاوره</a>
                         </h3>
@@ -130,7 +130,7 @@
                 </div>
                 <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="single-features-card tx-center">
-                        <i class='bx bxs-book'></i>
+                        <i class='bx bx-child'></i>
                         <h3>
                             <a href="{{url('/kindergarten')}}" class="card-title">مهد کودک</a>
                         </h3>
