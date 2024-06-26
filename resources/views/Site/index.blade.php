@@ -50,15 +50,26 @@
     {{--   Start line   --}}
     <div style="background-color: #f0f0f9;width: 100%;display: flex; height: 50px;">
         <div style="width: 55%;margin: 0 auto;display: flex;">
-            <div><img src="{{asset('site/img/navaar.png')}}" style="padding-top: 8px;max-height: 100%;" alt=""></div>
-            <div class="marquee"><span style="margin-bottom: 12px;margin-top: 12px;display: inline-block;animation: marquee 20s linear infinite;">يَرْفَعِ اللَّهُ الَّذِينَ آمَنُوا مِنْكُمْ وَالَّذِينَ أُوتُوا الْعِلْمَ دَرَجَاتٍ | شهادت رئیس جمهور سیزدهم حضرت آیت الله رئیسی را تسلیت عرض می کنیم | ملت ما باید به عنوان یک تکلیف و یک حق در این انتخابات شرکت کنند </span></div>
-            <div><img src="{{asset('site/img/navaar.png')}}" style="padding-top: 8px;max-height: 100%;" alt=""></div>
+            <div>
+                <img src="{{asset('site/img/navaar.png')}}" style="padding-top: 8px;max-height: 100%;" alt="">
+            </div>
+            <div class="marquee">
+                <span style="margin-bottom: 12px;margin-top: 12px;display: inline-block;animation: marquee 40s linear infinite;">
+                    مقام معظم رهبری (مدظله العالی) پدیده خواهران طلبه پدیده عظیم و مبارکی است. هزاران عالم ، پژوهشگر ، فقیه و فیلسوف در حوزه‌های علمی خواهران تربیت شوند این حرکت عظیمی خواهد بود.ٍ    |
+                    الإمامُ الصّادقُ عليه السلام :مَن تَعَلَّمَ للّهِِ و عَمِلَ للّهِِ و عَلَّمَ للّهِِ دُعِيَ في مَلَكوتِ السَّماواتِ عَظيما، فقيلَ : تَعَلَّمَ للّهِِ ، و عَمِلَ للّهِِ ، و عَلَّمَ للّهِِ !    |
+                    امام صادق علیه السلام هر که برای خدا علم بیاموزد و به آن عمل کند و به دیگران آموزش دهد در ملکوت آسمان‌ها به بزرگی یاد شود و گفته آید برای خدا آموخت برای خدا عمل کرد و برای خدا آموزش داد.    |
+الکافی ۱/۳۵/۶
+                </span>
+            </div>
+            <div>
+                <img src="{{asset('site/img/navaar.png')}}" style="padding-top: 8px;max-height: 100%;" alt="">
+            </div>
         </div>
     </div>
     {{--   End line   --}}
 
 
-    <!-- End Digital Agency Banner -->
+
 
     {{--  Start brothers and sisters section  --}}
     <div class="container">

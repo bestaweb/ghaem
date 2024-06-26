@@ -33,6 +33,7 @@ Route::get('/meeting'  , [App\Http\Controllers\Site\IndexController::class, 'mee
 Route::get('/single-meeting'  , [App\Http\Controllers\Site\IndexController::class, 'singleMeeting']);
 Route::get('/video-gallery'  , [App\Http\Controllers\Site\IndexController::class, 'videoGallery']);
 Route::get('/image-gallery'  , [App\Http\Controllers\Site\IndexController::class, 'imageGallery']);
+Route::get('/education'  , [App\Http\Controllers\Site\IndexController::class, 'education']);
 
 
 //Route::get('/', function () {

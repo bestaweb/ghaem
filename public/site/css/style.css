@@ -3054,7 +3054,10 @@ Features Area CSS
 }
 
 .single-features-card {
-  background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: #ffffff;
   -webkit-box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.03);
           box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.03);
   border-radius: 35px;

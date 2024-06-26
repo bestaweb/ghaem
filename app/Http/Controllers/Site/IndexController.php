@@ -110,6 +110,10 @@ class IndexController extends Controller
     {
         return View('Site.image-gallery');
     }
+    public function education()
+    {
+        return View('Site.education');
+    }
     /**
      * Show the form for creating a new resource.
      */
