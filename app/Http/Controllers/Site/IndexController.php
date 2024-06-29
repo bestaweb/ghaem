@@ -114,6 +114,14 @@ class IndexController extends Controller
     {
         return View('Site.education');
     }
+    public function research()
+    {
+        return View('Site.research');
+    }
+    public function cultural()
+    {
+        return View('Site.cultural');
+    }
     /**
      * Show the form for creating a new resource.
      */

@@ -48,7 +48,7 @@
             <div class="spacle-responsive-menu">
                 <div class="logo">
                     <a href="{{asset('site/img/logo.png')}}">
-                        <img src="{{asset('site/img/logo.png')}}" style="max-width:30%" alt="logo">
+                        <img src="{{asset('site/img/logo.png')}}"  alt="logo">
                     </a>
                 </div>
             </div>
@@ -59,7 +59,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-light">
                 <a class="navbar-brand headerLogo" href={{url('/')}}>
-                    <img src="{{asset('site/img/logo.png')}}" style="max-width:30%" alt="logo">
+                    <img src="{{asset('site/img/logo.png')}}" style="max-width:25%" alt="logo">
                 </a>
 
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
@@ -150,9 +150,14 @@
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="single-footer-widget">
                     <div class="logo">
-                        <a href="{{url('/')}}"><img src="{{asset('site/img/logo.png')}}" style="max-width:30%" alt="image"></a>
+                        <a href="{{url('/')}}"><img src="{{asset('site/img/logo.png')}}" style="max-width:60px" alt="image"></a>
                     </div>
-                    <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است.</p>
+                    <p class="text-justify">
+                        حوزه علمیه حضرت قائم (عج) چیذر از سال ۱۳۴۶ در دو بخش برادران و خواهران آغاز به کار نمود.
+                        از سال ۱۳۹۳ واحد خواهران با نظارت مرکز مدیریت حوزه های علمیه فعالیت خود را در سه
+                        رشته کلام با گرایش امامت، تفسیر و علوم قرآنی و مشاوره خانواده در قالب موسسه آموزش عالی حوزوی
+                        ادامه داد. این مؤسسه متشکل از سه معاونت آموزش آموزش ،پژوهش و فرهنگی می باشد .
+                    </p>
                 </div>
             </div>
 

@@ -6,7 +6,9 @@
     <div class="page-title-area">
         <div class="container">
             <div class="page-title-content">
-                <h2>مرکز مشاوره حوزه قائم</h2>
+                <h2>
+                    معاونت فرهنگی
+                </h2>
             </div>
         </div>
     </div>

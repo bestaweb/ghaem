@@ -34,7 +34,8 @@ Route::get('/single-meeting'  , [App\Http\Controllers\Site\IndexController::clas
 Route::get('/video-gallery'  , [App\Http\Controllers\Site\IndexController::class, 'videoGallery']);
 Route::get('/image-gallery'  , [App\Http\Controllers\Site\IndexController::class, 'imageGallery']);
 Route::get('/education'  , [App\Http\Controllers\Site\IndexController::class, 'education']);
-
+Route::get('/research'  , [App\Http\Controllers\Site\IndexController::class, 'research']);
+Route::get('/cultural'  , [App\Http\Controllers\Site\IndexController::class, 'cultural']);
 
 //Route::get('/', function () {
 //    return view('welcome');

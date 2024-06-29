@@ -39,28 +39,33 @@
     <section class="digital-agency-banner">
         <div class="container">
             <div class="digital-agency-banner-content">
-                <h1 class="wow fadeInUp" style="font-family: 'IranNastaliq',serif;font-size: 50px !important;">حوزه علمیه برادران حضرت قائم (عج) چیذر</h1>
-                <p class="wow fadeInUp">لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40
-                    سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به
-                    مدت 40 سال استاندارد صنعت بوده است.</p>
+                <h1 class="wow fadeInUp" style="font-family: 'IranNastaliq',serif;">حوزه علمیه خواهران حضرت قائم (عج) </h1>
+                <p class="wow fadeInUp text-justify">
+                    حوزه علمیه حضرت قائم (عج) چیذر از سال ۱۳۴۶ در دو بخش برادران و خواهران آغاز به کار نمود.
+                    از سال ۱۳۹۳ واحد خواهران با نظارت مرکز مدیریت حوزه های علمیه فعالیت خود را در سه رشته کلام
+                    با گرایش امامت، تفسیر و علوم قرآنی و مشاوره خانواده در قالب موسسه آموزش عالی حوزوی ادامه داد.
+                    این مؤسسه متشکل از سه معاونت آموزش آموزش ،پژوهش و فرهنگی می باشد .
+                </p>
             </div>
         </div>
     </section>
     <!-- End Digital Agency Banner -->
 
-
     {{--   Start line   --}}
-    <div style="background-color: #f0f0f9;width: 100%;display: flex; height: 50px;">
-        <div style="width: 55%;margin: 0 auto;display: flex;">
+    <div class="container-fluid" style="background-color: #f0f0f9; display: flex; height: 50px;">
+        <div class="container col-12 col-md-6" style="margin: 0 auto;display: flex;">
             <div>
                 <img src="{{asset('site/img/navaar.png')}}" style="padding-top: 8px;max-height: 100%;" alt="">
             </div>
             <div class="marquee">
                 <span style="margin-bottom: 12px;margin-top: 12px;display: inline-block;animation: marquee 40s linear infinite;">
-                    مقام معظم رهبری (مدظله العالی) پدیده خواهران طلبه پدیده عظیم و مبارکی است. هزاران عالم ، پژوهشگر ، فقیه و فیلسوف در حوزه‌های علمی خواهران تربیت شوند این حرکت عظیمی خواهد بود.ٍ    |
-                    الإمامُ الصّادقُ عليه السلام :مَن تَعَلَّمَ للّهِِ و عَمِلَ للّهِِ و عَلَّمَ للّهِِ دُعِيَ في مَلَكوتِ السَّماواتِ عَظيما، فقيلَ : تَعَلَّمَ للّهِِ ، و عَمِلَ للّهِِ ، و عَلَّمَ للّهِِ !    |
-                    امام صادق علیه السلام هر که برای خدا علم بیاموزد و به آن عمل کند و به دیگران آموزش دهد در ملکوت آسمان‌ها به بزرگی یاد شود و گفته آید برای خدا آموخت برای خدا عمل کرد و برای خدا آموزش داد.    |
-الکافی ۱/۳۵/۶
+                    مقام معظم رهبری (مدظله العالی) پدیده خواهران طلبه پدیده عظیم و مبارکی است. هزاران عالم ،
+                    پژوهشگر ، فقیه و فیلسوف در حوزه‌های علمی خواهران تربیت شوند این حرکت عظیمی خواهد بود.ٍ    |
+                    الإمامُ الصّادقُ عليه السلام :مَن تَعَلَّمَ للّهِِ و عَمِلَ للّهِِ و عَلَّمَ للّهِِ دُعِيَ في مَلَكوتِ
+                    السَّماواتِ عَظيما، فقيلَ : تَعَلَّمَ للّهِِ ، و عَمِلَ للّهِِ ، و عَلَّمَ للّهِِ !    |
+                    امام صادق علیه السلام هر که برای خدا علم بیاموزد و به آن عمل کند و به دیگران آموزش دهد
+                    در ملکوت آسمان‌ها به بزرگی یاد شود و گفته آید برای خدا آموخت برای خدا عمل کرد و برای خدا آموزش داد.    |
+                    الکافی ۱/۳۵/۶
                 </span>
             </div>
             <div>
@@ -71,8 +76,6 @@
     {{--   End line   --}}
 
 
-
-
     <!-- Start section cards -->
     <div class="features-card-section pt-100 pb-70 bg-f8fbfa">
         <div class="container">
@@ -81,20 +84,24 @@
                     <div class="single-features-card tx-center">
                         <i class='bx bxs-graduation'></i>
                         <h3>
-                            <a href="#" class="card-title">معاونت آموزش</a>
+                            <a href="{{url('/education')}}" class="card-title">
+                                معاونت آموزش
+                            </a>
                         </h3>
                         <p class="card-text text-justify">مؤسسه آموزش عالی حوزوی حضرت قائم (عج)
                             در راستای تحقق رسالت خود مبنی بر ارتقاء سطح علمی بانوان مسلمان متعهد پذ
                             یرای طلاب خواهر در دو مقطع کارشناسی (سطح ۲) و کارشناسی ارشد (سطح ۳) می باشد.
-                            <a href="#moreText1" data-toggle="collapse">ادامه مطلب ...</a>
+                            <a href="#moreText1" data-toggle="collapse">
+                                ادامه مطلب ...
+                            </a>
                         </p>
                         <div id="moreText1" class="collapse">
-                            <p class="text-justify">فارغ التحصیلان حوزوی پس از تکمیل دوره آموزشی و مهارتی تبلیغی
+                            <p class="text-justify">
+                                فارغ التحصیلان حوزوی پس از تکمیل دوره آموزشی و مهارتی تبلیغی
                                 جهت فعالیت های علمی و تبلیغی جذب انجمن ها ارگانها و نهادهای ملی و بین المللی میشوند.
                             </p>
                         </div>
                         <div class="flex-grow-1"></div>
-
                     </div>
                 </div>
 
@@ -102,11 +109,11 @@
                     <div class="single-features-card tx-center">
                         <i class='bx bx-book-reader'></i>
                         <h3>
-                            <a href="#" class="card-title">معاونت پژوهش</a>
+                            <a href="{{url('/research')}}" class="card-title">معاونت پژوهش</a>
                         </h3>
-                        <p class="card-text text-justify">وادی پژوهش و نویسندگی گسترۀ نقش آفرینی است که با آموزش صحیح و روشمند
-                            و بهره گیری از روشهای پژوهش پر بار می گردد. یکی از اهداف حوزه های علمیه تربیت طلاب محقق سخنور و نویسنده است.
-                            که در تبلور جامعه اسلامی بسیار مهم است.
+                        <p class="card-text text-justify">وادی پژوهش و نویسندگی گسترۀ نقش آفرینی است که با آموزش صحیح
+                            و روشمند و بهره گیری از روشهای پژوهش پر بار می گردد. یکی از اهداف حوزه های علمیه
+                            تربیت طلاب محقق سخنور و نویسنده است. که در تبلور جامعه اسلامی بسیار مهم است.
                             <br>
                             <a href="#moreText2" data-toggle="collapse">ادامه مطلب ...</a>
                         </p>
@@ -129,7 +136,7 @@
                     <div class="single-features-card tx-center">
                         <i class='bx bx-library'></i>
                         <h3>
-                            <a href="#" class="card-title">معاونت فرهنگی</a>
+                            <a href="{{url('/cultural')}}" class="card-title">معاونت فرهنگی</a>
                         </h3>
                         <p class="card-text text-justify">معاونت فرهنگی در کنار رسالت اصلی خود با تشکیل سه کانون
                             فرهنگی به شرح ذیل اقدام به فعالیتهای تخصصی در حوزه های
@@ -168,9 +175,10 @@
                     <div class="single-features-card tx-center">
                         <i class='bx bxs-user-voice'></i>
                         <h3>
-                            <a href="#" class="card-title">معاونت مشاوره</a>
+                            <a href="{{url('/mahdia')}}" class="card-title">معاونت مشاوره</a>
                         </h3>
-                        <p class="flex-grow-1">لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد
+                        <p class="flex-grow-1">
+                            لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد
                             صنعت بوده است.</p>
                     </div>
                 </div>
