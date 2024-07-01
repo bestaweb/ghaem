@@ -34,10 +34,10 @@
 
 
     <!-- Start Digital Agency Banner -->
-    <section class="digital-agency-banner">
+    <section class="digital-agency-banner" data-bg-desktop='../../site/img/marketing-agency/banner-bg.jpg' data-bg-mobile="../../site/img/marketing-agency/banner-bg-mobile2.jpg">
         <div class="container">
             <div class="digital-agency-banner-content">
-                <h1 class="wow fadeInUp" style="font-family: 'IranNastaliq',serif;">حوزه علمیه برادران حضرت قائم (عج) </h1>
+                <h1 class="wow fadeInUp" style="font-family: 'IranNastaliq',serif;">حوزه برادران علمیه حضرت قائم (عج) </h1>
                 <p class="wow fadeInUp text-justify">
                     حوزه علمیه حضرت قائم (عج) چیذر از سال ۱۳۴۶ در دو بخش برادران و خواهران آغاز به کار نمود.
                     از سال ۱۳۹۳ واحد خواهران با نظارت مرکز مدیریت حوزه های علمیه فعالیت خود را در سه رشته کلام
@@ -605,3 +605,27 @@
     <!-- End Let's Talk Area -->
 
 @endsection
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        let lazyBackgrounds = [].slice.call(document.querySelectorAll(".digital-agency-banner"));
+
+        if ("IntersectionObserver" in window) {
+            let lazyBackgroundObserver = new IntersectionObserver(function(entries, observer) {
+                entries.forEach(function(entry) {
+                    if (entry.isIntersecting) {
+                        let lazyBackground = entry.target;
+                        let bgUrl = window.innerWidth <= 600 ? lazyBackground.getAttribute('data-bg-mobile') : lazyBackground.getAttribute('data-bg-desktop');
+                        lazyBackground.style.backgroundImage = 'url(' + bgUrl + ')';
+                        lazyBackground.classList.add("lazy-bg");
+                        lazyBackgroundObserver.unobserve(lazyBackground);
+                    }
+                });
+            });
+
+            lazyBackgrounds.forEach(function(lazyBackground) {
+                lazyBackgroundObserver.observe(lazyBackground);
+            });
+        }
+    });
+</script>

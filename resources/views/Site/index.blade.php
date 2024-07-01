@@ -7,6 +7,7 @@
         .card-title {
             font-size: 20px;
         }
+
         .marquee {
 
             width: 100%;
@@ -35,11 +36,11 @@
     </style>
 
     <!-- Start Digital Agency Banner -->
-    <section class="digital-agency-banner">
+    <section class="digital-agency-banner" data-bg-desktop='../../site/img/marketing-agency/banner-bg.jpg' data-bg-mobile="../../site/img/marketing-agency/banner-bg-mobile2.jpg">
         <div class="container">
             <div class="digital-agency-banner-content">
-                <h1 class="wow fadeInUp" style="font-family: 'IranNastaliq',serif;">حوزه علمیه حضرت قائم (عج) </h1>
-                <p class="wow fadeInUp text-justify">
+                <h1 style="font-family: 'IranNastaliq',serif;">حوزه علمیه حضرت قائم (عج) </h1>
+                <p class="text-justify">
                     حوزه علمیه حضرت قائم (عج) چیذر از سال ۱۳۴۶ در دو بخش برادران و خواهران آغاز به کار نمود.
                     از سال ۱۳۹۳ واحد خواهران با نظارت مرکز مدیریت حوزه های علمیه فعالیت خود را در سه رشته کلام
                     با گرایش امامت، تفسیر و علوم قرآنی و مشاوره خانواده در قالب موسسه آموزش عالی حوزوی ادامه داد.
@@ -56,10 +57,12 @@
     <div class="container-fluid" style="background-color: #f0f0f9; display: flex; height: 50px;">
         <div class="container col-12 col-md-6" style="margin: 0 auto;display: flex;">
             <div>
-                <img src="{{asset('site/img/navaar.png')}}" style="padding-top: 8px;max-height: 100%;" alt="">
+                <img src="{{asset('site/img/navaar.png')}}" style="padding-top: 8px;max-height: 100%;" loading="lazy"
+                     alt="">
             </div>
             <div class="marquee">
-                <span style="margin-bottom: 12px;margin-top: 12px;display: inline-block;animation: marquee 40s linear infinite;">
+                <span
+                    style="margin-bottom: 12px;margin-top: 12px;display: inline-block;animation: marquee 60s linear infinite;">
                     مقام معظم رهبری (مدظله العالی) پدیده خواهران طلبه پدیده عظیم و مبارکی است. هزاران عالم ،
                     پژوهشگر ، فقیه و فیلسوف در حوزه‌های علمی خواهران تربیت شوند این حرکت عظیمی خواهد بود.ٍ    |
                     الإمامُ الصّادقُ عليه السلام :مَن تَعَلَّمَ للّهِِ و عَمِلَ للّهِِ و عَلَّمَ للّهِِ دُعِيَ في مَلَكوتِ
@@ -70,31 +73,28 @@
                 </span>
             </div>
             <div>
-                <img src="{{asset('site/img/navaar.png')}}" style="padding-top: 8px;max-height: 100%;" alt="">
+                <img src="{{asset('site/img/navaar.png')}}" style="padding-top: 8px;max-height: 100%;" loading="lazy"
+                     alt="">
             </div>
         </div>
     </div>
     {{--   End line   --}}
-
-
-
 
     {{--  Start brothers and sisters section  --}}
     <div class="container">
         <div class="row pt-3" style="justify-content: center">
             <div class="col-md-3 p-2">
                 <a href="{{url('/brothers')}}">
-                    <img src="{{ asset('/site/img/برادران.png') }}" alt="Image 1">
-                </a>            </div>
+                    <img src="{{ asset('/site/img/برادران.png') }}" loading="lazy" alt="Image 1">
+                </a></div>
             <div class="col-md-3 p-2">
                 <a href="{{url('/sisters')}}">
-                    <img src="{{ asset('/site/img/خواهران.png') }}" alt="Image 2">
+                    <img src="{{ asset('/site/img/خواهران.png') }}" loading="lazy" alt="Image 2">
                 </a>
             </div>
         </div>
     </div>
     {{--  End brothers and sisters section  --}}
-
 
     {{--    Start sections Card    --}}
     <div class="features-card-section pt-100 pb-70 bg-f8fbfa">
@@ -207,7 +207,7 @@
 
                             <div class="col-lg-6 col-md-12 p-0">
                                 <div class="image bg-2">
-                                    <img src="{{asset('site/img/marketing-agency/services-img2.jpg')}}" alt="image">
+                                    <img src="{{asset('site/img/marketing-agency/services-img2.jpg')}}" loading="lazy" alt="image">
                                 </div>
                             </div>
                         </div>
@@ -229,7 +229,7 @@
 
                             <div class="col-lg-6 col-md-12 p-0">
                                 <div class="image bg-3">
-                                    <img src="{{asset('site/img/marketing-agency/services-img3.jpg')}}" alt="image">
+                                    <img src="{{asset('site/img/marketing-agency/services-img3.jpg')}}" loading="lazy" alt="image">
                                 </div>
                             </div>
                         </div>
@@ -251,7 +251,7 @@
 
                             <div class="col-lg-6 col-md-12 p-0">
                                 <div class="image bg-4">
-                                    <img src="{{asset('site/img/marketing-agency/services-img4.jpg')}}" alt="image">
+                                    <img src="{{asset('site/img/marketing-agency/services-img4.jpg')}}" loading="lazy" alt="image">
                                 </div>
                             </div>
                         </div>
@@ -277,7 +277,7 @@
             <div class="case-studies-slides owl-carousel">
                 <div class="single-case-studies-item">
                     <a href="{{url('/speech')}}" class="image d-block">
-                        <img src="{{asset('site/img/case-studies/case-studies-img1.jpg')}}" alt="image">
+                        <img src="{{asset('site/img/case-studies/case-studies-img1.jpg')}}" loading="lazy" alt="image">
                     </a>
 
                     <div class="content">
@@ -288,7 +288,7 @@
 
                 <div class="single-case-studies-item">
                     <a href="{{url('/speech')}}" class="image d-block">
-                        <img src="{{asset('site/img/case-studies/case-studies-img2.jpg')}}" alt="image">
+                        <img src="{{asset('site/img/case-studies/case-studies-img2.jpg')}}" loading="lazy" alt="image">
                     </a>
 
                     <div class="content">
@@ -299,7 +299,7 @@
 
                 <div class="single-case-studies-item">
                     <a href="{{url('/speech')}}" class="image d-block">
-                        <img src="{{asset('site/img/case-studies/case-studies-img3.jpg')}}" alt="image">
+                        <img src="{{asset('site/img/case-studies/case-studies-img3.jpg')}}" loading="lazy" alt="image">
                     </a>
 
                     <div class="content">
@@ -310,7 +310,7 @@
 
                 <div class="single-case-studies-item">
                     <a href="{{url('/speech')}}" class="image d-block">
-                        <img src="{{asset('site/img/case-studies/case-studies-img4.jpg')}}" alt="image">
+                        <img src="{{asset('site/img/case-studies/case-studies-img4.jpg')}}" loading="lazy" alt="image">
                     </a>
 
                     <div class="content">
@@ -321,7 +321,7 @@
 
                 <div class="single-case-studies-item">
                     <a href="{{url('/speech')}}" class="image d-block">
-                        <img src="{{asset('site/img/case-studies/case-studies-img5.jpg')}}" alt="image">
+                        <img src="{{asset('site/img/case-studies/case-studies-img5.jpg')}}" loading="lazy" alt="image">
                     </a>
 
                     <div class="content">
@@ -385,7 +385,7 @@
                 </div>
                 <div class="services-image wow fadeInRight" data-wow-delay=".3s">
                     <div class="image">
-                        <img src="{{asset('site/img/hozeslide2.jpg')}}" alt="image">
+                        <img src="{{asset('site/img/hozeslide2.jpg')}}" loading="lazy" alt="image">
                     </div>
                 </div>
             </div>
@@ -622,16 +622,6 @@
         </div>
     </section>
 
-    <!-- Start Company Preview Area -->
-    {{--    <div>
-            <div class="container">
-                <div class="company-preview-video">
-                    <style>.h_iframe-aparat_embed_frame{position:relative;}.h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}.h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe src="https://www.aparat.com/video/video/embed/videohash/V7WI3/vt/frame?titleShow=true&recom=self"  allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div>            </div>
-            </div>
-        </div>--}}
-
-    <!-- End Company Preview Area -->
-
     <!-- Start Let's Talk Area -->
     <section class="lets-talk-area mt-5 mb-5">
         <div class="container">
@@ -641,8 +631,10 @@
                         <h2 class="wow fadeInUp pb-5">درباره حوزه علمیه و مدرسه حضرت قائم (عج) چیذر</h2>
                         <p class="wow fadeInUp text-justify">
                             حوزه علمیه حضرت قائم (عج) چیذر از سال ۱۳۴۶ در دو بخش برادران و خواهران آغاز به کار نمود.
-                            از سال ۱۳۹۳ واحد خواهران با نظارت مرکز مدیریت حوزه های علمیه فعالیت خود را در سه رشته کلام با گرایش امامت، تفسیر و علوم قرآنی و مشاوره خانواده در قالب موسسه آموزش عالی حوزوی ادامه داد. این مؤسسه متشکل از سه معاونت آموزش آموزش ،پژوهش و فرهنگی می باشد .
-                            </p>
+                            از سال ۱۳۹۳ واحد خواهران با نظارت مرکز مدیریت حوزه های علمیه فعالیت خود را در سه رشته کلام
+                            با گرایش امامت، تفسیر و علوم قرآنی و مشاوره خانواده در قالب موسسه آموزش عالی حوزوی ادامه
+                            داد. این مؤسسه متشکل از سه معاونت آموزش آموزش ،پژوهش و فرهنگی می باشد .
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 wow fadeInRight" data-wow-delay=".2s">
@@ -652,6 +644,30 @@
     </section>
     <!-- End Let's Talk Area -->
 
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        let lazyBackgrounds = [].slice.call(document.querySelectorAll(".digital-agency-banner"));
+
+        if ("IntersectionObserver" in window) {
+            let lazyBackgroundObserver = new IntersectionObserver(function(entries, observer) {
+                entries.forEach(function(entry) {
+                    if (entry.isIntersecting) {
+                        let lazyBackground = entry.target;
+                        let bgUrl = window.innerWidth <= 600 ? lazyBackground.getAttribute('data-bg-mobile') : lazyBackground.getAttribute('data-bg-desktop');
+                        lazyBackground.style.backgroundImage = 'url(' + bgUrl + ')';
+                        lazyBackground.classList.add("lazy-bg");
+                        lazyBackgroundObserver.unobserve(lazyBackground);
+                    }
+                });
+            });
+
+            lazyBackgrounds.forEach(function(lazyBackground) {
+                lazyBackgroundObserver.observe(lazyBackground);
+            });
+        }
+    });
+</script>
 @endsection
 @section('script')
 @endsection

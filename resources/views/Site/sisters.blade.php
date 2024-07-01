@@ -36,9 +36,9 @@
 
 
     <!-- Start Digital Agency Banner -->
-    <section class="digital-agency-banner">
+    <section class="sisters-banner" data-bg-desktop='../../site/img/banner-slider/sisters-banner.jpg' data-bg-mobile='../../site/img/banner-slider/sisters-banner-mobile.jpg'>
         <div class="container">
-            <div class="digital-agency-banner-content">
+            <div class="sisters-banner-content">
                 <h1 class="wow fadeInUp" style="font-family: 'IranNastaliq',serif;">حوزه علمیه خواهران حضرت قائم (عج) </h1>
                 <p class="wow fadeInUp text-justify">
                     حوزه علمیه حضرت قائم (عج) چیذر از سال ۱۳۴۶ در دو بخش برادران و خواهران آغاز به کار نمود.
@@ -606,3 +606,26 @@
     <!-- End Let's Talk Area -->
 
 @endsection
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        let lazyBackgrounds = [].slice.call(document.querySelectorAll(".sisters-banner"));
+
+        if ("IntersectionObserver" in window) {
+            let lazyBackgroundObserver = new IntersectionObserver(function(entries, observer) {
+                entries.forEach(function(entry) {
+                    if (entry.isIntersecting) {
+                        let lazyBackground = entry.target;
+                        let bgUrl = window.innerWidth <= 600 ? lazyBackground.getAttribute('data-bg-mobile') : lazyBackground.getAttribute('data-bg-desktop');
+                        lazyBackground.style.backgroundImage = 'url(' + bgUrl + ')';
+                        lazyBackground.classList.add("sisters-lazy-bg");
+                        lazyBackgroundObserver.unobserve(lazyBackground);
+                    }
+                });
+            });
+
+            lazyBackgrounds.forEach(function(lazyBackground) {
+                lazyBackgroundObserver.observe(lazyBackground);
+            });
+        }
+    });
+</script>
