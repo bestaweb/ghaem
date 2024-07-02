@@ -7743,12 +7743,12 @@ Digital Agency Banner Area CSS
 }
 
 .lazy-bg {
-    background-image: url('../../site/img/marketing-agency/banner-bg.jpg');
+    background-image: url(/public/site/img/marketing-agency/banner-bg.jpg);
 }
 
 @media (max-width: 600px) {
     .lazy-bg {
-        background-image: url('../../site/img/marketing-agency/banner-bg-mobile2.jpg');
+        background-image: url(/public/site/img/marketing-agency/banner-bg-mobile2.jpg);
     }
 }
 
@@ -7796,12 +7796,12 @@ Digital Agency Banner Area CSS
     }
 }
 .sisters-lazy-bg {
-    background-image: url('../../site/img/banner-slider/sisters-banner.jpg');
+    background-image: url('/public/site/img/banner-slider/sisters-banner.jpg');
 }
 
 @media (max-width: 600px) {
     .sisters-lazy-bg {
-        background-image: url('../../site/img/banner-slider/sisters-banner-mobile.jpg');
+        background-image: url('/public/site/img/banner-slider/sisters-banner-mobile.jpg');
     }
 }
 
@@ -8123,7 +8123,7 @@ Company Preview Area CSS
 .company-preview-area {
     position: relative;
     z-index: 1;
-    background-image: url(../../sitesite/img/marketing-agency/company-preview.jpg);
+    background-image: url(../../site/img/marketing-agency/company-preview.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;

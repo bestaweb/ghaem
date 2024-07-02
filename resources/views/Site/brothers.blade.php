@@ -34,7 +34,7 @@
 
 
     <!-- Start Digital Agency Banner -->
-    <section class="digital-agency-banner" data-bg-desktop='../../site/img/marketing-agency/banner-bg.jpg' data-bg-mobile="../../site/img/marketing-agency/banner-bg-mobile2.jpg">
+    <section class="digital-agency-banner" data-bg-desktop='/public/site/img/marketing-agency/banner-bg.jpg' data-bg-mobile="/public/site/img/marketing-agency/banner-bg-mobile2.jpg">
         <div class="container">
             <div class="digital-agency-banner-content">
                 <h1 class="wow fadeInUp" style="font-family: 'IranNastaliq',serif;">حوزه برادران علمیه حضرت قائم (عج) </h1>

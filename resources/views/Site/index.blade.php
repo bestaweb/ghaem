@@ -36,7 +36,7 @@
     </style>
 
     <!-- Start Digital Agency Banner -->
-    <section class="digital-agency-banner" data-bg-desktop='../../site/img/marketing-agency/banner-bg.jpg' data-bg-mobile="../../site/img/marketing-agency/banner-bg-mobile2.jpg">
+    <section class="digital-agency-banner" data-bg-desktop='/public/site/img/marketing-agency/banner-bg.jpg' data-bg-mobile="/public/site/img/marketing-agency/banner-bg-mobile2.jpg">
         <div class="container">
             <div class="digital-agency-banner-content">
                 <h1 style="font-family: 'IranNastaliq',serif;">حوزه علمیه حضرت قائم (عج) </h1>
@@ -645,29 +645,29 @@
     <!-- End Let's Talk Area -->
 
 
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        let lazyBackgrounds = [].slice.call(document.querySelectorAll(".digital-agency-banner"));
+{{--<script>--}}
+{{--    document.addEventListener("DOMContentLoaded", function() {--}}
+{{--        let lazyBackgrounds = [].slice.call(document.querySelectorAll(".digital-agency-banner"));--}}
 
-        if ("IntersectionObserver" in window) {
-            let lazyBackgroundObserver = new IntersectionObserver(function(entries, observer) {
-                entries.forEach(function(entry) {
-                    if (entry.isIntersecting) {
-                        let lazyBackground = entry.target;
-                        let bgUrl = window.innerWidth <= 600 ? lazyBackground.getAttribute('data-bg-mobile') : lazyBackground.getAttribute('data-bg-desktop');
-                        lazyBackground.style.backgroundImage = 'url(' + bgUrl + ')';
-                        lazyBackground.classList.add("lazy-bg");
-                        lazyBackgroundObserver.unobserve(lazyBackground);
-                    }
-                });
-            });
+{{--        if ("IntersectionObserver" in window) {--}}
+{{--            let lazyBackgroundObserver = new IntersectionObserver(function(entries, observer) {--}}
+{{--                entries.forEach(function(entry) {--}}
+{{--                    if (entry.isIntersecting) {--}}
+{{--                        let lazyBackground = entry.target;--}}
+{{--                        let bgUrl = window.innerWidth <= 600 ? lazyBackground.getAttribute('data-bg-mobile') : lazyBackground.getAttribute('data-bg-desktop');--}}
+{{--                        lazyBackground.style.backgroundImage = 'url(' + bgUrl + ')';--}}
+{{--                        lazyBackground.classList.add("lazy-bg");--}}
+{{--                        lazyBackgroundObserver.unobserve(lazyBackground);--}}
+{{--                    }--}}
+{{--                });--}}
+{{--            });--}}
 
-            lazyBackgrounds.forEach(function(lazyBackground) {
-                lazyBackgroundObserver.observe(lazyBackground);
-            });
-        }
-    });
-</script>
+{{--            lazyBackgrounds.forEach(function(lazyBackground) {--}}
+{{--                lazyBackgroundObserver.observe(lazyBackground);--}}
+{{--            });--}}
+{{--        }--}}
+{{--    });--}}
+{{--</script>--}}
 @endsection
 @section('script')
 @endsection

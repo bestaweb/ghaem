@@ -36,7 +36,7 @@
 
 
     <!-- Start Digital Agency Banner -->
-    <section class="sisters-banner" data-bg-desktop='../../site/img/banner-slider/sisters-banner.jpg' data-bg-mobile='../../site/img/banner-slider/sisters-banner-mobile.jpg'>
+    <section class="sisters-banner" data-bg-desktop='/public/site/img/banner-slider/sisters-banner.jpg' data-bg-mobile='/public/site/img/banner-slider/sisters-banner-mobile.jpg'>
         <div class="container">
             <div class="sisters-banner-content">
                 <h1 class="wow fadeInUp" style="font-family: 'IranNastaliq',serif;">حوزه علمیه خواهران حضرت قائم (عج) </h1>
