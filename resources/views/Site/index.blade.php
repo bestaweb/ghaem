@@ -1,5 +1,28 @@
 @extends('master')
 @section('style')
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        let lazyBackgrounds = [].slice.call(document.querySelectorAll(".digital-agency-banner"));
+
+        if ("IntersectionObserver" in window) {
+            let lazyBackgroundObserver = new IntersectionObserver(function(entries, observer) {
+                entries.forEach(function(entry) {
+                    if (entry.isIntersecting) {
+                        let lazyBackground = entry.target;
+                        let bgUrl = window.innerWidth <= 600 ? lazyBackground.getAttribute('data-bg-mobile') : lazyBackground.getAttribute('data-bg-desktop');
+                        lazyBackground.style.backgroundImage = 'url(' + bgUrl + ')';
+                        lazyBackground.classList.add("lazy-bg");
+                        lazyBackgroundObserver.unobserve(lazyBackground);
+                    }
+                });
+            });
+
+            lazyBackgrounds.forEach(function(lazyBackground) {
+                lazyBackgroundObserver.observe(lazyBackground);
+            });
+        }
+    });
+</script>
 @endsection
 @section('main')
 
@@ -36,7 +59,7 @@
     </style>
 
     <!-- Start Digital Agency Banner -->
-    <section class="digital-agency-banner" data-bg-desktop="{{asset('site/img/marketing-agency/banner-bg.jpg')}}" data-bg-mobile="{{asset('site/img/marketing-agency/banner-bg-mobile2.jpg')}}">
+    <section class="digital-agency-banner" data-bg-desktop="{{asset('/public/site/img/marketing-agency/banner-bg.jpg')}}" data-bg-mobile="{{asset('/public/site/img/marketing-agency/banner-bg-mobile2.jpg')}}">
         <div class="container">
             <div class="digital-agency-banner-content">
                 <h1 style="font-family: 'IranNastaliq',serif;">حوزه علمیه حضرت قائم (عج) </h1>
