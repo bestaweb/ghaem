@@ -642,7 +642,7 @@
     </section>
 @endsection
 @section('script')
-{{-- <script>
+<script>
     document.addEventListener("DOMContentLoaded", function() {
         let lazyBackgrounds = [].slice.call(document.querySelectorAll(".digital-agency-banner"));
 
@@ -664,5 +664,5 @@
             });
         }
     });
-</script> --}}
+</script>
 @endsection
