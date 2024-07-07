@@ -1,65 +1,40 @@
 @extends('master')
 @section('style')
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        let lazyBackgrounds = [].slice.call(document.querySelectorAll(".digital-agency-banner"));
-
-        if ("IntersectionObserver" in window) {
-            let lazyBackgroundObserver = new IntersectionObserver(function(entries, observer) {
-                entries.forEach(function(entry) {
-                    if (entry.isIntersecting) {
-                        let lazyBackground = entry.target;
-                        let bgUrl = window.innerWidth <= 600 ? lazyBackground.getAttribute('data-bg-mobile') : lazyBackground.getAttribute('data-bg-desktop');
-                        lazyBackground.style.backgroundImage = 'url(' + bgUrl + ')';
-                        lazyBackground.classList.add("lazy-bg");
-                        lazyBackgroundObserver.unobserve(lazyBackground);
-                    }
-                });
-            });
-
-            lazyBackgrounds.forEach(function(lazyBackground) {
-                lazyBackgroundObserver.observe(lazyBackground);
-            });
-        }
-    });
-</script>
 @endsection
 @section('main')
 
-    <style>
-        .card-title {
-            font-size: 20px;
+<style>
+    .card-title {
+        font-size: 20px;
+    }
+    .marquee {
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        box-sizing: border-box;
+        font-size: large;
+    }
+
+    .marquee span {
+        margin-bottom: 12px;
+        margin-top: 12px;
+        display: inline-block;
+        padding-left: 100%;
+        animation: marquee 16s linear infinite;
+    }
+
+    @keyframes marquee {
+        0% {
+            transform: translateX(-15%);
         }
-
-        .marquee {
-
-            width: 100%;
-            overflow: hidden;
-            white-space: nowrap;
-            box-sizing: border-box;
-            font-size: large;
-            margin: 0 auto;
+        100% {
+            transform: translateX(-60%);
         }
-
-        .marquee span {
-
-        }
-
-        @keyframes marquee {
-            0% {
-                transform: translateX(-100%);
-            }
-            50% {
-                transform: translateX(0%);
-            }
-            100% {
-                transform: translateX(100%);
-            }
-        }
-    </style>
+    }
+</style>
 
     <!-- Start Digital Agency Banner -->
-    <section class="digital-agency-banner" data-bg-desktop="{{asset('/public/site/img/marketing-agency/banner-bg.jpg')}}" data-bg-mobile="{{asset('/public/site/img/marketing-agency/banner-bg-mobile2.jpg')}}">
+    <section class="digital-agency-banner" data-bg-desktop="{{asset('/site/img/marketing-agency/banner-bg.jpg')}}" data-bg-mobile="{{asset('/site/img/marketing-agency/banner-bg-mobile2.jpg')}}">
         <div class="container">
             <div class="digital-agency-banner-content">
                 <h1 style="font-family: 'IranNastaliq',serif;">حوزه علمیه حضرت قائم (عج) </h1>
@@ -665,32 +640,29 @@
             </div>
         </div>
     </section>
-    <!-- End Let's Talk Area -->
-
-
-{{--<script>--}}
-{{--    document.addEventListener("DOMContentLoaded", function() {--}}
-{{--        let lazyBackgrounds = [].slice.call(document.querySelectorAll(".digital-agency-banner"));--}}
-
-{{--        if ("IntersectionObserver" in window) {--}}
-{{--            let lazyBackgroundObserver = new IntersectionObserver(function(entries, observer) {--}}
-{{--                entries.forEach(function(entry) {--}}
-{{--                    if (entry.isIntersecting) {--}}
-{{--                        let lazyBackground = entry.target;--}}
-{{--                        let bgUrl = window.innerWidth <= 600 ? lazyBackground.getAttribute('data-bg-mobile') : lazyBackground.getAttribute('data-bg-desktop');--}}
-{{--                        lazyBackground.style.backgroundImage = 'url(' + bgUrl + ')';--}}
-{{--                        lazyBackground.classList.add("lazy-bg");--}}
-{{--                        lazyBackgroundObserver.unobserve(lazyBackground);--}}
-{{--                    }--}}
-{{--                });--}}
-{{--            });--}}
-
-{{--            lazyBackgrounds.forEach(function(lazyBackground) {--}}
-{{--                lazyBackgroundObserver.observe(lazyBackground);--}}
-{{--            });--}}
-{{--        }--}}
-{{--    });--}}
-{{--</script>--}}
 @endsection
 @section('script')
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        let lazyBackgrounds = [].slice.call(document.querySelectorAll(".digital-agency-banner"));
+
+        if ("IntersectionObserver" in window) {
+            let lazyBackgroundObserver = new IntersectionObserver(function(entries, observer) {
+                entries.forEach(function(entry) {
+                    if (entry.isIntersecting) {
+                        let lazyBackground = entry.target;
+                        let bgUrl = window.innerWidth <= 600 ? lazyBackground.getAttribute('data-bg-mobile') : lazyBackground.getAttribute('data-bg-desktop');
+                        lazyBackground.style.backgroundImage = 'url(' + bgUrl + ')';
+                        lazyBackground.classList.add("lazy-bg");
+                        lazyBackgroundObserver.unobserve(lazyBackground);
+                    }
+                });
+            });
+
+            lazyBackgrounds.forEach(function(lazyBackground) {
+                lazyBackgroundObserver.observe(lazyBackground);
+            });
+        }
+    });
+</script>
 @endsection
