@@ -47,7 +47,7 @@
         <div class="container">
             <div class="spacle-responsive-menu">
                 <div class="logo">
-                    <a href="{{asset('site/img/logo.png')}}">
+                    <a href="{{url('/')}}">
                         <img src="{{asset('site/img/logo.png')}}"  alt="logo">
                     </a>
                 </div>
@@ -150,7 +150,7 @@
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="single-footer-widget">
                     <div class="logo">
-                        <a href="{{url('/')}}"><img src="{{asset('site/img/logo.png')}}" style="max-width:60px" alt="image"></a>
+                        <a href="{{url('/')}}"><img src="{{asset('site/img/logo/white-logo.png')}}" style="max-width:60px" alt="image"></a>
                     </div>
                     <p class="text-justify">
                         حوزه علمیه حضرت قائم (عج) چیذر از سال ۱۳۴۶ در دو بخش برادران و خواهران آغاز به کار نمود.

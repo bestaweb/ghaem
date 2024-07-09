@@ -80,7 +80,7 @@
 
     {{--  Start brothers and sisters section  --}}
     <div class="container">
-        <div class="row pt-3" style="justify-content: center">
+        <div class="row pt-3" style="justify-content: center; text-align: center">
             <div class="col-md-3 p-2">
                 <a href="{{url('/brothers')}}">
                     <img src="{{ asset('/site/img/برادران.png') }}" loading="lazy" alt="Image 1">

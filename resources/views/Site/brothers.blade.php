@@ -34,11 +34,11 @@
 
 
     <!-- Start Digital Agency Banner -->
-    <section class="digital-agency-banner" data-bg-desktop='/public/site/img/marketing-agency/banner-bg.jpg' data-bg-mobile="/public/site/img/marketing-agency/banner-bg-mobile2.jpg">
+    <section class="digital-agency-banner" data-bg-desktop="{{asset('/site/img/marketing-agency/banner-bg.jpg')}}" data-bg-mobile="{{asset('/site/img/marketing-agency/banner-bg-mobile2.jpg')}}">
         <div class="container">
             <div class="digital-agency-banner-content">
-                <h1 class="wow fadeInUp" style="font-family: 'IranNastaliq',serif;">حوزه برادران علمیه حضرت قائم (عج) </h1>
-                <p class="wow fadeInUp text-justify">
+                <h1 style="font-family: 'IranNastaliq',serif;">حوزه علمیه برادران حضرت قائم (عج) </h1>
+                <p class="text-justify">
                     حوزه علمیه حضرت قائم (عج) چیذر از سال ۱۳۴۶ در دو بخش برادران و خواهران آغاز به کار نمود.
                     از سال ۱۳۹۳ واحد خواهران با نظارت مرکز مدیریت حوزه های علمیه فعالیت خود را در سه رشته کلام
                     با گرایش امامت، تفسیر و علوم قرآنی و مشاوره خانواده در قالب موسسه آموزش عالی حوزوی ادامه داد.
@@ -296,8 +296,7 @@
         </div>
     </section>
     <!-- End Services Area -->
-
-
+    
     <!-- Start Case Studies Area -->
     <section class="case-studies-area pt-5 pb-5">
         <style>
@@ -368,8 +367,8 @@
     <!-- End Case Studies Area -->
 
 
-    <section class="services-area bg-right-shape ptb-100">
-        <div class="container-fluid">
+    <section class="services-area bg-right-shape mt-4 mb-4">
+        <div class="container pt-3">
             <div class="row align-items-center">
                 <div class="services-content it-service-content">
                     <div class="content left-content">
@@ -377,7 +376,6 @@
                         <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد
                             صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40
                             سال استاندارد صنعت بوده است.</p>
-
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="feature-box">
@@ -418,12 +416,11 @@
                         </div>
                     </div>
                 </div>
-
-                {{--                <div class="services-image wow fadeInRight" data-wow-delay=".3s">--}}
-                {{--                    <div class="image">--}}
-                {{--                        <img src="assets/img/services-image/service1.png" alt="image">--}}
-                {{--                    </div>--}}
-                {{--                </div>--}}
+                <div class="services-image wow fadeInRight" data-wow-delay=".3s">
+                    <div class="image">
+                        <img src="{{asset('site/img/hozeslide2.jpg')}}" loading="lazy" alt="image">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -477,7 +474,6 @@
     <!-- Start Blog Area -->
     <section class="blog-area pt-70">
         <div class="container pb-5">
-
             <div class="blog-slides owl-carousel">
                 <div class="single-blog-post-item">
                     <div class="post-image">
@@ -515,7 +511,6 @@
                         <ul class="post-content-footer d-flex justify-content-between align-items-center">
                             <li>
                                 <div class="post-author d-flex align-items-center">
-
                                 </div>
                             </li>
                             <li>

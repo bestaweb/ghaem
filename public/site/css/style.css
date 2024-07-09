@@ -6835,7 +6835,7 @@ Contact Area CSS
 Footer Area CSS
 =================================================*/
 .footer-area {
-    background-color: #282828;
+    background-color: #58A399;
     position: relative;
     z-index: 1;
     padding-top: 80px;
@@ -6883,7 +6883,7 @@ Footer Area CSS
     mask-image: url("data:image/svg+xml;utf8,%3csvg viewBox='0 0 100 100' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'%3e%3cpath d='M0,0 C16.6666667,66 33.3333333,98 50,98 C66.6666667,98 83.3333333,66 100,0 L100,100 L0,100 L0,0 Z' fill='%23fff'/%3e%3c/svg%3e");
     -webkit-mask-size: 100% 101%;
     mask-size: 100% 101%;
-    background: #282828;
+    background: #58A399;
     top: -100px;
     left: 0;
     z-index: -1;
@@ -6909,7 +6909,7 @@ Footer Area CSS
 }
 
 .single-footer-widget p {
-    color: #acc5db;
+    color: #ffffff;
 }
 
 .single-footer-widget .services-list {
@@ -6919,7 +6919,7 @@ Footer Area CSS
 }
 
 .single-footer-widget .services-list li {
-    color: #acc5db;
+    color: #ffffff;
     margin-bottom: 10px;
 }
 
@@ -6929,11 +6929,10 @@ Footer Area CSS
 
 .single-footer-widget .services-list li a {
     display: inline-block;
-    color: #acc5db;
+    color: #ffffff;
 }
 
 .single-footer-widget .services-list li a:hover {
-    color: #58A399;
     padding-left: 5px;
 }
 
@@ -6944,7 +6943,7 @@ Footer Area CSS
 }
 
 .single-footer-widget .support-list li {
-    color: #acc5db;
+    color: #ffffff;
     margin-bottom: 10px;
 }
 
@@ -6954,11 +6953,10 @@ Footer Area CSS
 
 .single-footer-widget .support-list li a {
     display: inline-block;
-    color: #acc5db;
+    color: #ffffff;
 }
 
 .single-footer-widget .support-list li a:hover {
-    color: #58A399;
     padding-left: 5px;
 }
 
@@ -6979,17 +6977,17 @@ Footer Area CSS
 
 .single-footer-widget .footer-contact-info li a {
     display: inline-block;
-    color: #acc5db;
+    color: #ffffff;
 }
 
 .single-footer-widget .footer-contact-info li a:hover {
-    color: #58A399;
 }
 
 .single-footer-widget .social {
-    padding-left: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
     list-style-type: none;
-    margin-bottom: 0;
     margin-top: 20px;
 }
 
@@ -7002,20 +7000,17 @@ Footer Area CSS
     display: block;
     width: 30px;
     height: 30px;
-    line-height: 33px;
-    background-color: #4e6e8a;
     text-align: center;
-    font-size: 17px;
-    border-radius: 2px;
+    font-size: 18px;
+    border-radius: 16px;
 }
 
 .single-footer-widget .social li a:hover {
     color: #080a3c;
-    background-color: #ffffff;
 }
 
 .copyright-area {
-    border-top: 1px solid #1c2250;
+    border-top: 1px solid #fff;
     text-align: center;
     margin-top: 50px;
     padding-top: 25px;
@@ -7024,16 +7019,15 @@ Footer Area CSS
 
 .copyright-area p {
     line-height: initial;
-    color: #acc5db;
+    color: #fff;
 }
 
 .copyright-area p a {
     display: inline-block;
-    color: #496989;
+    color: #fff;
 }
 
 .copyright-area p a:hover {
-    color: #58A399;
 }
 
 @-webkit-keyframes imageChange {

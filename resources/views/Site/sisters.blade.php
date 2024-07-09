@@ -36,7 +36,7 @@
 
 
     <!-- Start Digital Agency Banner -->
-    <section class="sisters-banner" data-bg-desktop='/public/site/img/banner-slider/sisters-banner.jpg' data-bg-mobile='/public/site/img/banner-slider/sisters-banner-mobile.jpg'>
+    <section class="sisters-banner" data-bg-desktop={{asset('/site/img/banner-slider/sisters-banner.jpg')}} data-bg-mobile={{asset('/site/img/banner-slider/sisters-banner-mobile.jpg')}}>
         <div class="container">
             <div class="sisters-banner-content">
                 <h1 class="wow fadeInUp" style="font-family: 'IranNastaliq',serif;">حوزه علمیه خواهران حضرت قائم (عج) </h1>
@@ -367,8 +367,8 @@
     <!-- End Case Studies Area -->
 
 
-    <section class="services-area bg-right-shape ptb-100">
-        <div class="container-fluid">
+    <section class="services-area bg-right-shape mt-4 mb-4">
+        <div class="container pt-3">
             <div class="row align-items-center">
                 <div class="services-content it-service-content">
                     <div class="content left-content">
@@ -376,7 +376,6 @@
                         <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد
                             صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40
                             سال استاندارد صنعت بوده است.</p>
-
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="feature-box">
@@ -417,16 +416,14 @@
                         </div>
                     </div>
                 </div>
-
-                {{--                <div class="services-image wow fadeInRight" data-wow-delay=".3s">--}}
-                {{--                    <div class="image">--}}
-                {{--                        <img src="assets/img/services-image/service1.png" alt="image">--}}
-                {{--                    </div>--}}
-                {{--                </div>--}}
+                <div class="services-image wow fadeInRight" data-wow-delay=".3s">
+                    <div class="image">
+                        <img src="{{asset('site/img/hozeslide2.jpg')}}" loading="lazy" alt="image">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-
 
     <!-- Start Partner Area -->
     <section class="partner-area-two ptb-70 bg-f9f9f9">
@@ -471,7 +468,6 @@
         </div>
     </section>
     <!-- End Partner Area -->
-
 
     <!-- Start Blog Area -->
     <section class="blog-area pt-70">
