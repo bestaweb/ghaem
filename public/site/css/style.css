@@ -161,14 +161,23 @@ p:last-child {
     border-radius: 0 !important;
 }
 
+.title-icon {
+    width: 36px;
+    height: 36px;
+    margin-left: 8px;
+}
+
 /* Section title */
 .section-title {
+    display: flex;
     text-align: center;
     text-transform: capitalize;
     margin-left: auto;
     margin-bottom: 60px;
     margin-right: auto;
 }
+
+
 
 .section-title h2 {
     margin-bottom: 0;
@@ -3096,20 +3105,27 @@ Features Area CSS
 }
 
 .single-features-card {
+    text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     background-image: url(../../site/img/backgrounds/card-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.03);
     box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.03);
     border-radius: 35px;
-    padding: 30px;
+    padding: 32px;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     position: relative;
     margin-bottom: 30px;
+}
+.single-features-card img{
+    width: 48px;
+    height: 48px;
+    margin-bottom: 40px;
+    margin-top: 24px;
 }
 
 .single-features-card:hover {

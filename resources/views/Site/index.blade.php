@@ -99,8 +99,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
-                    <div class="single-features-card tx-center">
-                        <i class='bx bx-male'></i>
+                    <div class="single-features-card tx-center d-flex justify-content-center">
+                        <img src="{{asset('/site/img/icon/male.png')}}" class="mx-auto" alt="">
                         <h3>
                             <a href="{{url('/brothers')}}" class="card-title">حوزه علمیه برادران</a>
                         </h3>
@@ -109,8 +109,8 @@
                 </div>
 
                 <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
-                    <div class="single-features-card tx-center">
-                        <i class='bx bx-female'></i>
+                    <div class="single-features-card tx-center d-flex justify-content-center">
+                        <img src="{{asset('/site/img/icon/hijab.png')}}" class="mx-auto" alt="">
                         <h3>
                             <a href="{{url('/sisters')}}" class="card-title">حوزه علمیه خواهران</a>
                         </h3>
@@ -119,8 +119,8 @@
                 </div>
 
                 <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".4s">
-                    <div class="single-features-card tx-center">
-                        <i class='bx bxs-book'></i>
+                    <div class="single-features-card tx-center d-flex justify-content-center">
+                        <img src="{{asset('/site/img/icon/books-stack.png')}}" class="mx-auto" alt="">
                         <h3>
                             <a href="{{url('publishing-center')}}" class="card-title">مرکز نشر</a>
                         </h3>
@@ -128,8 +128,8 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="single-features-card tx-center">
-                        <i class='bx bxs-donate-blood'></i>
+                    <div class="single-features-card tx-center d-flex justify-content-center">
+                        <img src="{{asset('/site/img/icon/hands.png')}}" class="mx-auto" alt="">
                         <h3>
                             <a href="{{url('/charity')}}" class="card-title">موسسه خیریه</a>
                         </h3>
@@ -137,8 +137,8 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="single-features-card tx-center">
-                        <i class='bx bxs-user-voice'></i>
+                    <div class="single-features-card tx-center d-flex justify-content-center">
+                        <img src="{{asset('/site/img/icon/speaking.png')}}" class="mx-auto" alt="">
                         <h3>
                             <a href="{{url('/mahdia')}}" class="card-title">مرکز مشاوره</a>
                         </h3>
@@ -146,8 +146,8 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="single-features-card tx-center">
-                        <i class='bx bx-child'></i>
+                    <div class="single-features-card tx-center d-flex justify-content-center">
+                        <img src="{{asset('/site/img/icon/kid.png')}}" class="mx-auto" alt="">
                         <h3>
                             <a href="{{url('/kindergarten')}}" class="card-title">مهد کودک</a>
                         </h3>
@@ -162,8 +162,9 @@
 
     <!-- Start Services Area -->
     <section class="services-area mt-3 mb-3">
-        <div class="container">
-            <div class="section-title text-left">
+        <div class="container ">
+            <div class="section-title text-left flex-row d-flex align-items-center">
+                <img src="{{asset('/site/img/icon/title-icon.png')}}" class="title-icon" alt="">
                 <h2>سلسله نشست های دوره ای حوزه</h2>
             </div>
 

@@ -82,7 +82,7 @@
             <div class="row">
                 <div class="col-lg-6 col-sm-6 wow fadeInUp d-flex align-items-stretch" data-wow-delay=".2s">
                     <div class="single-features-card tx-center">
-                        <i class='bx bxs-graduation'></i>
+                        <i class='bx bxs-graduation bx-lg'></i>
                         <h3>
                             <a href="{{url('/education')}}" class="card-title">
                                 معاونت آموزش
@@ -107,7 +107,7 @@
 
                 <div class="col-lg-6 col-sm-6 wow fadeInUp d-flex align-items-stretch" data-wow-delay=".3s">
                     <div class="single-features-card tx-center">
-                        <i class='bx bx-book-reader'></i>
+                        <i class='bx bx-book-reader  bx-lg'></i>
                         <h3>
                             <a href="{{url('/research')}}" class="card-title">معاونت پژوهش</a>
                         </h3>
@@ -134,7 +134,7 @@
 
                 <div class="col-lg-6 col-sm-6 wow fadeInUp d-flex align-items-stretch" data-wow-delay=".4s">
                     <div class="single-features-card tx-center">
-                        <i class='bx bx-library'></i>
+                        <i class='bx bx-library  bx-lg'></i>
                         <h3>
                             <a href="{{url('/cultural')}}" class="card-title">معاونت فرهنگی</a>
                         </h3>
@@ -173,7 +173,7 @@
 
                 <div class="col-lg-6 col-sm-6 wow fadeInUp d-flex align-items-stretch" data-wow-delay=".5s">
                     <div class="single-features-card tx-center">
-                        <i class='bx bxs-user-voice'></i>
+                        <i class='bx bxs-user-voice bx-lg'></i>
                         <h3>
                             <a href="{{url('/mahdia')}}" class="card-title">معاونت مشاوره</a>
                         </h3>
@@ -186,7 +186,6 @@
         </div>
     </div>
     <!-- End section cards -->
-
 
     <!-- Start Services Area -->
     <section class="services-area mt-3 mb-3">
@@ -577,7 +576,6 @@
         </div>
     </section>
     <!-- End Blog Area -->
-
 
     <!-- Start Let's Talk Area -->
     <section class="lets-talk-area ptb-100 bg-f8fbfa">
