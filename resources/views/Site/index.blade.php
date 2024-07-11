@@ -3,38 +3,40 @@
 @endsection
 @section('main')
 
-<style>
-    .card-title {
-        font-size: 20px;
-    }
-    .marquee {
-        width: 100%;
-        overflow: hidden;
-        white-space: nowrap;
-        box-sizing: border-box;
-        font-size: large;
-    }
-
-    .marquee span {
-        margin-bottom: 12px;
-        margin-top: 12px;
-        display: inline-block;
-        padding-left: 100%;
-        animation: marquee 16s linear infinite;
-    }
-
-    @keyframes marquee {
-        0% {
-            transform: translateX(-15%);
+    <style>
+        .card-title {
+            font-size: 20px;
         }
-        100% {
-            transform: translateX(-60%);
+
+        .marquee {
+            width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            box-sizing: border-box;
+            font-size: large;
         }
-    }
-</style>
+
+        .marquee span {
+            margin-bottom: 12px;
+            margin-top: 12px;
+            display: inline-block;
+            padding-left: 100%;
+            animation: marquee 16s linear infinite;
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(-15%);
+            }
+            100% {
+                transform: translateX(-60%);
+            }
+        }
+    </style>
 
     <!-- Start Digital Agency Banner -->
-    <section class="digital-agency-banner" data-bg-desktop="{{asset('/site/img/marketing-agency/banner-bg.jpg')}}" data-bg-mobile="{{asset('/site/img/marketing-agency/banner-bg-mobile2.jpg')}}">
+    <section class="digital-agency-banner" data-bg-desktop="{{asset('/site/img/marketing-agency/banner-bg.jpg')}}"
+             data-bg-mobile="{{asset('/site/img/marketing-agency/banner-bg-mobile2.jpg')}}">
         <div class="container">
             <div class="digital-agency-banner-content">
                 <h1 style="font-family: 'IranNastaliq',serif;">حوزه علمیه حضرت قائم (عج) </h1>
@@ -169,94 +171,13 @@
             </div>
 
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
-                    <div class="single-services-box">
-                        <div class="row m-0">
-                            <div class="col-lg-6 col-md-12 p-0">
-                                <div class="content">
-                                    <h3><a href="{{url('/single-meeting')}}">نشست خانواده و تربیت</a></h3>
-                                    <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال
-                                        استاندارد صنعت بوده است.</p>
-                                    <a href="{{url('/single-meeting')}}" class="read-more-btn">ادامه مطلب <i
-                                            class='bx bx-left-arrow-alt'></i></a>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6 col-md-12 p-0">
-                                <div class="image bg-1">
-                                    <img src="{{asset('site/img/marketing-agency/services-img1.jpg')}}" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
-                    <div class="single-services-box">
-                        <div class="row m-0">
-                            <div class="col-lg-6 col-md-12 p-0">
-                                <div class="content">
-                                    <h3><a href="{{url('/single-meeting')}}">نشست مهدویت و رسانه</a></h3>
-                                    <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال
-                                        استاندارد صنعت بوده است.</p>
-                                    <a href="{{url('/single-meeting')}}" class="read-more-btn">ادامه مطلب <i
-                                            class='bx bx-left-arrow-alt'></i></a>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6 col-md-12 p-0">
-                                <div class="image bg-2">
-                                    <img src="{{asset('site/img/marketing-agency/services-img2.jpg')}}" loading="lazy" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".4s">
-                    <div class="single-services-box">
-                        <div class="row m-0">
-                            <div class="col-lg-6 col-md-12 p-0">
-                                <div class="content">
-                                    <h3><a href="{{url('/single-meeting')}}">نشست حجاب و عفاف</a></h3>
-                                    <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال
-                                        استاندارد صنعت بوده است.</p>
-                                    <a href="{{url('/single-meeting')}}" class="read-more-btn">ادامه مطلب <i
-                                            class='bx bx-left-arrow-alt'></i></a>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6 col-md-12 p-0">
-                                <div class="image bg-3">
-                                    <img src="{{asset('site/img/marketing-agency/services-img3.jpg')}}" loading="lazy" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="single-services-box">
-                        <div class="row m-0">
-                            <div class="col-lg-6 col-md-12 p-0">
-                                <div class="content">
-                                    <h3><a href="{{url('/single-meeting')}}">نشست امام شناسی</a></h3>
-                                    <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال
-                                        استاندارد صنعت بوده است.</p>
-                                    <a href="{{url('/single-meeting')}}" class="read-more-btn">ادامه مطلب <i
-                                            class='bx bx-left-arrow-alt'></i></a>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6 col-md-12 p-0">
-                                <div class="image bg-4">
-                                    <img src="{{asset('site/img/marketing-agency/services-img4.jpg')}}" loading="lazy" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+                <div id="meetings-container" class="row"></div>
+                <script src="{{asset('/site/js/components.js')}}"></script>
+                <script>
+                    document.addEventListener("DOMContentLoaded", function () {
+                        renderMeetings('meetings-container');
+                    });
+                </script>
                 <div class="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay=".6s">
                     <div class="services-btn-box">
                         <a href="{{url('/meeting')}}" class="default-btn">
@@ -266,6 +187,7 @@
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
     <!-- End Services Area -->
@@ -273,64 +195,22 @@
     <!-- Start Case Studies Area -->
     <section class="case-studies-area pt-70 pb-20">
         <div class="container">
-            <div class="case-studies-slides owl-carousel">
-                <div class="single-case-studies-item">
-                    <a href="{{url('/speech')}}" class="image d-block">
-                        <img src="{{asset('site/img/case-studies/case-studies-img1.jpg')}}" loading="lazy" alt="image">
-                    </a>
-
-                    <div class="content">
-                        <h3><a href="{{url('/speech')}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
-                        <a href="{{url('/speech')}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
-                    </div>
-                </div>
-
-                <div class="single-case-studies-item">
-                    <a href="{{url('/speech')}}" class="image d-block">
-                        <img src="{{asset('site/img/case-studies/case-studies-img2.jpg')}}" loading="lazy" alt="image">
-                    </a>
-
-                    <div class="content">
-                        <h3><a href="{{url('/speech')}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
-                        <a href="{{url('/speech')}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
-                    </div>
-                </div>
-
-                <div class="single-case-studies-item">
-                    <a href="{{url('/speech')}}" class="image d-block">
-                        <img src="{{asset('site/img/case-studies/case-studies-img3.jpg')}}" loading="lazy" alt="image">
-                    </a>
-
-                    <div class="content">
-                        <h3><a href="{{url('/speech')}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
-                        <a href="{{url('/speech')}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
-                    </div>
-                </div>
-
-                <div class="single-case-studies-item">
-                    <a href="{{url('/speech')}}" class="image d-block">
-                        <img src="{{asset('site/img/case-studies/case-studies-img4.jpg')}}" loading="lazy" alt="image">
-                    </a>
-
-                    <div class="content">
-                        <h3><a href="{{url('/speech')}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
-                        <a href="{{url('/speech')}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
-                    </div>
-                </div>
-
-                <div class="single-case-studies-item">
-                    <a href="{{url('/speech')}}" class="image d-block">
-                        <img src="{{asset('site/img/case-studies/case-studies-img5.jpg')}}" loading="lazy" alt="image">
-                    </a>
-
-                    <div class="content">
-                        <h3><a href="{{url('/speech')}}">سخنرانی و درس اخلاق آیت الله هاشمی اولیا</a></h3>
-                        <a href="{{url('/speech')}}" class="link-btn"><i class='bx bx-left-arrow-alt'></i></a>
-                    </div>
-                </div>
+            <div id="case-studies-slides" class="case-studies-slides owl-carousel">
+                <!-- محتوای داینامیک به اینجا اضافه خواهد شد -->
             </div>
         </div>
     </section>
+    <!-- مسیر صحیح فایل components.js -->
+    <script src="{{ asset('js/components.js') }}"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            if (typeof renderCaseStudies === "function") {
+                renderCaseStudies('case-studies-slides');
+            } else {
+                console.error("تابع renderCaseStudies تعریف نشده است.");
+            }
+        });
+    </script>
     <!-- End Case Studies Area -->
 
     <section class="services-area bg-right-shape mt-4 mb-4">
@@ -394,143 +274,29 @@
     <!-- Start Partner Area -->
     <section class="partner-area-two ptb-70 bg-f9f9f9">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-2 col-6 col-sm-3 col-md-4 wow fadeInUp" data-wow-delay=".2s">
-                    <div class="single-partner-box">
-                        <img src="{{asset('site/img/partner-image/1.png')}}" alt="image">
-                    </div>
-                </div>
-
-                <div class="col-lg-2 col-6 col-sm-3 col-md-4 wow fadeInUp" data-wow-delay=".3s">
-                    <div class="single-partner-box">
-                        <img src="{{asset('site/img/partner-image/2.png')}}" alt="image">
-                    </div>
-                </div>
-
-                <div class="col-lg-2 col-6 col-sm-3 col-md-4 wow fadeInUp" data-wow-delay=".4s">
-                    <div class="single-partner-box">
-                        <img src="{{asset('site/img/partner-image/3.png')}}" alt="image">
-                    </div>
-                </div>
-
-                <div class="col-lg-2 col-6 col-sm-3 col-md-4 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="single-partner-box">
-                        <img src="{{asset('site/img/partner-image/4.png')}}" alt="image">
-                    </div>
-                </div>
-
-                <div class="col-lg-2 col-6 col-sm-3 col-md-4 wow fadeInUp" data-wow-delay=".6s">
-                    <div class="single-partner-box">
-                        <img src="{{asset('site/img/partner-image/1.png')}}" alt="image">
-                    </div>
-                </div>
-
-                <div class="col-lg-2 col-6 col-sm-3 col-md-4 wow fadeInUp" data-wow-delay=".7s">
-                    <div class="single-partner-box">
-                        <img src="{{asset('site/img/partner-image/2.png')}}" alt="image">
-                    </div>
-                </div>
+            <div id="partner-row" class="row align-items-center">
+                <!-- محتوای داینامیک به اینجا اضافه خواهد شد -->
             </div>
         </div>
     </section>
     <!-- End Partner Area -->
 
+    <!-- مسیر صحیح فایل components.js -->
+    <script src="{{ asset('js/components.js') }}"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            if (typeof renderPartners === "function") {
+                renderPartners('partner-row');
+            } else {
+                console.error("تابع renderPartners تعریف نشده است.");
+            }
+        });
+    </script>
     <!-- Start Blog Area -->
     <section class="blog-area pt-70">
         <div class="container pb-5">
-
-            <div class="blog-slides owl-carousel">
-                <div class="single-blog-post-item">
-                    <div class="post-image">
-                        <a href="{{url('/single-news')}}" class="d-block">
-                            <img src="{{asset('site/img/blog-image/1.jpg')}}" alt="image">
-                        </a>
-                    </div>
-
-                    <div class="post-content">
-                        <a href="{{url('/single-news')}}" class="category">کلاس اخلاق</a>
-                        <h3><a href="{{url('/single-news')}}">دوره اخلاق و تربیت</a></h3>
-                        <ul class="post-content-footer d-flex justify-content-between align-items-center">
-                            <li>
-                                <div class="post-author d-flex align-items-center">
-
-                                </div>
-                            </li>
-                            <li>
-                                <i class='bx bx-calendar'></i> 30 دی 1403
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="single-blog-post-item">
-                    <div class="post-image">
-                        <a href="{{url('/single-news')}}" class="d-block">
-                            <img src="{{asset('site/img/blog-image/2.jpg')}}" alt="image">
-                        </a>
-                    </div>
-
-                    <div class="post-content">
-                        <a href="{{url('/single-news')}}" class="category">ادب اجتماعی</a>
-                        <h3><a href="{{url('/single-news')}}">دوره اداب اجتماعی فردی</a></h3>
-                        <ul class="post-content-footer d-flex justify-content-between align-items-center">
-                            <li>
-                                <div class="post-author d-flex align-items-center">
-
-                                </div>
-                            </li>
-                            <li>
-                                <i class='bx bx-calendar'></i> 30 دی 1403
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="single-blog-post-item">
-                    <div class="post-image">
-                        <a href="{{url('/single-news')}}" class="d-block">
-                            <img src="{{asset('site/img/blog-image/3.jpg')}}" alt="image">
-                        </a>
-                    </div>
-
-                    <div class="post-content">
-                        <a href="{{url('/single-news')}}" class="category">اقتصاد اسلامی</a>
-                        <h3><a href="{{url('/single-news')}}">دوره اقتصاد با محوریت اسلام</a></h3>
-                        <ul class="post-content-footer d-flex justify-content-between align-items-center">
-                            <li>
-                                <div class="post-author d-flex align-items-center">
-
-                                </div>
-                            </li>
-                            <li>
-                                <i class='bx bx-calendar'></i> 30 دی 1403
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="single-blog-post-item">
-                    <div class="post-image">
-                        <a href="{{url('/news')}}" class="d-block">
-                            <img src="{{asset('site/img/blog-image/2.jpg')}}" alt="image">
-                        </a>
-                    </div>
-
-                    <div class="post-content">
-                        <a href="{{url('/single-news')}}" class="category">تفسیر قرآن</a>
-                        <h3><a href="{{url('/single-news')}}">دوره تفسیر قرآن کریم</a></h3>
-                        <ul class="post-content-footer d-flex justify-content-between align-items-center">
-                            <li>
-                                <div class="post-author d-flex align-items-center">
-
-                                </div>
-                            </li>
-                            <li>
-                                <i class='bx bx-calendar'></i> 30 دی 1403
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+            <div id="blog-slides" class="blog-slides owl-carousel">
+                <!-- محتوای داینامیک به اینجا اضافه خواهد شد -->
             </div>
             <div class="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay=".6s">
                 <div class="services-btn-box">
@@ -542,6 +308,19 @@
             </div>
         </div>
     </section>
+    <!-- End Blog Area -->
+
+    <!-- مسیر صحیح فایل components.js -->
+    <script src="{{ asset('js/components.js') }}"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            if (typeof renderBlogPosts === "function") {
+                renderBlogPosts('blog-slides');
+            } else {
+                console.error("تابع renderBlogPosts تعریف نشده است.");
+            }
+        });
+    </script>
     <!-- End Blog Area -->
 
     <section class="faq-area ptb-5 bg-f8fbfa">
@@ -643,27 +422,27 @@
     </section>
 @endsection
 @section('script')
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        let lazyBackgrounds = [].slice.call(document.querySelectorAll(".digital-agency-banner"));
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let lazyBackgrounds = [].slice.call(document.querySelectorAll(".digital-agency-banner"));
 
-        if ("IntersectionObserver" in window) {
-            let lazyBackgroundObserver = new IntersectionObserver(function(entries, observer) {
-                entries.forEach(function(entry) {
-                    if (entry.isIntersecting) {
-                        let lazyBackground = entry.target;
-                        let bgUrl = window.innerWidth <= 600 ? lazyBackground.getAttribute('data-bg-mobile') : lazyBackground.getAttribute('data-bg-desktop');
-                        lazyBackground.style.backgroundImage = 'url(' + bgUrl + ')';
-                        lazyBackground.classList.add("lazy-bg");
-                        lazyBackgroundObserver.unobserve(lazyBackground);
-                    }
+            if ("IntersectionObserver" in window) {
+                let lazyBackgroundObserver = new IntersectionObserver(function (entries, observer) {
+                    entries.forEach(function (entry) {
+                        if (entry.isIntersecting) {
+                            let lazyBackground = entry.target;
+                            let bgUrl = window.innerWidth <= 600 ? lazyBackground.getAttribute('data-bg-mobile') : lazyBackground.getAttribute('data-bg-desktop');
+                            lazyBackground.style.backgroundImage = 'url(' + bgUrl + ')';
+                            lazyBackground.classList.add("lazy-bg");
+                            lazyBackgroundObserver.unobserve(lazyBackground);
+                        }
+                    });
                 });
-            });
 
-            lazyBackgrounds.forEach(function(lazyBackground) {
-                lazyBackgroundObserver.observe(lazyBackground);
-            });
-        }
-    });
-</script>
+                lazyBackgrounds.forEach(function (lazyBackground) {
+                    lazyBackgroundObserver.observe(lazyBackground);
+                });
+            }
+        });
+    </script>
 @endsection
