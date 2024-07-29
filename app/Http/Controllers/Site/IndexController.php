@@ -122,6 +122,15 @@ class IndexController extends Controller
     {
         return View('Site.cultural');
     }
+
+    public function finance()
+    {
+        return View('Site.finance');
+    }
+    public function library()
+    {
+        return View('Site.library');
+    }
     /**
      * Show the form for creating a new resource.
      */

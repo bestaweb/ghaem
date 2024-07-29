@@ -51,8 +51,6 @@
     </section>
     <!-- End Digital Agency Banner -->
 
-
-
     {{--   Start line   --}}
     <div class="container-fluid" style="background-color: #f0f0f9; display: flex; height: 50px;">
         <div class="container col-12 col-md-6" style="margin: 0 auto;display: flex;">

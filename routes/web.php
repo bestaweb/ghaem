@@ -36,6 +36,8 @@ Route::get('/image-gallery'  , [App\Http\Controllers\Site\IndexController::class
 Route::get('/education'  , [App\Http\Controllers\Site\IndexController::class, 'education']);
 Route::get('/research'  , [App\Http\Controllers\Site\IndexController::class, 'research']);
 Route::get('/cultural'  , [App\Http\Controllers\Site\IndexController::class, 'cultural']);
+Route::get('/finance'  , [App\Http\Controllers\Site\IndexController::class, 'finance']);
+Route::get('/library'  , [App\Http\Controllers\Site\IndexController::class, 'library']);
 
 //Route::get('/', function () {
 //    return view('welcome');

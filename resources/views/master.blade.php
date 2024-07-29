@@ -73,31 +73,45 @@
                         <li class="nav-item">
                             <a href="{{url('/sisters')}}" class="nav-link">حوزه علمیه خواهران  <i class='bx bx-chevron-down'></i></a>
                             <ul class="dropdown-menu">
+{{--                                <li class="nav-item">--}}
+{{--                                    <a href="{{url('/charity')}}" class="nav-link">موسسه خیریه</a>--}}
+{{--                                    <ul class="dropdown-menu">--}}
+{{--                                        <li class="nav-item">--}}
+{{--                                            <a href="features-1.html" class="nav-link">محصولات</a>--}}
+{{--                                        </li>--}}
+
+{{--                                        <li class="nav-item">--}}
+{{--                                            <a href="features-2.html" class="nav-link">صدقات و نذورات</a>--}}
+{{--                                        </li>--}}
+{{--                                    </ul>--}}
+{{--                                </li>--}}
                                 <li class="nav-item">
-                                    <a href="{{url('/charity')}}" class="nav-link">موسسه خیریه</a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href="features-1.html" class="nav-link">محصولات</a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="features-2.html" class="nav-link">صدقات و نذورات</a>
-                                        </li>
-                                    </ul>
+                                    <a href="{{url('/education')}}" class="nav-link">معاونت آموزش</a>
                                 </li>
-
+                                <li class="nav-item">
+                                    <a href="{{url('/research')}}" class="nav-link">معاونت پژوهش</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="{{url('/cultural')}}" class="nav-link">معاونت فرهنگی</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="{{url('/finance')}}" class="nav-link">معاونت مالی</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="{{url('/library')}}" class="nav-link">کتابخانه</a>
+                                </li>
                                 <li class="nav-item">
                                     <a href="{{url('/mahdia')}}" class="nav-link">مرکز مشاوره مهدیا</a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="{{url('/kindergarten')}}" class="nav-link">مهد کودک</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a href="{{url('/publish-center')}}" class="nav-link">مرکز نشر</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="{{url('/journal')}}" class="nav-link">نشریه</a>
-                                </li>
+{{--                                <li class="nav-item">--}}
+{{--                                    <a href="{{url('/publish-center')}}" class="nav-link">مرکز نشر</a>--}}
+{{--                                </li>--}}
+{{--                                <li class="nav-item">--}}
+{{--                                    <a href="{{url('/journal')}}" class="nav-link">نشریه</a>--}}
+{{--                                </li>--}}
                             </ul>
                         </li>
 

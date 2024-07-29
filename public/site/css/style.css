@@ -424,7 +424,7 @@ p:last-child {
     overflow: hidden;
     z-index: 1;
     color: #ffffff;
-    background-color: #496989;
+    background-color: #215c54;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     border-radius: 5px;
@@ -5318,7 +5318,7 @@ Page Title Area CSS
 .page-title-area {
     justify-items: center;
     align-content: center;
-    background-color: #496989;
+    background-color: #215c54;
     position: relative;
     z-index: 1;
     padding-top: 160px;
@@ -5335,8 +5335,8 @@ Page Title Area CSS
     opacity: .6;
     height: 100%;
     z-index: -1;
-    -webkit-animation: animatedBackground 15s linear infinite;
-    animation: animatedBackground 15s linear infinite;
+    -webkit-animation: animatedBackground 30s linear infinite;
+    animation: animatedBackground 30s linear infinite;
     background-image: url(../../site/img/bg_lines.svg);
     background-repeat: repeat;
     background-position: center center;
