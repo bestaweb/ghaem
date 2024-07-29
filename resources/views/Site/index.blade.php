@@ -9,6 +9,7 @@
         }
 
         .marquee {
+            direction: rtl;
             width: 100%;
             overflow: hidden;
             white-space: nowrap;
@@ -20,16 +21,15 @@
             margin-bottom: 12px;
             margin-top: 12px;
             display: inline-block;
-            padding-left: 100%;
-            animation: marquee 16s linear infinite;
+            animation: marquee 40s linear infinite;
         }
 
         @keyframes marquee {
             0% {
-                transform: translateX(-15%);
+                transform: translateX(-20%);
             }
             100% {
-                transform: translateX(-60%);
+                transform: translateX(100%);
             }
         }
     </style>
@@ -57,12 +57,11 @@
     <div class="container-fluid" style="background-color: #f0f0f9; display: flex; height: 50px;">
         <div class="container col-12 col-md-6" style="margin: 0 auto;display: flex;">
             <div>
-                <img src="{{asset('site/img/navaar.png')}}" style="padding-top: 8px;max-height: 100%;" loading="lazy"
+                <img src="{{asset('site/img/navaar-right.webp')}}" style="padding-top: 8px;max-height: 100%;" loading="lazy"
                      alt="">
             </div>
             <div class="marquee">
-                <span
-                    style="margin-bottom: 12px;margin-top: 12px;display: inline-block;animation: marquee 60s linear infinite;">
+                <span>
                     مقام معظم رهبری (مدظله العالی) پدیده خواهران طلبه پدیده عظیم و مبارکی است. هزاران عالم ،
                     پژوهشگر ، فقیه و فیلسوف در حوزه‌های علمی خواهران تربیت شوند این حرکت عظیمی خواهد بود.ٍ    |
                     الإمامُ الصّادقُ عليه السلام :مَن تَعَلَّمَ للّهِِ و عَمِلَ للّهِِ و عَلَّمَ للّهِِ دُعِيَ في مَلَكوتِ
@@ -73,7 +72,7 @@
                 </span>
             </div>
             <div>
-                <img src="{{asset('site/img/navaar.png')}}" style="padding-top: 8px;max-height: 100%;" loading="lazy"
+                <img src="{{asset('site/img/navaar-left.webp')}}" style="padding-top: 8px;max-height: 100%;" loading="lazy"
                      alt="">
             </div>
         </div>
@@ -313,7 +312,7 @@
     <!-- مسیر صحیح فایل components.js -->
     <script src="{{ asset('js/components.js') }}"></script>
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
+        document.addEventListener("DOMContentLoaded", function () {
             if (typeof renderBlogPosts === "function") {
                 renderBlogPosts('blog-slides');
             } else {
