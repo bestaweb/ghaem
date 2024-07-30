@@ -6,7 +6,7 @@
     <div class="page-title-area">
         <div class="container">
             <div class="page-title-content">
-                <h2>مرکز نشر</h2>
+                <h2>کتابخانه</h2>
             </div>
         </div>
     </div>
