@@ -13,8 +13,10 @@
         </div>
     </div>
     <!-- End Page Title Area -->
-    <div class="container my-4 d-flex flex-column align-items-center col-6">
-        <section style="text-align: center">
+    <div
+        class="container d-flex flex-column justify-content-center about-content-center align-item-center my-5 col-lg-6 py-3"
+        style="border: 1px solid rgba(69,69,69,0.2); border-radius: 16px; box-shadow: 0 4px 32px 0 rgba(0,0,0,0.1);">
+        <section class="col-lg-9 d-flex flex-column align-self-center align-items-center" style="text-align: justify">
             <h3 class="my-4">کانون ها</h3>
             <span>معاونت فرهنگی در کنار رسالت اصلی خود با تشکیل سه کانون فرهنگی به شرح ذیل اقدام به فعالیتهای تخصصی در حوزه های گوناگون نموده است.</span>
             <h4 class="mt-4"> كانون نور الثقلين
@@ -41,15 +43,15 @@
                 مجازی برنامه نویسی نویسندگی و...
             </p>
         </section>
-        <section>
+        <section class="col-lg-9 d-flex flex-column align-self-center align-items-center" style="text-align: justify">
             <h3 class="my-4">فعالیت های تبلیغی و فرهنگی</h3>
 
         </section>
-        <section>
+        <section class="col-lg-9 d-flex flex-column align-self-center align-items-center" style="text-align: justify">
             <h3 class="my-4">دوره های آموزشی</h3>
 
         </section>
-        <section>
+        <section class="col-lg-9 d-flex flex-column align-self-center align-items-center" style="text-align: justify">
             <h3 class="my-4">معرفی سامانه های حوزوی</h3>
 
         </section>

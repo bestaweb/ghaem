@@ -94,9 +94,9 @@
                                 <li class="nav-item">
                                     <a href="{{url('/cultural')}}" class="nav-link">معاونت فرهنگی</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a href="{{url('/finance')}}" class="nav-link">معاونت مالی</a>
-                                </li>
+{{--                                <li class="nav-item">--}}
+{{--                                    <a href="{{url('/finance')}}" class="nav-link">معاونت مالی</a>--}}
+{{--                                </li>--}}
                                 <li class="nav-item">
                                     <a href="{{url('/library')}}" class="nav-link">کتابخانه</a>
                                 </li>

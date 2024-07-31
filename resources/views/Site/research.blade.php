@@ -4,16 +4,23 @@
 @section('main')
     <!-- Start Page Title Area -->
     <div class="page-title-area">
-            <div class="page-title-content">
-                <h2>
-                    معاونت پژوهشی
-                </h2>
-            </div>
+        <div class="page-title-content">
+            <h2>
+                معاونت پژوهشی
+            </h2>
+        </div>
     </div>
     <!-- End Page Title Area -->
-    <div class="container d-flex flex-column justify-content-center about-content-center align-item-center my-4 ">
-        <section class="d-flex flex-column justify-content-center align-content-center align-items-center align-self-center col-lg-9 ">
-            <h3 style="text-align: center" class="my-4">کرسی ها</h3>
+    <div
+        class="container d-flex flex-column justify-content-center about-content-center align-item-center my-5 col-lg-6 py-3"
+        style="border: 1px solid rgba(69,69,69,0.2); border-radius: 16px; box-shadow: 0 4px 32px 0 rgba(0,0,0,0.1);">
+        <section
+            class="d-flex flex-column justify-content-center align-content-center align-items-center align-self-center col-lg-9">
+            <span style="text-align: justify" class="my-4">وادی پژوهش و نویسندگی گسترۀ نقش آفرینی است که با آموزش صحیح و روشمند و بهره گیری از روشهای پژوهش پر بار می گردد. یکی از اهداف حوزه های علمیه تربیت طلاب محقق سخنور و نویسنده است.
+که در تبلور جامعه اسلامی بسیار مهم است.
+ از این رو در این موسسه در راستای این هدف مطلوب فعالیت های پژوهشی گسترده و متعددی در طی سالها و مقارن با دوره آموزش طلاب برگزار شده است از قبیل: کرسی های علمی ترویجی با هدف ایجاد بستر نظریه پردازی نشست های علمی تخصصی و علمی پژوهشی با هدف ترویج فرهنگ پژوهش و آشنایی طلاب با مسائل روز و کاربردی ،جامعه برگزاری کارگاه های پژوهشی نوین با هدف آشنایی طلاب با شیوه های نوین پژوهش انتشار فصلنامه پژوهشی با هدف چاپ مقالات علمی طلاب و فعالیت های دیگری که در این مجال نمیگنجد.</span>
+            <h3 style="text-align: center">کرسی ها</h3>
+
             <h4 class="my-3">
                 کرسی های آزاد اندیشی
             </h4>
