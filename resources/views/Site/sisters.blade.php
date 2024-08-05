@@ -1,4 +1,4 @@
-@extends('master')
+@extends('sisters-master')
 @section('style')
 @endsection
 @section('main')
@@ -31,27 +31,71 @@
                 transform: translateX(100%);
             }
         }
+        .carousel {
+            margin-top: 6%;
+            margin-left:4%;
+            margin-right:4%;
+        }
+
+         .carousel-item img {
+             background-position: top center;
+             background-size: cover;
+             background-repeat: no-repeat;
+             border-radius: 20px;
+         }
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            height: 2em;
+            width: 2em;
+            border-radius: 50%;
+        }
     </style>
 
-
-    <!-- Start Digital Agency Banner -->
-    <section class="sisters-banner" data-bg-desktop={{asset('/site/img/banner-slider/sisters-banner.jpg')}} data-bg-mobile={{asset('/site/img/banner-slider/sisters-banner-mobile.jpg')}}>
-        <div class="container">
-            <div class="sisters-banner-content">
-                <h1 class="wow fadeInUp" style="font-family: 'IranNastaliq',serif;">حوزه علمیه خواهران حضرت قائم (عج) </h1>
-                <p class="wow fadeInUp text-justify">
-                    حوزه علمیه حضرت قائم (عج) چیذر از سال ۱۳۴۶ در دو بخش برادران و خواهران آغاز به کار نمود.
-                    از سال ۱۳۹۳ واحد خواهران با نظارت مرکز مدیریت حوزه های علمیه فعالیت خود را در سه رشته کلام
-                    با گرایش امامت، تفسیر و علوم قرآنی و مشاوره خانواده در قالب موسسه آموزش عالی حوزوی ادامه داد.
-                    این مؤسسه متشکل از سه معاونت آموزش آموزش ،پژوهش و فرهنگی می باشد .
-                </p>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="{{asset('/site/img/banner-slider/sistersbanner.webp')}}" class="d-block w-100"  alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="{{asset('/site/img/banner-slider/sistersbanner.webp')}}" class="d-block w-100" alt="تصویر دوم">
+            </div>
+            <div class="carousel-item">
+                <img src="{{asset('/site/img/banner-slider/sistersbanner.webp')}}" class="d-block w-100" alt="تصویر سوم">
             </div>
         </div>
-    </section>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">قبلی</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">بعدی</span>
+        </a>
+    </div>
+
+    <!-- Start Digital Agency Banner -->
+{{--    <section class="sisters-banner" data-bg-desktop={{asset('/site/img/banner-slider/sisters-banner.jpg')}} data-bg-mobile={{asset('/site/img/banner-slider/sisters-banner-mobile.jpg')}}>--}}
+{{--        <div class="container">--}}
+{{--            <div class="sisters-banner-content">--}}
+{{--                <h1 class="wow fadeInUp" style="font-family: 'IranNastaliq',serif;">حوزه علمیه خواهران حضرت قائم (عج) </h1>--}}
+{{--                <p class="wow fadeInUp text-justify">--}}
+{{--                    حوزه علمیه حضرت قائم (عج) چیذر از سال ۱۳۴۶ در دو بخش برادران و خواهران آغاز به کار نمود.--}}
+{{--                    از سال ۱۳۹۳ واحد خواهران با نظارت مرکز مدیریت حوزه های علمیه فعالیت خود را در سه رشته کلام--}}
+{{--                    با گرایش امامت، تفسیر و علوم قرآنی و مشاوره خانواده در قالب موسسه آموزش عالی حوزوی ادامه داد.--}}
+{{--                    این مؤسسه متشکل از سه معاونت آموزش آموزش ،پژوهش و فرهنگی می باشد .--}}
+{{--                </p>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
     <!-- End Digital Agency Banner -->
 
     {{--   Start line   --}}
-    <div class="container-fluid" style="background-color: #f0f0f9; display: flex; height: 50px;">
+    <div class="container-fluid mt-3" style="background-color: #E7CDFB; display: flex; height: 60px;">
         <div class="container col-12 col-md-6" style="margin: 0 auto;display: flex;">
             <div>
                 <img src="{{asset('site/img/navaar-right.webp')}}" style="padding-top: 8px;max-height: 100%;" loading="lazy"
@@ -69,7 +113,7 @@
                 </span>
             </div>
             <div>
-                <img src="{{asset('site/img/navaar-left.webp')}}" style="padding-top: 8px;max-height: 100%;" loading="lazy"
+                <img src="{{asset('site/img/navaar-left.webp')}}" style="padding-top: 4px;max-height: 100%;" loading="lazy"
                      alt="">
             </div>
         </div>
@@ -80,7 +124,7 @@
     <div class="features-card-section pt-100 pb-70 bg-f8fbfa">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-sm-6 wow fadeInUp d-flex align-items-stretch" data-wow-delay=".2s">
+                <div class="col-lg-4 col-sm-6 wow fadeInUp d-flex align-items-stretch" data-wow-delay=".2s">
                     <div class="single-features-card tx-center">
                         <i class='bx bxs-graduation bx-lg'></i>
                         <h3>
@@ -105,7 +149,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-sm-6 wow fadeInUp d-flex align-items-stretch" data-wow-delay=".3s">
+                <div class="col-lg-4 col-sm-6 wow fadeInUp d-flex align-items-stretch" data-wow-delay=".3s">
                     <div class="single-features-card tx-center">
                         <i class='bx bx-book-reader  bx-lg'></i>
                         <h3>
@@ -132,7 +176,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-sm-6 wow fadeInUp d-flex align-items-stretch" data-wow-delay=".4s">
+                <div class="col-lg-4 col-sm-6 wow fadeInUp d-flex align-items-stretch" data-wow-delay=".4s">
                     <div class="single-features-card tx-center">
                         <i class='bx bx-library  bx-lg'></i>
                         <h3>
@@ -168,18 +212,6 @@
                         </div>
                         <div class="flex-grow-1">
                         </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-sm-6 wow fadeInUp d-flex align-items-stretch" data-wow-delay=".5s">
-                    <div class="single-features-card tx-center">
-                        <i class='bx bxs-user-voice bx-lg'></i>
-                        <h3>
-                            <a href="{{url('/mahdia')}}" class="card-title">معاونت مشاوره</a>
-                        </h3>
-                        <p class="flex-grow-1">
-                            لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد
-                            صنعت بوده است.</p>
                     </div>
                 </div>
             </div>

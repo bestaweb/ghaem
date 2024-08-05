@@ -35,7 +35,7 @@
     </style>
 
     <!-- Start Digital Agency Banner -->
-    <section class="digital-agency-banner" data-bg-desktop="{{asset('/site/img/marketing-agency/banner-bg.jpg')}}"
+    <section class="digital-agency-banner mt-5" data-bg-desktop="{{asset('/site/img/marketing-agency/banner-bg.jpg')}}"
              data-bg-mobile="{{asset('/site/img/marketing-agency/banner-bg-mobile2.jpg')}}">
         <div class="container">
             <div class="digital-agency-banner-content">

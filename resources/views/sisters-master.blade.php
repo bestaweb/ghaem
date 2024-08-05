@@ -48,7 +48,7 @@
         <div class="container">
             <div class="spacle-responsive-menu">
                 <div class="logo">
-                    <a href="{{url('/')}}">
+                    <a href="{{url('/news')}}">
                         <img src="{{asset('site/img/logo.png')}}" alt="logo">
                     </a>
                 </div>
@@ -65,56 +65,77 @@
 
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                     <ul class="navbar-nav">
-
-
                         <li class="nav-item">
-                            <a href="{{url('/brothers')}}" class="nav-link">حوزه علمیه برادران </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="{{url('/sisters')}}" class="nav-link">حوزه علمیه خواهران <i
+                            <a href="{{url('/education')}}" class="nav-link">معاونت آموزش<i
                                     class='bx bx-chevron-down'></i></a>
                             <ul class="dropdown-menu">
                                 <li class="nav-item">
-                                    <a href="{{url('/education')}}" class="nav-link">معاونت آموزش</a>
+                                    <a href="#" class="nav-link">مقاطع تحصیلی</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="{{url('/research')}}" class="nav-link">معاونت پژوهش</a>
+                                    <a href="#" class="nav-link">پذیرش و گزینش</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="{{url('/cultural')}}" class="nav-link">معاونت فرهنگی</a>
+                                    <a href="#" class="nav-link">محتوای درسی</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="{{url('/library')}}" class="nav-link">کتابخانه</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="{{url('/mahdia')}}" class="nav-link">مرکز مشاوره مهدیا</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="{{url('/kindergarten')}}" class="nav-link">مهد کودک</a>
+                                    <a href="#" class="nav-link">دائره امتحانات</a>
                                 </li>
                             </ul>
                         </li>
-
                         <li class="nav-item">
-                            <a href="{{url('/publishing-center')}}" class="nav-link">مرکز نشر</a>
+                            <a href="{{url('/education')}}" class="nav-link">معاونت پژوهش<i
+                                    class='bx bx-chevron-down'></i></a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item">
+                                    <a href="{{url('/meeting')}}" class="nav-link">کرسی ها</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="{{url('/meeting')}}" class="nav-link">نشست ها</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">کارگاه ها</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">پایانامه ها و مقالات</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="{{url('/journal')}}" class="nav-link">نشریه</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">همایش ها و کنگره ها</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">گروه های علمی</a>
+                                </li>
+                            </ul>
                         </li>
-
                         <li class="nav-item">
-                            <a href="{{url('/charity')}}" class="nav-link">موسسه خیریه</a>
+                            <a href="{{url('/cultural')}}" class="nav-link">معاونت فرهنگی<i
+                                    class='bx bx-chevron-down'></i></a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">کانون ها</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">فعالیت های تبلیغی و فرهنگی</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="{{url('/news')}}" class="nav-link">دوره های آموزشی</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">سامانه های حوزوی</a>
+                                </li>
+                            </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="{{url('/loan-institute')}}" class="nav-link">موسسه قرض الحسنه</a>
+                            <a href="{{url('/library')}}" class="nav-link">کتابخانه</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{url('/journal')}}" class="nav-link">نشریه</a>
+                            <a href="{{url('/mahdia')}}" class="nav-link">مرکز مشاوره مهدیا</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{url('/about')}}" class="nav-link">درباره ما</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="{{url('/contact')}}" class="nav-link">تماس با ما</a>
+                            <a href="{{url('/kindergarten')}}" class="nav-link">مهد کودک ضحی</a>
                         </li>
                     </ul>
 

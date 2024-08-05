@@ -1,4 +1,4 @@
-@extends('master')
+@extends('sisters-master')
 @section('style')
 @endsection
 @section('main')
