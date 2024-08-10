@@ -2,10 +2,19 @@
 
 namespace Illuminate\Foundation\Auth;
 
+use App\Models\User;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Session;
 use Illuminate\Validation\ValidationException;
+use mysql_xdevapi\Exception;
+use RealRashid\SweetAlert\Facades\Alert;
+use App\Models\ActiveCode;
+use App\Notifications\ActiveCode as ActiveCodeNotification;
+use Laravel\Socialite\Facades\Socialite;
 
 trait AuthenticatesUsers
 {
@@ -18,7 +27,27 @@ trait AuthenticatesUsers
      */
     public function showLoginForm()
     {
-        return view('auth.login');
+        return view('Admin.auth.login');
+    }
+    public function showLoginuserForm()
+    {
+//        if (Auth::check()){
+//            return Redirect::url()->previous();
+//        }
+        if (Auth::check()) {
+            return redirect()->intended();
+        }
+        //dd(intended());
+
+        session(['url' => url()->previous()]);
+        //session()->flash('url' , url()->previous());
+        return view('Site.auth.login');
+    }
+    protected function convertPersianToEnglishNumbers($string) {
+        $persianNumbers = ['۰', '۱', '۲', '۳', '۴', '۵', '۶', '۷', '۸', '۹'];
+        $englishNumbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+
+        return str_replace($persianNumbers, $englishNumbers, $string);
     }
 
     /**
@@ -29,6 +58,154 @@ trait AuthenticatesUsers
      *
      * @throws \Illuminate\Validation\ValidationException
      */
+    public function loginuser(Request $request)
+    {
+        $request->validate([
+            'phone'         => 'required|numeric',
+            'password'      => 'required|string|min:8',
+            'captcha'       => 'required|numeric|captcha|min:1',
+        ]);
+
+        $phone      = $this->convertPersianToEnglishNumbers($request->input('phone'));
+        $password   = $this->convertPersianToEnglishNumbers($request->input('password'));
+
+        if ($phone  && $password) {
+            $user = User::wherePhone($phone)->first();
+            if ($user != null) {
+                if (Hash::check($password, $user->password)) {
+                    Auth::loginUsingId($user->id);
+                    if(Auth::check()){
+                        alert()->success($user->name.' به وبسایت بستا ' , 'خوش آمدید' );
+                        $url  = Session::get('url');
+                        return redirect()->intended();
+                    }else {
+                        alert()->error('عملیات ناموفق', 'شماره موبایل و یا رمز عبور اشتباه است');
+                        return Redirect::back();
+                    }
+                    //dd(url()->previous());
+                    //return Redirect::to($url);
+                    //return Redirect::route('indexfilter');
+                } else {
+                    alert()->error('عملیات ناموفق', 'شماره موبایل و یا رمز عبور اشتباه است');
+                    return Redirect::back();
+                }
+            } else {
+                alert()->error('عملیات ناموفق', 'شماره موبایل و یا رمز عبور اشتباه است');
+                return Redirect::back();
+            }
+        } else {
+            alert()->error('عملیات ناموفق', 'شماره موبایل و یا رمز عبور وارد نشده است');
+            return Redirect::back();
+        }
+    }
+    public function loginusermobile(Request $request)
+    {
+        $request->validate([
+            'phone'         => 'required|numeric',
+            'password'      => 'required|string|min:8',
+            'captcha'       => 'required|numeric|captcha|min:1',
+        ]);
+
+        $phone      = $this->convertPersianToEnglishNumbers($request->input('phone'));
+        $password   = $this->convertPersianToEnglishNumbers($request->input('password'));
+
+
+        if ($phone  && $password) {
+            $user = User::wherePhone($phone)->first();
+            if ($user != null) {
+                if (Hash::check($password, $user->password)) {
+                    Auth::loginUsingId($user->id);
+                    if(Auth::check()){
+                        session()->flash('success', 'عملیات با موفقیت انجام شد!');
+                        $url  = Session::get('url');
+                        return redirect()->intended();
+                    }else {
+                        session()->flash('success', 'شماره موبایل و یا رمز عبور اشتباه است');
+                        return Redirect::back();
+                    }
+                    //dd(url()->previous());
+                    //return Redirect::to($url);
+                    //return Redirect::route('indexfilter');
+                } else {
+                    session()->flash('success', 'شماره موبایل و یا رمز عبور اشتباه است');
+                    return Redirect::back();
+                }
+            } else {
+                session()->flash('success', 'شماره موبایل و یا رمز عبور اشتباه است');
+                return Redirect::back();
+            }
+        } else {
+            session()->flash('success', 'شماره موبایل و یا رمز عبور اشتباه است');
+            return Redirect::back();
+        }
+    }
+
+    public function redirectToProvider($provider)
+    {
+        return Socialite::driver($provider)->redirect();
+    }
+
+    public function handleProviderCallback($provider)
+    {
+        $user = Socialite::driver($provider)->user();
+        $authUser = $this->findOrCreateUser($user, $provider);
+        Auth::login($authUser, true);
+        try {
+            $user = User::find(Auth::user()->id);
+            $user->email_verify = 1;
+            $user->save();
+        }catch (Exception){
+
+        }
+        alert()->success($user->name.' به وبسایت ' , 'خوش آمدید' );
+        $url  = Session::get('url');
+        return Redirect::to(route('/'));
+    }
+
+    public function findOrCreateUser($user, $provider)
+    {
+        $authUser = User::whereEmail($user->email)->first();
+        if ($authUser) {
+            return $authUser;
+        }
+        return  User::create([
+            'name'          => $user->name,
+            'username'      => $user->name,
+            'email'         => $user->email,
+            'phone'         => $user->phone,
+            'image'         => $user->avatar,
+            'type_id'       => 6,
+            'email_verify'  => 1,
+            'status'        => 4,
+            'password'      => $user->id
+        ]);
+    }
+    public function showLoginrememberForm()
+    {
+        return view('Site.auth.remember');
+    }
+    public function remember(Request $request){
+
+        $validData = $request->validate([
+            'phone'      => ['required', 'exists:users,phone'],
+            'captcha'    => ['required' ,'numeric' , 'captcha' , 'min:1'],
+        ]);
+
+        $phone      = $this->convertPersianToEnglishNumbers($validData['phone']);
+
+        $user = User::wherePhone($phone)->first();
+        $user = User::find($user->id);
+        $request->session()->flash('auth', [
+            'user_id' => $user->id
+        ]);
+
+        $code = ActiveCode::generateCode($user);
+
+        $user->notify(new ActiveCodeNotification($code , $user->phone));
+
+        return redirect(route('phone.token'))->with(['phone' => $phone]);
+    }
+
     public function login(Request $request)
     {
         $this->validateLogin($request);
@@ -116,8 +293,8 @@ trait AuthenticatesUsers
         }
 
         return $request->wantsJson()
-                    ? new JsonResponse([], 204)
-                    : redirect()->intended($this->redirectPath());
+            ? new JsonResponse([], 204)
+            : redirect()->intended($this->redirectPath());
     }
 
     /**
@@ -200,4 +377,5 @@ trait AuthenticatesUsers
     {
         return Auth::guard();
     }
+
 }

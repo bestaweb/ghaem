@@ -30,14 +30,7 @@ class PanelController extends Controller
         $menupanels     = Menu_panel::all();
         $submenupanels  = Submenu_panel::all();
 
-//        $menupanels         = Menupanel::whereStatus(4)->get();
-
-//        $submenupanels      = Submenupanel::whereStatus(4)->get();
-
-
-        return view('Admin.panel.index')
-
-            ->with(compact(['users' , 'menupanels' , 'submenupanels']));
+        return view('Admin.panel.index')->with(compact(['users' , 'menupanels' , 'submenupanels']));
     }
 
     private function getLastMonths($month)

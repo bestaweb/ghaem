@@ -57,7 +57,6 @@
             <ul class="nav">
                     @foreach($menupanels as $menupanel)
                         @if($menupanel->submenu == 0)
-
                             <li class="nav-item">
                                 <a class="nav-link" href="{{url('admin/'.$menupanel->slug)}}">
                                     <span class="shape1"></span>
