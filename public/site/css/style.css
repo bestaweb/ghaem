@@ -771,8 +771,8 @@ Navbar Area CSS
     background-color: transparent;
     height: auto;
     z-index: 1040;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 /*
@@ -7934,7 +7934,11 @@ Services Area CSS
     overflow: hidden;
     background-color: #f9f9f9;
 }
-
+/*.single-services-box:hover {*/
+/*    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); !* سایه هنگام هاور *!*/
+/*    transform: translateY(-5px); !* انتقال کارت به بالا هنگام هاور *!*/
+/*    transition-duration: 1s;*/
+/*}*/
 .single-services-box .content {
     padding: 30px 0 30px 25px;
 }
@@ -7975,8 +7979,12 @@ Services Area CSS
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    transition-duration: 1s;
 }
-
+.single-services-box:hover .image {
+    transition-duration: 0.5s;
+    transform: scale(1.2); /* بزرگ‌نمایی تصویر هنگام هاور */
+}
 .single-services-box .image.bg-1 {
     background-image: url(../../site/img/marketing-agency/services-img1.jpg);
 }
@@ -8043,9 +8051,10 @@ Case Studies Area CSS
 }
 
 .single-case-studies-item {
+    overflow: hidden;
     margin-bottom: 30px;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .single-case-studies-item .image {
@@ -8092,6 +8101,11 @@ Case Studies Area CSS
 .single-case-studies-item .content .link-btn:hover {
     color: #ffffff;
     background-color: #58A399;
+}
+
+.single-case-studies-item:hover .image {
+    transition-duration: 0.5s;
+    transform: scale(1.2); /* بزرگ‌نمایی تصویر هنگام هاور */
 }
 
 .case-studies-slides.owl-theme {

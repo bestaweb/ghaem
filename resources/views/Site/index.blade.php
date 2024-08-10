@@ -32,6 +32,13 @@
                 transform: translateX(100%);
             }
         }
+        .container .row .col-md-3 img {
+            transition: transform 0.4s ease-in-out;
+        }
+        .container .row .col-md-3 img:hover {
+            transform: scale(1.1);
+            transition: transform 0.4s ease-in-out;
+        }
     </style>
 
     <!-- Start Digital Agency Banner -->
@@ -52,10 +59,10 @@
     <!-- End Digital Agency Banner -->
 
     {{--   Start line   --}}
-    <div class="container-fluid" style="background-color: #f0f0f9; display: flex; height: 50px;">
-        <div class="container col-12 col-md-6" style="margin: 0 auto;display: flex;">
-            <div>
-                <img src="{{asset('site/img/navaar-right.webp')}}" style="padding-top: 8px;max-height: 100%;" loading="lazy"
+    <div class="container-fluid py-2" style="background-color: #f0f0f9; display: flex;">
+        <div class="container col-12 col-md-8" style="margin: 0 auto;display: flex;">
+            <div class="d-flex">
+                <img src="{{asset('site/img/navaar-right.webp')}}" style="max-height: 50px;" loading="lazy"
                      alt="">
             </div>
             <div class="marquee">
@@ -69,8 +76,8 @@
                     الکافی ۱/۳۵/۶
                 </span>
             </div>
-            <div>
-                <img src="{{asset('site/img/navaar-left.webp')}}" style="padding-top: 8px;max-height: 100%;" loading="lazy"
+            <div class="d-flex">
+                <img src="{{asset('site/img/navaar-left.webp')}}" style="max-height: 50px;" loading="lazy"
                      alt="">
             </div>
         </div>
@@ -79,12 +86,12 @@
 
     {{--  Start brothers and sisters section  --}}
     <div class="container">
-        <div class="row pt-3" style="justify-content: center; text-align: center">
-            <div class="col-md-3 p-2">
+        <div class="row" style="justify-content: center; text-align: center">
+            <div class="col-md-3 p-4">
                 <a href="{{url('/brothers')}}">
                     <img src="{{ asset('/site/img/برادران.png') }}" loading="lazy" alt="Image 1">
                 </a></div>
-            <div class="col-md-3 p-2">
+            <div class="col-md-3 p-4">
                 <a href="{{url('/sisters')}}">
                     <img src="{{ asset('/site/img/خواهران.png') }}" loading="lazy" alt="Image 2">
                 </a>
@@ -163,7 +170,7 @@
     <section class="services-area mt-3 mb-3">
         <div class="container ">
             <div class="section-title text-left flex-row d-flex align-items-center">
-                <img src="{{asset('/site/img/icon/title-icon.png')}}" class="title-icon" alt="">
+                <img src="{{asset('/site/img/logo-without-text.png')}}" class="title-icon" alt="">
                 <h2>سلسله نشست های دوره ای حوزه</h2>
             </div>
 

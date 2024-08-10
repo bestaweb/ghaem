@@ -95,10 +95,10 @@
     <!-- End Digital Agency Banner -->
 
     {{--   Start line   --}}
-    <div class="container-fluid mt-3" style="background-color: #E7CDFB; display: flex; height: 60px;">
-        <div class="container col-12 col-md-6" style="margin: 0 auto;display: flex;">
-            <div>
-                <img src="{{asset('site/img/navaar-right.webp')}}" style="padding-top: 8px;max-height: 100%;" loading="lazy"
+    <div class="container-fluid mt-3 py-3" style="display: flex; ">
+        <div class="container col-12 col-md-8" style="margin: 0 auto;display: flex;">
+            <div class="d-flex">
+                <img src="{{asset('site/img/navaar-right.webp')}}" style="max-height: 50px;" loading="lazy"
                      alt="">
             </div>
             <div class="marquee">
@@ -112,8 +112,8 @@
                     الکافی ۱/۳۵/۶
                 </span>
             </div>
-            <div>
-                <img src="{{asset('site/img/navaar-left.webp')}}" style="padding-top: 4px;max-height: 100%;" loading="lazy"
+            <div class="d-flex">
+                <img src="{{asset('site/img/navaar-left.webp')}}" style="max-height: 50px;" loading="lazy"
                      alt="">
             </div>
         </div>
